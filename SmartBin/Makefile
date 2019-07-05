@@ -1,0 +1,3 @@
+COMPONENT=SmartBinAppC
+include $(MAKERULES)
+
