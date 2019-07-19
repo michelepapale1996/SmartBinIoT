@@ -45,7 +45,6 @@ implementation {
  uint16_t smallerDistance;
  uint16_t trashInEccess;
  
-  
   event void Boot.booted(){
     dbg("boot","Application booted.\n");
     
@@ -92,7 +91,7 @@ implementation {
 	mess->coordX = coordinateX;
 	mess->coordY = coordinateY;
 	    
-	dbg("radio_send", "sendAlert() - Try to send a request to TRUCK at time %s\n", sim_time_string());
+	dbg("radio_send", "time: %s - sendAlert() - Try to send a request to TRUCK\n", sim_time_string());
 	
 	//send message to TRUCK
 	if(call AMSend.send(0,&packet,sizeof(my_msg_t)) == SUCCESS){
@@ -107,8 +106,8 @@ implementation {
 	  dbg_clear("radio_pack", "\t\t coordY: %hhu \n", mess->coordY);
 	  dbg_clear("radio_send", "\n ");
 	  dbg_clear("radio_pack", "\n");
-	  busy = FALSE;
-      }
+	  busy = TRUE;
+    }
  }  
  
   task void sendMove() {
@@ -119,7 +118,7 @@ implementation {
 	mess->coordX = coordinateX;
 	mess->coordY = coordinateY;
 	    
-	dbg("radio_send", "sendMove() - Try to send a request to all other BINS at time %s \n", sim_time_string());
+	dbg("radio_send", "time: %s - sendMove() - Try to send a request to all other BINS\n", sim_time_string());
 	
 	//send message to ALL the bins
 	if(call AMSend.send(AM_BROADCAST_ADDR,&packet,sizeof(my_msg_t)) == SUCCESS){
@@ -135,15 +134,15 @@ implementation {
 	  dbg_clear("radio_send", "\n ");
 	  dbg_clear("radio_pack", "\n");
 	  
-	  busy = FALSE;
-      }
+	  busy = TRUE;
+    }
  }  
  
  task void sendTruckMessage() {
 	my_msg_t* mess=(my_msg_t*)(call Packet.getPayload(&packet,sizeof(my_msg_t)));
 	mess->msg_type = TRUCK;
 	  
-	dbg("radio_send", "sendTruckMessage() - Try to send a response to BIN %d at time %s \n", targetID, sim_time_string());
+	dbg("radio_send", "time: %s - sendTruckMessage() - Try to send a response to BIN %d\n", sim_time_string(), targetID);
 	call PacketAcknowledgements.requestAck( &packet );
 	if(call AMSend.send(targetID,&packet,sizeof(my_msg_t)) == SUCCESS){
 	  dbg("radio_pack",">>>Pack\n \t Payload length %hhu \n", call Packet.payloadLength( &packet ) );
@@ -154,7 +153,7 @@ implementation {
 	  dbg_clear("radio_pack", "\t\t msg_type: %hhu \n ", mess->msg_type);
 	  dbg_clear("radio_send", "\n ");
 	  dbg_clear("radio_pack", "\n");
-        }
+    }
   }
   
   task void sendMoveResponse() {
@@ -165,7 +164,7 @@ implementation {
 	mess->coordX = coordinateX;
 	mess->coordY = coordinateY;
 	    
-	dbg("radio_send", "sendMoveResponse() - Try to send a response to BIN %d at time %s \n", targetID, sim_time_string());
+	dbg("radio_send", "time: %s - sendMoveResponse() - Try to send a response to BIN %d\n", sim_time_string(), targetID);
 	
 	//send message to ALL the bins
 	if(call AMSend.send(targetID, &packet,sizeof(my_msg_t)) == SUCCESS){
@@ -180,7 +179,9 @@ implementation {
 	  dbg_clear("radio_pack", "\t\t coordY: %hhu \n", mess->coordY);
 	  dbg_clear("radio_send", "\n ");
 	  dbg_clear("radio_pack", "\n");
-      }
+	  
+	  busy = TRUE;
+    }
   }
   
   task void sendTrashMove() {
@@ -189,7 +190,7 @@ implementation {
 	mess->msg_type = TRASH_MOVE;
 	mess->trashInEccess = trashInEccess;
 	    
-	dbg("radio_send", "sendTrashMove() - Move trash of %d to %d \n", trashInEccess, closestBin);
+	dbg("radio_send", "time: %s - sendTrashMove() - Move trash of %d to %d \n", sim_time_string(), trashInEccess, closestBin);
     
 	//set a flag informing the receiver that the message must be acknoledge
 	call PacketAcknowledgements.requestAck( &packet );
@@ -204,68 +205,50 @@ implementation {
 	  dbg_clear("radio_pack", "\t\t trashInEccess: %hhu \n", mess->trashInEccess);
 	  dbg_clear("radio_send", "\n ");
 	  dbg_clear("radio_pack", "\n");
-      }
+	  
+	  busy = TRUE;
+    }
   }
   
   //********************* AMSend interface ****************//
   event void AMSend.sendDone(message_t* buf,error_t err) {
     my_msg_t* mess=(my_msg_t*)(call Packet.getPayload(&packet,sizeof(my_msg_t)));
 	
-    if(&packet == buf && err == SUCCESS ) {
+	if(&packet == buf && TOS_NODE_ID != 0) busy = FALSE;
+	
+    if(&packet == buf && err == SUCCESS ){
 	dbg("radio_send", "Packet of type %d sent...", mess->msg_type);
+	
 	//check if ack is received
 	if ( call PacketAcknowledgements.wasAcked( buf ) ) {
-	  if ( mess->msg_type == ALERT ) {
-		//post sendAlert();
-		//busy = FALSE;
-	  }
+		if ( mess->msg_type == TRUCK ) {
+			dbg_clear("radio_ack", "and ack received\n");
+			//busy = FALSE;
+		  	dbg("radio_rec", "The truck now is Available!\n");
+		}
 	
-	  if ( mess->msg_type == MOVE ) {
-	 	
-	  }
-	
-	  if ( mess->msg_type == TRUCK ) {
-	  	dbg_clear("radio_ack", "and ack received\n");
-		//busy = FALSE;
-	  	dbg("radio_rec", "The truck now is Available!\n");
-	  }
-	
-	  if ( mess->msg_type == RESP_MOVE ) {
-		//post sendRespMove()
-	  }
-	
-	  if ( mess->msg_type == TRASH_MOVE ) {
-	  	dbg_clear("radio_ack", "and ack received");
-		//post sendTrashMove()
-		trashInEccess = 0;
-		closestBin = 0;
-  		smallerDistance = 0;
-	  }
-	  
+		if ( mess->msg_type == TRASH_MOVE ) {
+			dbg_clear("radio_ack", "and ack received");
+			//post sendTrashMove()
+			trashInEccess = 0;
+			closestBin = 0;
+	  		smallerDistance = 0;
+		}
 	} else {
-	  if ( mess->msg_type == ALERT ) {
-	  	//busy = FALSE;
-		//post sendAlert();
-	  }
+		if ( mess->msg_type == MOVE ) {
+	 		//for 2 seconds accept responses of available bins
+	  		call TimerToCollect.startOneShot(2000);
+	  	}
 	
-	  if ( mess->msg_type == MOVE ) {
-	 	//for 2 seconds accept responses of available bins
-	  	call TimerToCollect.startOneShot(2000);
-	  }
+	  	if ( mess->msg_type == TRUCK ) {
+	  		dbg_clear("radio_ack", "but ack was not received");
+			post sendTruckMessage();
+	 	}
 	
-	  if ( mess->msg_type == TRUCK ) {
-	  	dbg_clear("radio_ack", "but ack was not received");
-		post sendTruckMessage();
-	  }
-	
-	  if ( mess->msg_type == RESP_MOVE ) {
-		//post sendRespMove();
-	  }
-	
-	  if ( mess->msg_type == TRASH_MOVE ) {
-	  	dbg_clear("radio_ack", "but ack was not received");
-		post sendTrashMove();
-	  }
+	  	if ( mess->msg_type == TRASH_MOVE ) {
+	  		dbg_clear("radio_ack", "but ack was not received");
+			post sendTrashMove();
+	  	}
 	}
 	dbg_clear("radio_send", " at time %s \n", sim_time_string());
     }	
@@ -291,8 +274,8 @@ implementation {
 			busy = TRUE;
 			delay = sqrt(pow(coordinateX - mess->coordX,2) + pow(coordinateY - mess->coordY,2));
 			call TruckTravelTime.startOneShot( alphaBin_Truck * delay * 1000);
-			dbg_clear("radio_rec", "Coordinates are (%d, %d)\n", coordinateX, coordinateY);
-			dbg_clear("radio_rec", "The delay is %d and the track will be there in %d s.\n", delay, alphaBin_Truck * delay );
+			dbg("radio_rec", "Coordinates are (%d, %d)\n", coordinateX, coordinateY);
+			dbg("radio_rec", "The delay is %d and the track will be there in %d s.\n", delay, alphaBin_Truck * delay );
 		
 			targetID = mess->bin_id;
 			newCoordX = mess->coordX;
@@ -425,32 +408,23 @@ implementation {
     if( garbageInBin + garbageToAdd < 85) {
         //dbg("SmartBinC", "Adding garbage: %d\n", garbageToAdd);
     	garbageInBin = garbageInBin + garbageToAdd;
-    	dbg("SmartBinC", "Adding garbage: %d, Eccess already present: %d, Garbage level: %d -> Normal status\n", garbageToAdd, trashInEccess, garbageInBin);
+    	dbg("SmartBinC", "time: %s - Adding garbage: %d, Eccess already present: %d, Garbage level: %d -> Normal status\tNext time: %d\n", sim_time_string(), garbageToAdd, trashInEccess, garbageInBin, time);
     }
     
-    if(garbageInBin + garbageToAdd >= 85 && garbageInBin + garbageToAdd < 100){
+    else if(garbageInBin + garbageToAdd >= 85 && garbageInBin + garbageToAdd < 100){
         //dbg("SmartBinC", "Adding garbage: %d\n", garbageToAdd);
     	garbageInBin = garbageInBin + garbageToAdd;
-    	dbg("SmartBinC", "Adding garbage: %d, Eccess already present: %d, Garbage level: %d -> Critical status\n", garbageToAdd, trashInEccess, garbageInBin);
+    	dbg("SmartBinC", "time: %s - Adding garbage: %d, Eccess already present: %d, Garbage level: %d -> Critical status\tNext time: %d\n", sim_time_string(), garbageToAdd, trashInEccess, garbageInBin, time);
     	
-    	if(!busy){
-    		busy = TRUE;
-    		//post sendAlert();
-    	} else {
-    		dbg("SmartBinC", "Cannot send!!!!\n");
-    	}
+    	post sendAlert();
     }
     
-    if(garbageInBin + garbageToAdd >= 100){
+    else if(garbageInBin + garbageToAdd >= 100){
     	trashInEccess = trashInEccess + garbageInBin + garbageToAdd - 100;
     	garbageInBin = 100;
-    	dbg("SmartBinC", "Adding garbage: %d, Eccess already present: %d, Garbage level: %d-> Full status\n", garbageToAdd, trashInEccess, garbageInBin);
-    	if(!busy){
-    		busy = TRUE;
-    		post sendMove();
-    	} else {
-    		dbg("SmartBinC", "Cannot send!!!!\n");
-    	}
+    	dbg("SmartBinC", "time: %s - Adding garbage: %d, Eccess already present: %d, Garbage level: %d-> Full status\tNext time: %d\n", sim_time_string(), garbageToAdd, trashInEccess, garbageInBin, time);
+    
+    	post sendMove();
     }
     
     //dbg("SmartBinC", "Starting timer that expires in %d.\n", time);

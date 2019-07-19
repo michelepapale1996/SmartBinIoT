@@ -87,11 +87,11 @@ for line in lines:
             mid_compl = 0;
             sys.stdout.write ("#")
             sys.stdout.flush()
-        for i in range(0, 4):
+        for i in range(0, 3):
             t.getNode(i).addNoiseTraceReading(val)
 print "Done!";
 
-for i in range(0, 4):
+for i in range(0, 3):
     print ">>>Creating noise model for node:",i;
     t.getNode(i).createNoiseModel()
 
@@ -99,7 +99,7 @@ for i in range(0, 4):
 
 print "Start simulation with TOSSIM! \n\n\n";
 
-for i in range(0,15000):
+for i in range(0,7000):
 	t.runNextEvent()
 	
 print "\n\n\nSimulation finished!";
