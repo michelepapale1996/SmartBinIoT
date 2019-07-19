@@ -12,7 +12,9 @@ configuration SmartBinAppC{}
 implementation{
   components MainC, SmartBinC, LedsC, RandomC;
   components new TimerMilliC() as Timer;
-  components new TimerMilliC() as TravelTime;
+  components new TimerMilliC() as TruckTravelTime;
+  components new TimerMilliC() as BinTravelTime;
+  components new TimerMilliC() as TimerToCollect;
   components ActiveMessageC;
   components new AMSenderC(AM_MY_MSG);
   components new AMReceiverC(AM_MY_MSG);
@@ -20,7 +22,9 @@ implementation{
   SmartBinC -> MainC.Boot;
   SmartBinC.Random -> RandomC;
   SmartBinC.Timer -> Timer;
-  SmartBinC.TravelTime -> TravelTime;
+  SmartBinC.TruckTravelTime -> TruckTravelTime;
+  SmartBinC.BinTravelTime -> BinTravelTime;
+  SmartBinC.TimerToCollect -> TimerToCollect;
   SmartBinC.Leds -> LedsC;
   
   //Send and Receive interfaces
