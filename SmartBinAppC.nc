@@ -17,6 +17,7 @@ implementation{
   components new TimerMilliC() as TimerToCollect;
   components new TimerMilliC() as AlertTimer;
   components ActiveMessageC;
+  components SerialActiveMessageC as AM;
   components new AMSenderC(AM_MY_MSG);
   components new AMReceiverC(AM_MY_MSG);
   
@@ -28,6 +29,9 @@ implementation{
   SmartBinC.TimerToCollect -> TimerToCollect;
   SmartBinC.AlertTimer -> AlertTimer;
   
+  SmartBinC.SerialSplitControl -> AM;
+  SmartBinC.AMSerialSend -> AM.AMSend[AM_SERIAL_MSG];
+  
   //Send and Receive interfaces
   SmartBinC.Receive -> AMReceiverC;
   SmartBinC.AMSend -> AMSenderC;
@@ -36,6 +40,7 @@ implementation{
   SmartBinC.AMPacket -> AMSenderC;
   SmartBinC.Packet -> AMSenderC;
   SmartBinC.PacketAcknowledgements->ActiveMessageC;
+  SmartBinC.SerialPacket -> AM;
   
   //Radio Control
   SmartBinC.SplitControl -> ActiveMessageC;

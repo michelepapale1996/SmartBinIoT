@@ -13,17 +13,19 @@ module SmartBinC @safe(){
   uses interface Timer<TMilli> as TimerToCollect;
   uses interface Timer<TMilli> as AlertTimer;
   uses interface Random;
-  uses interface Leds;
   uses interface Boot;
   
   uses interface AMPacket; 
   uses interface Packet;
   uses interface PacketAcknowledgements;
   uses interface AMSend;
+  uses interface AMSend as AMSerialSend;
   uses interface Receive;
   
+  uses interface Packet as SerialPacket;
   //for turn on the radio
   uses interface SplitControl;
+  uses interface SplitControl as SerialSplitControl;
 }
 implementation {
   bool busy = FALSE;
@@ -57,9 +59,13 @@ implementation {
     dbg("boot", "Coordinates of the mote are: (%d, %d)\n", coordinateX, coordinateY);
     
     call SplitControl.start(); //turn on the radio
+    call SerialSplitControl.start();
   }
   
   //***************** SplitControl interface ********************//
+  event void SerialSplitControl.startDone(error_t err){}
+  event void SerialSplitControl.stopDone(error_t err){}
+  
   event void SplitControl.startDone(error_t err){
     time = call Random.rand16();
     time = time % RANDOM_IN_30;
@@ -83,6 +89,26 @@ implementation {
   task void sendTruckMessage();
   task void sendTrashMove();
   task void sendMoveResponse();
+  void sendSerialPacket(uint8_t _packetType, uint16_t _bin_id, uint16_t _coordX, uint16_t _coordY, uint16_t _trashInEccess);
+  
+  //************************ sending packets *********************//
+  void sendSerialPacket(uint8_t _packetType, uint16_t _bin_id, uint16_t _coordX, uint16_t _coordY, uint16_t _trashInEccess){
+
+	my_msg_t* cm = (my_msg_t*)call SerialPacket.getPayload(&packet, sizeof(my_msg_t));
+      if (cm == NULL) {return;}
+      if (call SerialPacket.maxPayloadLength() < sizeof(my_msg_t)) {
+	return;
+      }
+
+      cm->msg_type = _packetType;
+      cm->bin_id = _bin_id;
+      cm->coordX = _coordX;
+      cm->coordY = _coordY;
+      cm->trashInEccess = _trashInEccess;
+      if (call AMSerialSend.send(AM_BROADCAST_ADDR, &packet, sizeof(my_msg_t)) == SUCCESS) {
+		dbg("role","Serial Packet sent...\n");
+      }
+  }	
   
   task void sendAlert() {
 	//prepare a msg
@@ -93,6 +119,8 @@ implementation {
 	mess->coordY = coordinateY;
 	    
 	dbg("radio_send", "time: %s - sendAlert() - Try to send a request to TRUCK\n", sim_time_string());
+	
+	sendSerialPacket(ALERT, TOS_NODE_ID, coordinateX, coordinateY, trashInEccess);
 	
 	//send message to TRUCK
 	if( !busy && call AMSend.send(0,&packet,sizeof(my_msg_t)) == SUCCESS){
@@ -123,6 +151,7 @@ implementation {
 	    
 	dbg("radio_send", "time: %s - sendMove() - Try to send a request to all other BINS\n", sim_time_string());
 	
+	sendSerialPacket(MOVE, TOS_NODE_ID, coordinateX, coordinateY, trashInEccess);
 	//send message to ALL the bins
 	if( !busy && call AMSend.send(AM_BROADCAST_ADDR,&packet,sizeof(my_msg_t)) == SUCCESS){
 	  dbg("radio_pack",">>>Pack\n \t Payload length %hhu \n", call Packet.payloadLength( &packet ) );
@@ -147,6 +176,8 @@ implementation {
 	my_msg_t* mess=(my_msg_t*)(call Packet.getPayload(&packet,sizeof(my_msg_t)));
 	mess->msg_type = TRUCK;
 	  
+	sendSerialPacket(TRUCK, TOS_NODE_ID, coordinateX, coordinateY, trashInEccess);
+	  
 	dbg("radio_send", "time: %s - sendTruckMessage() - Try to send a response to BIN %d\n", sim_time_string(), targetID);
 	call PacketAcknowledgements.requestAck( &packet );
 	if(call AMSend.send(targetID,&packet,sizeof(my_msg_t)) == SUCCESS){
@@ -170,6 +201,8 @@ implementation {
 	mess->coordY = coordinateY;
 	    
 	dbg("radio_send", "time: %s - sendMoveResponse() - Try to send a response to BIN %d\n", sim_time_string(), targetID);
+	
+	sendSerialPacket(RESP_MOVE, TOS_NODE_ID, coordinateX, coordinateY, trashInEccess);
 	
 	//send message to ALL the bins
 	if(!busy && call AMSend.send(targetID, &packet,sizeof(my_msg_t)) == SUCCESS){
@@ -202,6 +235,8 @@ implementation {
 	//set a flag informing the receiver that the message must be acknoledge
 	call PacketAcknowledgements.requestAck( &packet );
 	
+	sendSerialPacket(TRASH_MOVE, TOS_NODE_ID, coordinateX, coordinateY, trashInEccess);
+	
 	if(!busy && call AMSend.send(closestBin, &packet,sizeof(my_msg_t)) == SUCCESS){
 	  dbg("radio_pack",">>>Pack\n \t Payload length %hhu \n", call Packet.payloadLength( &packet ) );
 	  dbg_clear("radio_pack","\t Source: %hhu \n ", call AMPacket.source( &packet ) );
@@ -220,6 +255,8 @@ implementation {
   }
   
   //********************* AMSend interface ****************//
+  event void AMSerialSend.sendDone(message_t* buf,error_t err) {
+  }
   event void AMSend.sendDone(message_t* buf,error_t err) {
     my_msg_t* mess=(my_msg_t*)(call Packet.getPayload(&packet,sizeof(my_msg_t)));
 	
@@ -426,7 +463,6 @@ implementation {
     	garbageInBin = garbageInBin + garbageToAdd;
     	dbg("SmartBinC", "time: %s - Adding garbage: %d, Eccess already present: %d, Garbage level: %d -> Critical status\tNext time: %d\n", sim_time_string(), garbageToAdd, trashInEccess, garbageInBin, time);
     	
-    	//post sendAlert();
     	if(!(call AlertTimer.isRunning())) call AlertTimer.startPeriodic(5000);
     }
     
