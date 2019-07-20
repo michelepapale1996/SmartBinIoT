@@ -7,7 +7,7 @@ typedef nx_struct my_msg {
 	nx_uint16_t bin_id;
 	nx_uint16_t coordX;
 	nx_uint16_t coordY;
-	nx_uint16_t trashInEccess;
+	nx_uint16_t trashInExcess;
 } my_msg_t;
 
 typedef nx_struct serial_msg {
@@ -19,7 +19,7 @@ typedef nx_struct serial_msg {
 #define MOVE 3
 #define RESP_MOVE 4
 #define TRASH_MOVE 5
-#define RANDOM_IN_30 2900
+#define RANDOM_IN_30 29000
 #define RANDOM_IN_10 9
 #define aplhaBin_Bin 0.05
 #define alphaBin_Truck 1

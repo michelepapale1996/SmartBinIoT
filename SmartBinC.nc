@@ -46,7 +46,7 @@ implementation {
  //variables used for full status mode to select the closest bin
  uint16_t closestBin;
  uint16_t smallerDistance;
- uint16_t trashInEccess;
+ uint16_t trashInExcess;
  
   event void Boot.booted(){
     dbg("boot","Application booted.\n");
@@ -89,10 +89,10 @@ implementation {
   task void sendTruckMessage();
   task void sendTrashMove();
   task void sendMoveResponse();
-  void sendSerialPacket(uint8_t _packetType, uint16_t _bin_id, uint16_t _coordX, uint16_t _coordY, uint16_t _trashInEccess);
+  void sendSerialPacket(uint8_t _packetType, uint16_t _bin_id, uint16_t _coordX, uint16_t _coordY, uint16_t _trashInExcess);
   
   //************************ sending packets *********************//
-  void sendSerialPacket(uint8_t _packetType, uint16_t _bin_id, uint16_t _coordX, uint16_t _coordY, uint16_t _trashInEccess){
+  void sendSerialPacket(uint8_t _packetType, uint16_t _bin_id, uint16_t _coordX, uint16_t _coordY, uint16_t _trashInExcess){
 
 	my_msg_t* cm = (my_msg_t*)call SerialPacket.getPayload(&packet, sizeof(my_msg_t));
       if (cm == NULL) {return;}
@@ -104,7 +104,7 @@ implementation {
       cm->bin_id = _bin_id;
       cm->coordX = _coordX;
       cm->coordY = _coordY;
-      cm->trashInEccess = _trashInEccess;
+      cm->trashInExcess = _trashInExcess;
       if (call AMSerialSend.send(AM_BROADCAST_ADDR, &packet, sizeof(my_msg_t)) == SUCCESS) {
 		dbg("role","Serial Packet sent...\n");
       }
@@ -120,7 +120,7 @@ implementation {
 	    
 	dbg("radio_send", "time: %s - sendAlert() - Try to send a request to TRUCK\n", sim_time_string());
 	
-	sendSerialPacket(ALERT, TOS_NODE_ID, coordinateX, coordinateY, trashInEccess);
+	sendSerialPacket(ALERT, TOS_NODE_ID, coordinateX, coordinateY, trashInExcess);
 	
 	//send message to TRUCK
 	if( !busy && call AMSend.send(0,&packet,sizeof(my_msg_t)) == SUCCESS){
@@ -151,7 +151,7 @@ implementation {
 	    
 	dbg("radio_send", "time: %s - sendMove() - Try to send a request to all other BINS\n", sim_time_string());
 	
-	sendSerialPacket(MOVE, TOS_NODE_ID, coordinateX, coordinateY, trashInEccess);
+	sendSerialPacket(MOVE, TOS_NODE_ID, coordinateX, coordinateY, trashInExcess);
 	//send message to ALL the bins
 	if( !busy && call AMSend.send(AM_BROADCAST_ADDR,&packet,sizeof(my_msg_t)) == SUCCESS){
 	  dbg("radio_pack",">>>Pack\n \t Payload length %hhu \n", call Packet.payloadLength( &packet ) );
@@ -176,7 +176,7 @@ implementation {
 	my_msg_t* mess=(my_msg_t*)(call Packet.getPayload(&packet,sizeof(my_msg_t)));
 	mess->msg_type = TRUCK;
 	  
-	sendSerialPacket(TRUCK, TOS_NODE_ID, coordinateX, coordinateY, trashInEccess);
+	sendSerialPacket(TRUCK, TOS_NODE_ID, coordinateX, coordinateY, trashInExcess);
 	  
 	dbg("radio_send", "time: %s - sendTruckMessage() - Try to send a response to BIN %d\n", sim_time_string(), targetID);
 	call PacketAcknowledgements.requestAck( &packet );
@@ -202,7 +202,7 @@ implementation {
 	    
 	dbg("radio_send", "time: %s - sendMoveResponse() - Try to send a response to BIN %d\n", sim_time_string(), targetID);
 	
-	sendSerialPacket(RESP_MOVE, TOS_NODE_ID, coordinateX, coordinateY, trashInEccess);
+	sendSerialPacket(RESP_MOVE, TOS_NODE_ID, coordinateX, coordinateY, trashInExcess);
 	
 	//send message to ALL the bins
 	if(!busy && call AMSend.send(targetID, &packet,sizeof(my_msg_t)) == SUCCESS){
@@ -228,14 +228,14 @@ implementation {
   	//prepare a msg
 	my_msg_t* mess=(my_msg_t*)(call Packet.getPayload(&packet,sizeof(my_msg_t)));
 	mess->msg_type = TRASH_MOVE;
-	mess->trashInEccess = trashInEccess;
+	mess->trashInExcess = trashInExcess;
 	    
-	dbg("radio_send", "time: %s - sendTrashMove() - Move trash of %d to %d \n", sim_time_string(), trashInEccess, closestBin);
+	dbg("radio_send", "time: %s - sendTrashMove() - Move trash of %d to %d \n", sim_time_string(), trashInExcess, closestBin);
     
 	//set a flag informing the receiver that the message must be acknoledge
 	call PacketAcknowledgements.requestAck( &packet );
 	
-	sendSerialPacket(TRASH_MOVE, TOS_NODE_ID, coordinateX, coordinateY, trashInEccess);
+	sendSerialPacket(TRASH_MOVE, TOS_NODE_ID, coordinateX, coordinateY, trashInExcess);
 	
 	if(!busy && call AMSend.send(closestBin, &packet,sizeof(my_msg_t)) == SUCCESS){
 	  dbg("radio_pack",">>>Pack\n \t Payload length %hhu \n", call Packet.payloadLength( &packet ) );
@@ -244,7 +244,7 @@ implementation {
 	  dbg_clear("radio_pack","\t AM Type: %hhu \n ", call AMPacket.type( &packet ) );
 	  dbg_clear("radio_pack","\t\t Payload \n" );
 	  dbg_clear("radio_pack", "\t\t msg_type: %hhu \n ", mess->msg_type);
-	  dbg_clear("radio_pack", "\t\t trashInEccess: %hhu \n", mess->trashInEccess);
+	  dbg_clear("radio_pack", "\t\t trashInExcess: %hhu \n", mess->trashInExcess);
 	  dbg_clear("radio_send", "\n ");
 	  dbg_clear("radio_pack", "\n");
 	  
@@ -275,7 +275,7 @@ implementation {
 		if ( mess->msg_type == TRASH_MOVE ) {
 			dbg_clear("radio_ack", "and ack received");
 			//post sendTrashMove()
-			trashInEccess = 0;
+			trashInExcess = 0;
 			closestBin = 0;
 	  		smallerDistance = 0;
 		}
@@ -412,16 +412,16 @@ implementation {
 		dbg_clear("radio_pack","\t AM Type: %hhu \n", call AMPacket.type( buf ) );
 		dbg_clear("radio_pack","\t\t Payload \n" );
 		dbg_clear("radio_pack", "\t\t msg_type: %hhu \n", mess->msg_type);
-		dbg_clear("radio_pack", "\t\t trashInEccess: %hhu \n", mess->trashInEccess);
+		dbg_clear("radio_pack", "\t\t trashInExcess: %hhu \n", mess->trashInExcess);
 		dbg_clear("radio_rec", "\n ");
 		dbg_clear("radio_pack","\n");
 		
-		if(garbageInBin + mess->trashInEccess >= 100){
+		if(garbageInBin + mess->trashInExcess >= 100){
 			garbageInBin = 100;
-			trashInEccess = trashInEccess + garbageInBin + mess->trashInEccess - 100;
-			dbg("radio_rec","Arrived trash - Uploaded garbage in bin: %d, trash in eccess: %d \n", garbageInBin, trashInEccess);
+			trashInExcess = trashInExcess + garbageInBin + mess->trashInExcess - 100;
+			dbg("radio_rec","Arrived trash - Uploaded garbage in bin: %d, trash in excess: %d \n", garbageInBin, trashInExcess);
 		} else {
-			garbageInBin = garbageInBin + mess->trashInEccess;
+			garbageInBin = garbageInBin + mess->trashInExcess;
 			dbg("radio_rec","Arrived trash - Uploaded garbage in bin: %d\n", garbageInBin);
 		}
 	} 
@@ -455,21 +455,21 @@ implementation {
     if( garbageInBin + garbageToAdd < 85) {
         //dbg("SmartBinC", "Adding garbage: %d\n", garbageToAdd);
     	garbageInBin = garbageInBin + garbageToAdd;
-    	dbg("SmartBinC", "time: %s - Adding garbage: %d, Eccess already present: %d, Garbage level: %d -> Normal status\tNext time: %d\n", sim_time_string(), garbageToAdd, trashInEccess, garbageInBin, time);
+    	dbg("SmartBinC", "time: %s - Adding garbage: %d, Excess already present: %d, Garbage level: %d -> Normal status\tNext time: %d\n", sim_time_string(), garbageToAdd, trashInExcess, garbageInBin, time);
     }
     
     else if(garbageInBin + garbageToAdd >= 85 && garbageInBin + garbageToAdd < 100){
         //dbg("SmartBinC", "Adding garbage: %d\n", garbageToAdd);
     	garbageInBin = garbageInBin + garbageToAdd;
-    	dbg("SmartBinC", "time: %s - Adding garbage: %d, Eccess already present: %d, Garbage level: %d -> Critical status\tNext time: %d\n", sim_time_string(), garbageToAdd, trashInEccess, garbageInBin, time);
+    	dbg("SmartBinC", "time: %s - Adding garbage: %d, Excess already present: %d, Garbage level: %d -> Critical status\tNext time: %d\n", sim_time_string(), garbageToAdd, trashInExcess, garbageInBin, time);
     	
     	if(!(call AlertTimer.isRunning())) call AlertTimer.startPeriodic(5000);
     }
     
     else if(garbageInBin + garbageToAdd >= 100){
-    	trashInEccess = trashInEccess + garbageInBin + garbageToAdd - 100;
+    	trashInExcess = trashInExcess + garbageInBin + garbageToAdd - 100;
     	garbageInBin = 100;
-    	dbg("SmartBinC", "time: %s - Adding garbage: %d, Eccess already present: %d, Garbage level: %d-> Full status\tNext time: %d\n", sim_time_string(), garbageToAdd, trashInEccess, garbageInBin, time);
+    	dbg("SmartBinC", "time: %s - Adding garbage: %d, Excess already present: %d, Garbage level: %d-> Full status\tNext time: %d\n", sim_time_string(), garbageToAdd, trashInExcess, garbageInBin, time);
     
     	post sendMove();
     }
@@ -482,7 +482,7 @@ implementation {
  	dbg("SmartBinC", "TimerToCollect is over!\n");
   	if(closestBin == 0 && smallerDistance == 0){
   		dbgerror("SmartBinC", "It has not been found an available bin near to me\n");
-  		trashInEccess = 0;
+  		trashInExcess = 0;
   	} else {
   		post sendTrashMove();
   	}

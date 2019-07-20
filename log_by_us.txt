@@ -94,106 +94,107 @@ DEBUG (1): Radio on!
 DEBUG (4): Radio on!
 DEBUG (5): Radio on!
 DEBUG (6): Radio on!
-DEBUG (2): time: 0:0:1.637695322 - Adding garbage: 9, Eccess already present: 0, Garbage level: 9 -> Normal status	Next time: 10343
-DEBUG (5): time: 0:0:3.275390635 - Adding garbage: 9, Eccess already present: 0, Garbage level: 9 -> Normal status	Next time: 19686
-DEBUG (2): time: 0:0:11.738281260 - Adding garbage: 6, Eccess already present: 0, Garbage level: 15 -> Normal status	Next time: 8952
-DEBUG (3): time: 0:0:16.530273447 - Adding garbage: 8, Eccess already present: 0, Garbage level: 8 -> Normal status	Next time: 13457
-DEBUG (6): time: 0:0:18.167968760 - Adding garbage: 9, Eccess already present: 0, Garbage level: 9 -> Normal status	Next time: 22801
-DEBUG (2): time: 0:0:20.480468760 - Adding garbage: 3, Eccess already present: 0, Garbage level: 18 -> Normal status	Next time: 8676
-DEBUG (1): time: 0:0:22.424804697 - Adding garbage: 9, Eccess already present: 0, Garbage level: 9 -> Normal status	Next time: 7228
-DEBUG (5): time: 0:0:22.500000010 - Adding garbage: 4, Eccess already present: 0, Garbage level: 13 -> Normal status	Next time: 9369
-DEBUG (4): time: 0:0:24.062500010 - Adding garbage: 8, Eccess already present: 0, Garbage level: 8 -> Normal status	Next time: 16572
-DEBUG (7): time: 0:0:25.701171885 - Adding garbage: 8, Eccess already present: 0, Garbage level: 8 -> Normal status	Next time: 25915
-DEBUG (2): time: 0:0:28.953125010 - Adding garbage: 7, Eccess already present: 0, Garbage level: 25 -> Normal status	Next time: 4305
-DEBUG (1): time: 0:0:29.483398447 - Adding garbage: 5, Eccess already present: 0, Garbage level: 14 -> Normal status	Next time: 18480
-DEBUG (3): time: 0:0:29.671875010 - Adding garbage: 9, Eccess already present: 0, Garbage level: 17 -> Normal status	Next time: 28424
-DEBUG (5): time: 0:0:31.649414072 - Adding garbage: 7, Eccess already present: 0, Garbage level: 20 -> Normal status	Next time: 16352
-DEBUG (2): time: 0:0:33.157226572 - Adding garbage: 9, Eccess already present: 0, Garbage level: 34 -> Normal status	Next time: 18336
-DEBUG (4): time: 0:0:40.246093760 - Adding garbage: 1, Eccess already present: 0, Garbage level: 9 -> Normal status	Next time: 18897
-DEBUG (6): time: 0:0:40.434570322 - Adding garbage: 5, Eccess already present: 0, Garbage level: 14 -> Normal status	Next time: 7377
-DEBUG (1): time: 0:0:47.530273447 - Adding garbage: 8, Eccess already present: 0, Garbage level: 22 -> Normal status	Next time: 6117
-DEBUG (5): time: 0:0:47.618164072 - Adding garbage: 6, Eccess already present: 0, Garbage level: 26 -> Normal status	Next time: 7611
-DEBUG (6): time: 0:0:47.638671885 - Adding garbage: 1, Eccess already present: 0, Garbage level: 15 -> Normal status	Next time: 18910
-DEBUG (7): time: 0:0:51.008789072 - Adding garbage: 8, Eccess already present: 0, Garbage level: 16 -> Normal status	Next time: 26849
-DEBUG (2): time: 0:0:51.063476572 - Adding garbage: 8, Eccess already present: 0, Garbage level: 42 -> Normal status	Next time: 9798
-DEBUG (1): time: 0:0:53.503906260 - Adding garbage: 2, Eccess already present: 0, Garbage level: 24 -> Normal status	Next time: 3203
-DEBUG (5): time: 0:0:55.050781260 - Adding garbage: 8, Eccess already present: 0, Garbage level: 34 -> Normal status	Next time: 28137
-DEBUG (1): time: 0:0:56.631835947 - Adding garbage: 3, Eccess already present: 0, Garbage level: 27 -> Normal status	Next time: 2891
-DEBUG (3): time: 0:0:57.429687510 - Adding garbage: 6, Eccess already present: 0, Garbage level: 23 -> Normal status	Next time: 11234
-DEBUG (4): time: 0:0:58.700195322 - Adding garbage: 1, Eccess already present: 0, Garbage level: 10 -> Normal status	Next time: 13793
-DEBUG (1): time: 0:0:59.455078135 - Adding garbage: 5, Eccess already present: 0, Garbage level: 32 -> Normal status	Next time: 19044
-DEBUG (2): time: 0:1:0.631835947 - Adding garbage: 9, Eccess already present: 0, Garbage level: 51 -> Normal status	Next time: 14454
-DEBUG (6): time: 0:1:6.105468760 - Adding garbage: 3, Eccess already present: 0, Garbage level: 18 -> Normal status	Next time: 8713
-DEBUG (3): time: 0:1:8.400390635 - Adding garbage: 4, Eccess already present: 0, Garbage level: 27 -> Normal status	Next time: 5407
-DEBUG (4): time: 0:1:12.169921885 - Adding garbage: 8, Eccess already present: 0, Garbage level: 18 -> Normal status	Next time: 6509
-DEBUG (3): time: 0:1:13.680664072 - Adding garbage: 6, Eccess already present: 0, Garbage level: 33 -> Normal status	Next time: 4782
-DEBUG (6): time: 0:1:14.614257822 - Adding garbage: 5, Eccess already present: 0, Garbage level: 23 -> Normal status	Next time: 14582
-DEBUG (2): time: 0:1:14.747070322 - Adding garbage: 3, Eccess already present: 0, Garbage level: 54 -> Normal status	Next time: 21971
-DEBUG (7): time: 0:1:17.228515635 - Adding garbage: 5, Eccess already present: 0, Garbage level: 21 -> Normal status	Next time: 21469
-DEBUG (1): time: 0:1:18.052734385 - Adding garbage: 9, Eccess already present: 0, Garbage level: 41 -> Normal status	Next time: 29303
-DEBUG (3): time: 0:1:18.350585947 - Adding garbage: 2, Eccess already present: 0, Garbage level: 35 -> Normal status	Next time: 29552
-DEBUG (4): time: 0:1:18.526367197 - Adding garbage: 3, Eccess already present: 0, Garbage level: 21 -> Normal status	Next time: 12691
-DEBUG (5): time: 0:1:22.528320322 - Adding garbage: 6, Eccess already present: 0, Garbage level: 40 -> Normal status	Next time: 11060
-DEBUG (6): time: 0:1:28.854492197 - Adding garbage: 9, Eccess already present: 0, Garbage level: 32 -> Normal status	Next time: 1814
-DEBUG (6): time: 0:1:30.625976572 - Adding garbage: 9, Eccess already present: 0, Garbage level: 41 -> Normal status	Next time: 5524
-DEBUG (4): time: 0:1:30.919921885 - Adding garbage: 5, Eccess already present: 0, Garbage level: 26 -> Normal status	Next time: 20306
-DEBUG (5): time: 0:1:33.329101572 - Adding garbage: 1, Eccess already present: 0, Garbage level: 41 -> Normal status	Next time: 20373
-DEBUG (6): time: 0:1:36.020507822 - Adding garbage: 3, Eccess already present: 0, Garbage level: 44 -> Normal status	Next time: 23063
-DEBUG (2): time: 0:1:36.203125010 - Adding garbage: 2, Eccess already present: 0, Garbage level: 56 -> Normal status	Next time: 28316
-DEBUG (7): time: 0:1:38.194335947 - Adding garbage: 8, Eccess already present: 0, Garbage level: 29 -> Normal status	Next time: 9815
-DEBUG (1): time: 0:1:46.668945322 - Adding garbage: 4, Eccess already present: 0, Garbage level: 45 -> Normal status	Next time: 5314
-DEBUG (3): time: 0:1:47.209960947 - Adding garbage: 8, Eccess already present: 0, Garbage level: 43 -> Normal status	Next time: 28606
-DEBUG (7): time: 0:1:47.779296885 - Adding garbage: 2, Eccess already present: 0, Garbage level: 31 -> Normal status	Next time: 1028
-DEBUG (7): time: 0:1:48.783203135 - Adding garbage: 3, Eccess already present: 0, Garbage level: 34 -> Normal status	Next time: 29104
-DEBUG (4): time: 0:1:50.750000010 - Adding garbage: 1, Eccess already present: 0, Garbage level: 27 -> Normal status	Next time: 6221
-DEBUG (1): time: 0:1:51.858398447 - Adding garbage: 4, Eccess already present: 0, Garbage level: 49 -> Normal status	Next time: 9544
-DEBUG (5): time: 0:1:53.224609385 - Adding garbage: 5, Eccess already present: 0, Garbage level: 46 -> Normal status	Next time: 6406
-DEBUG (4): time: 0:1:56.825195322 - Adding garbage: 6, Eccess already present: 0, Garbage level: 33 -> Normal status	Next time: 18749
-DEBUG (6): time: 0:1:58.542968760 - Adding garbage: 2, Eccess already present: 0, Garbage level: 46 -> Normal status	Next time: 1332
-DEBUG (5): time: 0:1:59.480468760 - Adding garbage: 5, Eccess already present: 0, Garbage level: 51 -> Normal status	Next time: 19096
-DEBUG (6): time: 0:1:59.843750010 - Adding garbage: 1, Eccess already present: 0, Garbage level: 47 -> Normal status	Next time: 12643
-DEBUG (1): time: 0:2:1.178710947 - Adding garbage: 7, Eccess already present: 0, Garbage level: 56 -> Normal status	Next time: 23051
-DEBUG (2): time: 0:2:3.855468760 - Adding garbage: 4, Eccess already present: 0, Garbage level: 60 -> Normal status	Next time: 5077
-DEBUG (2): time: 0:2:8.813476572 - Adding garbage: 3, Eccess already present: 0, Garbage level: 63 -> Normal status	Next time: 13233
-DEBUG (6): time: 0:2:12.190429697 - Adding garbage: 8, Eccess already present: 0, Garbage level: 55 -> Normal status	Next time: 24521
-DEBUG (4): time: 0:2:15.134765635 - Adding garbage: 6, Eccess already present: 0, Garbage level: 39 -> Normal status	Next time: 29324
-DEBUG (3): time: 0:2:15.145507822 - Adding garbage: 1, Eccess already present: 0, Garbage level: 44 -> Normal status	Next time: 2092
-DEBUG (3): time: 0:2:17.188476572 - Adding garbage: 8, Eccess already present: 0, Garbage level: 52 -> Normal status	Next time: 10552
-DEBUG (7): time: 0:2:17.205078135 - Adding garbage: 9, Eccess already present: 0, Garbage level: 43 -> Normal status	Next time: 19676
-DEBUG (5): time: 0:2:18.128906260 - Adding garbage: 1, Eccess already present: 0, Garbage level: 52 -> Normal status	Next time: 1618
-DEBUG (5): time: 0:2:19.708984385 - Adding garbage: 8, Eccess already present: 0, Garbage level: 60 -> Normal status	Next time: 17931
-DEBUG (2): time: 0:2:21.736328135 - Adding garbage: 9, Eccess already present: 0, Garbage level: 72 -> Normal status	Next time: 14536
-DEBUG (1): time: 0:2:23.689453135 - Adding garbage: 2, Eccess already present: 0, Garbage level: 58 -> Normal status	Next time: 6643
-DEBUG (3): time: 0:2:27.493164072 - Adding garbage: 4, Eccess already present: 0, Garbage level: 56 -> Normal status	Next time: 16102
-DEBUG (1): time: 0:2:30.176757822 - Adding garbage: 7, Eccess already present: 0, Garbage level: 65 -> Normal status	Next time: 24715
-DEBUG (2): time: 0:2:35.931640635 - Adding garbage: 4, Eccess already present: 0, Garbage level: 76 -> Normal status	Next time: 27683
-DEBUG (6): time: 0:2:36.136718760 - Adding garbage: 3, Eccess already present: 0, Garbage level: 58 -> Normal status	Next time: 25430
-DEBUG (7): time: 0:2:36.419921885 - Adding garbage: 2, Eccess already present: 0, Garbage level: 45 -> Normal status	Next time: 3184
-DEBUG (5): time: 0:2:37.219726572 - Adding garbage: 1, Eccess already present: 0, Garbage level: 61 -> Normal status	Next time: 28073
-DEBUG (7): time: 0:2:39.529296885 - Adding garbage: 9, Eccess already present: 0, Garbage level: 54 -> Normal status	Next time: 20104
-DEBUG (3): time: 0:2:43.217773447 - Adding garbage: 4, Eccess already present: 0, Garbage level: 60 -> Normal status	Next time: 12287
-DEBUG (4): time: 0:2:43.771484385 - Adding garbage: 1, Eccess already present: 0, Garbage level: 40 -> Normal status	Next time: 27128
-DEBUG (1): time: 0:2:54.312500010 - Adding garbage: 1, Eccess already present: 0, Garbage level: 66 -> Normal status	Next time: 16277
-DEBUG (3): time: 0:2:55.216796885 - Adding garbage: 4, Eccess already present: 0, Garbage level: 64 -> Normal status	Next time: 11894
-DEBUG (7): time: 0:2:59.162109385 - Adding garbage: 7, Eccess already present: 0, Garbage level: 61 -> Normal status	Next time: 23669
-DEBUG (6): time: 0:3:0.970703135 - Adding garbage: 9, Eccess already present: 0, Garbage level: 67 -> Normal status	Next time: 21702
-DEBUG (2): time: 0:3:2.965820322 - Adding garbage: 8, Eccess already present: 0, Garbage level: 84 -> Normal status	Next time: 27063
-DEBUG (5): time: 0:3:4.634765635 - Adding garbage: 7, Eccess already present: 0, Garbage level: 68 -> Normal status	Next time: 17831
-DEBUG (3): time: 0:3:6.832031260 - Adding garbage: 4, Eccess already present: 0, Garbage level: 68 -> Normal status	Next time: 2554
-DEBUG (3): time: 0:3:9.326171885 - Adding garbage: 4, Eccess already present: 0, Garbage level: 72 -> Normal status	Next time: 1726
-DEBUG (1): time: 0:3:10.208007822 - Adding garbage: 1, Eccess already present: 0, Garbage level: 67 -> Normal status	Next time: 15863
-DEBUG (4): time: 0:3:10.263671885 - Adding garbage: 5, Eccess already present: 0, Garbage level: 45 -> Normal status	Next time: 18877
-DEBUG (3): time: 0:3:11.011718760 - Adding garbage: 8, Eccess already present: 0, Garbage level: 80 -> Normal status	Next time: 25835
-DEBUG (5): time: 0:3:22.047851572 - Adding garbage: 7, Eccess already present: 0, Garbage level: 75 -> Normal status	Next time: 16590
-DEBUG (6): time: 0:3:22.164062510 - Adding garbage: 3, Eccess already present: 0, Garbage level: 70 -> Normal status	Next time: 20253
-DEBUG (7): time: 0:3:22.276367197 - Adding garbage: 9, Eccess already present: 0, Garbage level: 70 -> Normal status	Next time: 23575
-DEBUG (1): time: 0:3:25.699218760 - Adding garbage: 4, Eccess already present: 0, Garbage level: 71 -> Normal status	Next time: 27917
-DEBUG (4): time: 0:3:28.698242197 - Adding garbage: 6, Eccess already present: 0, Garbage level: 51 -> Normal status	Next time: 1715
-DEBUG (2): time: 0:3:29.394531260 - Adding garbage: 1, Eccess already present: 0, Garbage level: 85 -> Critical status	Next time: 8608
-DEBUG (4): time: 0:3:30.373046885 - Adding garbage: 7, Eccess already present: 0, Garbage level: 58 -> Normal status	Next time: 6425
+DEBUG (2): time: 0:0:1.637695322 - Adding garbage: 9, Excess already present: 0, Garbage level: 9 -> Normal status	Next time: 10343
+DEBUG (5): time: 0:0:3.275390635 - Adding garbage: 9, Excess already present: 0, Garbage level: 9 -> Normal status	Next time: 19686
+DEBUG (2): time: 0:0:11.738281260 - Adding garbage: 6, Excess already present: 0, Garbage level: 15 -> Normal status	Next time: 8952
+DEBUG (3): time: 0:0:16.530273447 - Adding garbage: 8, Excess already present: 0, Garbage level: 8 -> Normal status	Next time: 13457
+DEBUG (6): time: 0:0:18.167968760 - Adding garbage: 9, Excess already present: 0, Garbage level: 9 -> Normal status	Next time: 22801
+DEBUG (2): time: 0:0:20.480468760 - Adding garbage: 3, Excess already present: 0, Garbage level: 18 -> Normal status	Next time: 8676
+DEBUG (1): time: 0:0:22.424804697 - Adding garbage: 9, Excess already present: 0, Garbage level: 9 -> Normal status	Next time: 7228
+DEBUG (5): time: 0:0:22.500000010 - Adding garbage: 4, Excess already present: 0, Garbage level: 13 -> Normal status	Next time: 9369
+DEBUG (4): time: 0:0:24.062500010 - Adding garbage: 8, Excess already present: 0, Garbage level: 8 -> Normal status	Next time: 16572
+DEBUG (7): time: 0:0:25.701171885 - Adding garbage: 8, Excess already present: 0, Garbage level: 8 -> Normal status	Next time: 25915
+DEBUG (2): time: 0:0:28.953125010 - Adding garbage: 7, Excess already present: 0, Garbage level: 25 -> Normal status	Next time: 4305
+DEBUG (1): time: 0:0:29.483398447 - Adding garbage: 5, Excess already present: 0, Garbage level: 14 -> Normal status	Next time: 18480
+DEBUG (3): time: 0:0:29.671875010 - Adding garbage: 9, Excess already present: 0, Garbage level: 17 -> Normal status	Next time: 28424
+DEBUG (5): time: 0:0:31.649414072 - Adding garbage: 7, Excess already present: 0, Garbage level: 20 -> Normal status	Next time: 16352
+DEBUG (2): time: 0:0:33.157226572 - Adding garbage: 9, Excess already present: 0, Garbage level: 34 -> Normal status	Next time: 18336
+DEBUG (4): time: 0:0:40.246093760 - Adding garbage: 1, Excess already present: 0, Garbage level: 9 -> Normal status	Next time: 18897
+DEBUG (6): time: 0:0:40.434570322 - Adding garbage: 5, Excess already present: 0, Garbage level: 14 -> Normal status	Next time: 7377
+DEBUG (1): time: 0:0:47.530273447 - Adding garbage: 8, Excess already present: 0, Garbage level: 22 -> Normal status	Next time: 6117
+DEBUG (5): time: 0:0:47.618164072 - Adding garbage: 6, Excess already present: 0, Garbage level: 26 -> Normal status	Next time: 7611
+DEBUG (6): time: 0:0:47.638671885 - Adding garbage: 1, Excess already present: 0, Garbage level: 15 -> Normal status	Next time: 18910
+DEBUG (7): time: 0:0:51.008789072 - Adding garbage: 8, Excess already present: 0, Garbage level: 16 -> Normal status	Next time: 26849
+DEBUG (2): time: 0:0:51.063476572 - Adding garbage: 8, Excess already present: 0, Garbage level: 42 -> Normal status	Next time: 9798
+DEBUG (1): time: 0:0:53.503906260 - Adding garbage: 2, Excess already present: 0, Garbage level: 24 -> Normal status	Next time: 3203
+DEBUG (5): time: 0:0:55.050781260 - Adding garbage: 8, Excess already present: 0, Garbage level: 34 -> Normal status	Next time: 28137
+DEBUG (1): time: 0:0:56.631835947 - Adding garbage: 3, Excess already present: 0, Garbage level: 27 -> Normal status	Next time: 2891
+DEBUG (3): time: 0:0:57.429687510 - Adding garbage: 6, Excess already present: 0, Garbage level: 23 -> Normal status	Next time: 11234
+DEBUG (4): time: 0:0:58.700195322 - Adding garbage: 1, Excess already present: 0, Garbage level: 10 -> Normal status	Next time: 13793
+DEBUG (1): time: 0:0:59.455078135 - Adding garbage: 5, Excess already present: 0, Garbage level: 32 -> Normal status	Next time: 19044
+DEBUG (2): time: 0:1:0.631835947 - Adding garbage: 9, Excess already present: 0, Garbage level: 51 -> Normal status	Next time: 14454
+DEBUG (6): time: 0:1:6.105468760 - Adding garbage: 3, Excess already present: 0, Garbage level: 18 -> Normal status	Next time: 8713
+DEBUG (3): time: 0:1:8.400390635 - Adding garbage: 4, Excess already present: 0, Garbage level: 27 -> Normal status	Next time: 5407
+DEBUG (4): time: 0:1:12.169921885 - Adding garbage: 8, Excess already present: 0, Garbage level: 18 -> Normal status	Next time: 6509
+DEBUG (3): time: 0:1:13.680664072 - Adding garbage: 6, Excess already present: 0, Garbage level: 33 -> Normal status	Next time: 4782
+DEBUG (6): time: 0:1:14.614257822 - Adding garbage: 5, Excess already present: 0, Garbage level: 23 -> Normal status	Next time: 14582
+DEBUG (2): time: 0:1:14.747070322 - Adding garbage: 3, Excess already present: 0, Garbage level: 54 -> Normal status	Next time: 21971
+DEBUG (7): time: 0:1:17.228515635 - Adding garbage: 5, Excess already present: 0, Garbage level: 21 -> Normal status	Next time: 21469
+DEBUG (1): time: 0:1:18.052734385 - Adding garbage: 9, Excess already present: 0, Garbage level: 41 -> Normal status	Next time: 29303
+DEBUG (3): time: 0:1:18.350585947 - Adding garbage: 2, Excess already present: 0, Garbage level: 35 -> Normal status	Next time: 29552
+DEBUG (4): time: 0:1:18.526367197 - Adding garbage: 3, Excess already present: 0, Garbage level: 21 -> Normal status	Next time: 12691
+DEBUG (5): time: 0:1:22.528320322 - Adding garbage: 6, Excess already present: 0, Garbage level: 40 -> Normal status	Next time: 11060
+DEBUG (6): time: 0:1:28.854492197 - Adding garbage: 9, Excess already present: 0, Garbage level: 32 -> Normal status	Next time: 1814
+DEBUG (6): time: 0:1:30.625976572 - Adding garbage: 9, Excess already present: 0, Garbage level: 41 -> Normal status	Next time: 5524
+DEBUG (4): time: 0:1:30.919921885 - Adding garbage: 5, Excess already present: 0, Garbage level: 26 -> Normal status	Next time: 20306
+DEBUG (5): time: 0:1:33.329101572 - Adding garbage: 1, Excess already present: 0, Garbage level: 41 -> Normal status	Next time: 20373
+DEBUG (6): time: 0:1:36.020507822 - Adding garbage: 3, Excess already present: 0, Garbage level: 44 -> Normal status	Next time: 23063
+DEBUG (2): time: 0:1:36.203125010 - Adding garbage: 2, Excess already present: 0, Garbage level: 56 -> Normal status	Next time: 28316
+DEBUG (7): time: 0:1:38.194335947 - Adding garbage: 8, Excess already present: 0, Garbage level: 29 -> Normal status	Next time: 9815
+DEBUG (1): time: 0:1:46.668945322 - Adding garbage: 4, Excess already present: 0, Garbage level: 45 -> Normal status	Next time: 5314
+DEBUG (3): time: 0:1:47.209960947 - Adding garbage: 8, Excess already present: 0, Garbage level: 43 -> Normal status	Next time: 28606
+DEBUG (7): time: 0:1:47.779296885 - Adding garbage: 2, Excess already present: 0, Garbage level: 31 -> Normal status	Next time: 1028
+DEBUG (7): time: 0:1:48.783203135 - Adding garbage: 3, Excess already present: 0, Garbage level: 34 -> Normal status	Next time: 29104
+DEBUG (4): time: 0:1:50.750000010 - Adding garbage: 1, Excess already present: 0, Garbage level: 27 -> Normal status	Next time: 6221
+DEBUG (1): time: 0:1:51.858398447 - Adding garbage: 4, Excess already present: 0, Garbage level: 49 -> Normal status	Next time: 9544
+DEBUG (5): time: 0:1:53.224609385 - Adding garbage: 5, Excess already present: 0, Garbage level: 46 -> Normal status	Next time: 6406
+DEBUG (4): time: 0:1:56.825195322 - Adding garbage: 6, Excess already present: 0, Garbage level: 33 -> Normal status	Next time: 18749
+DEBUG (6): time: 0:1:58.542968760 - Adding garbage: 2, Excess already present: 0, Garbage level: 46 -> Normal status	Next time: 1332
+DEBUG (5): time: 0:1:59.480468760 - Adding garbage: 5, Excess already present: 0, Garbage level: 51 -> Normal status	Next time: 19096
+DEBUG (6): time: 0:1:59.843750010 - Adding garbage: 1, Excess already present: 0, Garbage level: 47 -> Normal status	Next time: 12643
+DEBUG (1): time: 0:2:1.178710947 - Adding garbage: 7, Excess already present: 0, Garbage level: 56 -> Normal status	Next time: 23051
+DEBUG (2): time: 0:2:3.855468760 - Adding garbage: 4, Excess already present: 0, Garbage level: 60 -> Normal status	Next time: 5077
+DEBUG (2): time: 0:2:8.813476572 - Adding garbage: 3, Excess already present: 0, Garbage level: 63 -> Normal status	Next time: 13233
+DEBUG (6): time: 0:2:12.190429697 - Adding garbage: 8, Excess already present: 0, Garbage level: 55 -> Normal status	Next time: 24521
+DEBUG (4): time: 0:2:15.134765635 - Adding garbage: 6, Excess already present: 0, Garbage level: 39 -> Normal status	Next time: 29324
+DEBUG (3): time: 0:2:15.145507822 - Adding garbage: 1, Excess already present: 0, Garbage level: 44 -> Normal status	Next time: 2092
+DEBUG (3): time: 0:2:17.188476572 - Adding garbage: 8, Excess already present: 0, Garbage level: 52 -> Normal status	Next time: 10552
+DEBUG (7): time: 0:2:17.205078135 - Adding garbage: 9, Excess already present: 0, Garbage level: 43 -> Normal status	Next time: 19676
+DEBUG (5): time: 0:2:18.128906260 - Adding garbage: 1, Excess already present: 0, Garbage level: 52 -> Normal status	Next time: 1618
+DEBUG (5): time: 0:2:19.708984385 - Adding garbage: 8, Excess already present: 0, Garbage level: 60 -> Normal status	Next time: 17931
+DEBUG (2): time: 0:2:21.736328135 - Adding garbage: 9, Excess already present: 0, Garbage level: 72 -> Normal status	Next time: 14536
+DEBUG (1): time: 0:2:23.689453135 - Adding garbage: 2, Excess already present: 0, Garbage level: 58 -> Normal status	Next time: 6643
+DEBUG (3): time: 0:2:27.493164072 - Adding garbage: 4, Excess already present: 0, Garbage level: 56 -> Normal status	Next time: 16102
+DEBUG (1): time: 0:2:30.176757822 - Adding garbage: 7, Excess already present: 0, Garbage level: 65 -> Normal status	Next time: 24715
+DEBUG (2): time: 0:2:35.931640635 - Adding garbage: 4, Excess already present: 0, Garbage level: 76 -> Normal status	Next time: 27683
+DEBUG (6): time: 0:2:36.136718760 - Adding garbage: 3, Excess already present: 0, Garbage level: 58 -> Normal status	Next time: 25430
+DEBUG (7): time: 0:2:36.419921885 - Adding garbage: 2, Excess already present: 0, Garbage level: 45 -> Normal status	Next time: 3184
+DEBUG (5): time: 0:2:37.219726572 - Adding garbage: 1, Excess already present: 0, Garbage level: 61 -> Normal status	Next time: 28073
+DEBUG (7): time: 0:2:39.529296885 - Adding garbage: 9, Excess already present: 0, Garbage level: 54 -> Normal status	Next time: 20104
+DEBUG (3): time: 0:2:43.217773447 - Adding garbage: 4, Excess already present: 0, Garbage level: 60 -> Normal status	Next time: 12287
+DEBUG (4): time: 0:2:43.771484385 - Adding garbage: 1, Excess already present: 0, Garbage level: 40 -> Normal status	Next time: 27128
+DEBUG (1): time: 0:2:54.312500010 - Adding garbage: 1, Excess already present: 0, Garbage level: 66 -> Normal status	Next time: 16277
+DEBUG (3): time: 0:2:55.216796885 - Adding garbage: 4, Excess already present: 0, Garbage level: 64 -> Normal status	Next time: 11894
+DEBUG (7): time: 0:2:59.162109385 - Adding garbage: 7, Excess already present: 0, Garbage level: 61 -> Normal status	Next time: 23669
+DEBUG (6): time: 0:3:0.970703135 - Adding garbage: 9, Excess already present: 0, Garbage level: 67 -> Normal status	Next time: 21702
+DEBUG (2): time: 0:3:2.965820322 - Adding garbage: 8, Excess already present: 0, Garbage level: 84 -> Normal status	Next time: 27063
+DEBUG (5): time: 0:3:4.634765635 - Adding garbage: 7, Excess already present: 0, Garbage level: 68 -> Normal status	Next time: 17831
+DEBUG (3): time: 0:3:6.832031260 - Adding garbage: 4, Excess already present: 0, Garbage level: 68 -> Normal status	Next time: 2554
+DEBUG (3): time: 0:3:9.326171885 - Adding garbage: 4, Excess already present: 0, Garbage level: 72 -> Normal status	Next time: 1726
+DEBUG (1): time: 0:3:10.208007822 - Adding garbage: 1, Excess already present: 0, Garbage level: 67 -> Normal status	Next time: 15863
+DEBUG (4): time: 0:3:10.263671885 - Adding garbage: 5, Excess already present: 0, Garbage level: 45 -> Normal status	Next time: 18877
+DEBUG (3): time: 0:3:11.011718760 - Adding garbage: 8, Excess already present: 0, Garbage level: 80 -> Normal status	Next time: 25835
+DEBUG (5): time: 0:3:22.047851572 - Adding garbage: 7, Excess already present: 0, Garbage level: 75 -> Normal status	Next time: 16590
+DEBUG (6): time: 0:3:22.164062510 - Adding garbage: 3, Excess already present: 0, Garbage level: 70 -> Normal status	Next time: 20253
+DEBUG (7): time: 0:3:22.276367197 - Adding garbage: 9, Excess already present: 0, Garbage level: 70 -> Normal status	Next time: 23575
+DEBUG (1): time: 0:3:25.699218760 - Adding garbage: 4, Excess already present: 0, Garbage level: 71 -> Normal status	Next time: 27917
+DEBUG (4): time: 0:3:28.698242197 - Adding garbage: 6, Excess already present: 0, Garbage level: 51 -> Normal status	Next time: 1715
+DEBUG (2): time: 0:3:29.394531260 - Adding garbage: 1, Excess already present: 0, Garbage level: 85 -> Critical status	Next time: 8608
+DEBUG (4): time: 0:3:30.373046885 - Adding garbage: 7, Excess already present: 0, Garbage level: 58 -> Normal status	Next time: 6425
 DEBUG (2): time: 0:3:34.277343770 - sendAlert() - Try to send a request to TRUCK
+DEBUG (2): Serial Packet sent...
 DEBUG (2): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 2 
  	 Destination: 0 
  	 AM Type: 6 
@@ -204,9 +205,9 @@ DEBUG (2): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (0): Message received at time 0:3:34.286498990 
+DEBUG (0): Message received at time 0:3:34.279571540 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 2 
 	 Destination: 0 
 	 AM Type: 6 
@@ -217,14 +218,15 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 1 
 
 DEBUG (0): The truck will be there in 12 s.
-DEBUG (2): Packet of type 1 sent... at time 0:3:34.286666835 
-DEBUG (3): time: 0:3:36.241210947 - Adding garbage: 6, Eccess already present: 0, Garbage level: 86 -> Critical status	Next time: 18612
-DEBUG (4): time: 0:3:36.647460947 - Adding garbage: 9, Eccess already present: 0, Garbage level: 67 -> Normal status	Next time: 5390
-DEBUG (2): time: 0:3:37.800781260 - Adding garbage: 7, Eccess already present: 0, Garbage level: 92 -> Critical status	Next time: 5361
-DEBUG (5): time: 0:3:38.249023447 - Adding garbage: 2, Eccess already present: 0, Garbage level: 77 -> Normal status	Next time: 16216
+DEBUG (2): Packet of type 1 sent... at time 0:3:34.279739385 
+DEBUG (3): time: 0:3:36.241210947 - Adding garbage: 6, Excess already present: 0, Garbage level: 86 -> Critical status	Next time: 18612
+DEBUG (4): time: 0:3:36.647460947 - Adding garbage: 9, Excess already present: 0, Garbage level: 67 -> Normal status	Next time: 5390
+DEBUG (2): time: 0:3:37.800781260 - Adding garbage: 7, Excess already present: 0, Garbage level: 92 -> Critical status	Next time: 5361
+DEBUG (5): time: 0:3:38.249023447 - Adding garbage: 2, Excess already present: 0, Garbage level: 77 -> Normal status	Next time: 16216
 DEBUG (2): time: 0:3:39.160156270 - sendAlert() - Try to send a request to TRUCK
+DEBUG (2): Serial Packet sent...
 DEBUG (2): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 2 
  	 Destination: 0 
  	 AM Type: 6 
@@ -235,9 +237,9 @@ DEBUG (2): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (0): Message received at time 0:3:39.169204679 
+DEBUG (0): Message received at time 0:3:39.164504999 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 2 
 	 Destination: 0 
 	 AM Type: 6 
@@ -248,10 +250,11 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 1 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (2): Packet of type 1 sent... at time 0:3:39.169372524 
+DEBUG (2): Packet of type 1 sent... at time 0:3:39.164672845 
 DEBUG (3): time: 0:3:41.124023457 - sendAlert() - Try to send a request to TRUCK
+DEBUG (3): Serial Packet sent...
 DEBUG (3): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 3 
  	 Destination: 0 
  	 AM Type: 6 
@@ -262,9 +265,9 @@ DEBUG (3): >>>Pack
 		 coordY: 16 
 
  
-DEBUG (0): Message received at time 0:3:41.129959091 
+DEBUG (0): Message received at time 0:3:41.127090456 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 3 
 	 Destination: 0 
 	 AM Type: 6 
@@ -275,13 +278,14 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 16 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (3): Packet of type 1 sent... at time 0:3:41.130126937 
-DEBUG (4): time: 0:3:41.911132822 - Adding garbage: 5, Eccess already present: 0, Garbage level: 72 -> Normal status	Next time: 6525
-DEBUG (6): time: 0:3:41.942382822 - Adding garbage: 8, Eccess already present: 0, Garbage level: 78 -> Normal status	Next time: 4443
-DEBUG (2): time: 0:3:43.036132822 - Adding garbage: 5, Eccess already present: 0, Garbage level: 97 -> Critical status	Next time: 20323
+DEBUG (3): Packet of type 1 sent... at time 0:3:41.127258301 
+DEBUG (4): time: 0:3:41.911132822 - Adding garbage: 5, Excess already present: 0, Garbage level: 72 -> Normal status	Next time: 6525
+DEBUG (6): time: 0:3:41.942382822 - Adding garbage: 8, Excess already present: 0, Garbage level: 78 -> Normal status	Next time: 4443
+DEBUG (2): time: 0:3:43.036132822 - Adding garbage: 5, Excess already present: 0, Garbage level: 97 -> Critical status	Next time: 20323
 DEBUG (2): time: 0:3:44.042968770 - sendAlert() - Try to send a request to TRUCK
+DEBUG (2): Serial Packet sent...
 DEBUG (2): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 2 
  	 Destination: 0 
  	 AM Type: 6 
@@ -292,9 +296,9 @@ DEBUG (2): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (0): Message received at time 0:3:44.050262428 
+DEBUG (0): Message received at time 0:3:44.053298909 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 2 
 	 Destination: 0 
 	 AM Type: 6 
@@ -305,12 +309,13 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 1 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (2): Packet of type 1 sent... at time 0:3:44.050430274 
-DEBUG (7): time: 0:3:45.298828135 - Adding garbage: 7, Eccess already present: 0, Garbage level: 77 -> Normal status	Next time: 15252
+DEBUG (2): Packet of type 1 sent... at time 0:3:44.053466755 
+DEBUG (7): time: 0:3:45.298828135 - Adding garbage: 7, Excess already present: 0, Garbage level: 77 -> Normal status	Next time: 15252
 DEBUG (0): TruckTravelTime fired -> Truck is arrived at coordinates: (5, 1)
-DEBUG (0): time: 0:3:46.004882832 - sendTruckMessage() - Try to send a response to BIN 2
+DEBUG (0): Serial Packet sent...
+DEBUG (0): time: 0:3:45.998046895 - sendTruckMessage() - Try to send a response to BIN 2
 DEBUG (0): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 0 
  	 Destination: 2 
  	 AM Type: 6 
@@ -318,9 +323,22 @@ DEBUG (0): >>>Pack
 		 msg_type: 2 
  
  
+DEBUG (2): Message received at time 0:3:46.001876828 
+DEBUG (2): TRUCK message>>>Pack 
+ 	 Payload length 10 
+	 Source: 0 
+	 Destination: 2 
+	 AM Type: 6 
+		 Payload 
+		 msg_type: 2 
+
+ 
+DEBUG (2): Emptying bin...
+DEBUG (0): Packet of type 2 sent...and ack received at time 0:3:46.002044674 
 DEBUG (3): time: 0:3:46.006835957 - sendAlert() - Try to send a request to TRUCK
+DEBUG (3): Serial Packet sent...
 DEBUG (3): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 3 
  	 Destination: 0 
  	 AM Type: 6 
@@ -331,21 +349,9 @@ DEBUG (3): >>>Pack
 		 coordY: 16 
 
  
-DEBUG (2): Message received at time 0:3:46.012939426 
-DEBUG (2): TRUCK message>>>Pack 
- 	 Payload length 9 
-	 Source: 0 
-	 Destination: 2 
-	 AM Type: 6 
-		 Payload 
-		 msg_type: 2 
-
- 
-DEBUG (2): Emptying bin...
-DEBUG (0): Packet of type 2 sent...and ack received at time 0:3:46.013107271 
-DEBUG (0): Message received at time 0:3:46.014099098 
+DEBUG (0): Message received at time 0:3:46.014984103 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 3 
 	 Destination: 0 
 	 AM Type: 6 
@@ -356,12 +362,13 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 16 
 
 DEBUG (0): The truck will be there in 15 s.
-DEBUG (3): Packet of type 1 sent... at time 0:3:46.014266944 
-DEBUG (6): time: 0:3:46.281250010 - Adding garbage: 6, Eccess already present: 0, Garbage level: 84 -> Normal status	Next time: 15437
-DEBUG (4): time: 0:3:48.283203135 - Adding garbage: 6, Eccess already present: 0, Garbage level: 78 -> Normal status	Next time: 10399
+DEBUG (3): Packet of type 1 sent... at time 0:3:46.015151949 
+DEBUG (6): time: 0:3:46.281250010 - Adding garbage: 6, Excess already present: 0, Garbage level: 84 -> Normal status	Next time: 15437
+DEBUG (4): time: 0:3:48.283203135 - Adding garbage: 6, Excess already present: 0, Garbage level: 78 -> Normal status	Next time: 10399
 DEBUG (3): time: 0:3:50.889648457 - sendAlert() - Try to send a request to TRUCK
+DEBUG (3): Serial Packet sent...
 DEBUG (3): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 3 
  	 Destination: 0 
  	 AM Type: 6 
@@ -372,9 +379,9 @@ DEBUG (3): >>>Pack
 		 coordY: 16 
 
  
-DEBUG (0): Message received at time 0:3:50.894119256 
+DEBUG (0): Message received at time 0:3:50.900054890 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 3 
 	 Destination: 0 
 	 AM Type: 6 
@@ -385,13 +392,14 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 16 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (3): Packet of type 1 sent... at time 0:3:50.894287102 
-DEBUG (1): time: 0:3:52.961914072 - Adding garbage: 7, Eccess already present: 0, Garbage level: 78 -> Normal status	Next time: 13574
-DEBUG (5): time: 0:3:54.084960947 - Adding garbage: 6, Eccess already present: 0, Garbage level: 83 -> Normal status	Next time: 2186
-DEBUG (3): time: 0:3:54.416992197 - Adding garbage: 6, Eccess already present: 0, Garbage level: 92 -> Critical status	Next time: 21741
+DEBUG (3): Packet of type 1 sent... at time 0:3:50.900222736 
+DEBUG (1): time: 0:3:52.961914072 - Adding garbage: 7, Excess already present: 0, Garbage level: 78 -> Normal status	Next time: 13574
+DEBUG (5): time: 0:3:54.084960947 - Adding garbage: 6, Excess already present: 0, Garbage level: 83 -> Normal status	Next time: 2186
+DEBUG (3): time: 0:3:54.416992197 - Adding garbage: 6, Excess already present: 0, Garbage level: 92 -> Critical status	Next time: 21741
 DEBUG (3): time: 0:3:55.772460957 - sendAlert() - Try to send a request to TRUCK
+DEBUG (3): Serial Packet sent...
 DEBUG (3): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 3 
  	 Destination: 0 
  	 AM Type: 6 
@@ -402,9 +410,9 @@ DEBUG (3): >>>Pack
 		 coordY: 16 
 
  
-DEBUG (0): Message received at time 0:3:55.775390627 
+DEBUG (0): Message received at time 0:3:55.777847278 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 3 
 	 Destination: 0 
 	 AM Type: 6 
@@ -415,15 +423,16 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 16 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (3): Packet of type 1 sent... at time 0:3:55.775558473 
-DEBUG (5): time: 0:3:56.219726572 - Adding garbage: 3, Eccess already present: 0, Garbage level: 86 -> Critical status	Next time: 3111
-DEBUG (4): time: 0:3:58.438476572 - Adding garbage: 5, Eccess already present: 0, Garbage level: 83 -> Normal status	Next time: 1694
-DEBUG (5): time: 0:3:59.257812510 - Adding garbage: 5, Eccess already present: 0, Garbage level: 91 -> Critical status	Next time: 24122
-DEBUG (4): time: 0:4:0.092773447 - Adding garbage: 9, Eccess already present: 0, Garbage level: 92 -> Critical status	Next time: 20268
-DEBUG (7): time: 0:4:0.193359385 - Adding garbage: 1, Eccess already present: 0, Garbage level: 78 -> Normal status	Next time: 4109
+DEBUG (3): Packet of type 1 sent... at time 0:3:55.778015124 
+DEBUG (5): time: 0:3:56.219726572 - Adding garbage: 3, Excess already present: 0, Garbage level: 86 -> Critical status	Next time: 3111
+DEBUG (4): time: 0:3:58.438476572 - Adding garbage: 5, Excess already present: 0, Garbage level: 83 -> Normal status	Next time: 1694
+DEBUG (5): time: 0:3:59.257812510 - Adding garbage: 5, Excess already present: 0, Garbage level: 91 -> Critical status	Next time: 24122
+DEBUG (4): time: 0:4:0.092773447 - Adding garbage: 9, Excess already present: 0, Garbage level: 92 -> Critical status	Next time: 20268
+DEBUG (7): time: 0:4:0.193359385 - Adding garbage: 1, Excess already present: 0, Garbage level: 78 -> Normal status	Next time: 4109
 DEBUG (3): time: 0:4:0.655273457 - sendAlert() - Try to send a request to TRUCK
+DEBUG (3): Serial Packet sent...
 DEBUG (3): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 3 
  	 Destination: 0 
  	 AM Type: 6 
@@ -434,9 +443,9 @@ DEBUG (3): >>>Pack
 		 coordY: 16 
 
  
-DEBUG (0): Message received at time 0:4:0.658050540 
+DEBUG (0): Message received at time 0:4:0.660446156 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 3 
 	 Destination: 0 
 	 AM Type: 6 
@@ -447,11 +456,12 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 16 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (3): Packet of type 1 sent... at time 0:4:0.658218386 
+DEBUG (3): Packet of type 1 sent... at time 0:4:0.660614002 
 DEBUG (0): TruckTravelTime fired -> Truck is arrived at coordinates: (6, 16)
-DEBUG (0): time: 0:4:0.662109395 - sendTruckMessage() - Try to send a response to BIN 3
+DEBUG (0): Serial Packet sent...
+DEBUG (0): time: 0:4:0.663085957 - sendTruckMessage() - Try to send a response to BIN 3
 DEBUG (0): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 0 
  	 Destination: 3 
  	 AM Type: 6 
@@ -459,9 +469,9 @@ DEBUG (0): >>>Pack
 		 msg_type: 2 
  
  
-DEBUG (3): Message received at time 0:4:0.670501680 
+DEBUG (3): Message received at time 0:4:0.669647198 
 DEBUG (3): TRUCK message>>>Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 0 
 	 Destination: 3 
 	 AM Type: 6 
@@ -470,10 +480,11 @@ DEBUG (3): TRUCK message>>>Pack
 
  
 DEBUG (3): Emptying bin...
-DEBUG (0): Packet of type 2 sent...and ack received at time 0:4:0.670669525 
+DEBUG (0): Packet of type 2 sent...and ack received at time 0:4:0.669815044 
 DEBUG (5): time: 0:4:1.102539082 - sendAlert() - Try to send a request to TRUCK
+DEBUG (5): Serial Packet sent...
 DEBUG (5): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 5 
  	 Destination: 0 
  	 AM Type: 6 
@@ -484,9 +495,9 @@ DEBUG (5): >>>Pack
 		 coordY: 16 
 
  
-DEBUG (0): Message received at time 0:4:1.104751594 
+DEBUG (0): Message received at time 0:4:1.108367905 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 5 
 	 Destination: 0 
 	 AM Type: 6 
@@ -497,13 +508,14 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 16 
 
 DEBUG (0): The truck will be there in 18 s.
-DEBUG (5): Packet of type 1 sent... at time 0:4:1.104919439 
-DEBUG (6): time: 0:4:1.356445322 - Adding garbage: 4, Eccess already present: 0, Garbage level: 88 -> Critical status	Next time: 4529
-DEBUG (2): time: 0:4:2.882812510 - Adding garbage: 6, Eccess already present: 0, Garbage level: 6 -> Normal status	Next time: 12561
-DEBUG (7): time: 0:4:4.206054697 - Adding garbage: 1, Eccess already present: 0, Garbage level: 79 -> Normal status	Next time: 2453
+DEBUG (5): Packet of type 1 sent... at time 0:4:1.108535751 
+DEBUG (6): time: 0:4:1.356445322 - Adding garbage: 4, Excess already present: 0, Garbage level: 88 -> Critical status	Next time: 4529
+DEBUG (2): time: 0:4:2.882812510 - Adding garbage: 6, Excess already present: 0, Garbage level: 6 -> Normal status	Next time: 12561
+DEBUG (7): time: 0:4:4.206054697 - Adding garbage: 1, Excess already present: 0, Garbage level: 79 -> Normal status	Next time: 2453
 DEBUG (4): time: 0:4:4.975585957 - sendAlert() - Try to send a request to TRUCK
+DEBUG (4): Serial Packet sent...
 DEBUG (4): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 4 
  	 Destination: 0 
  	 AM Type: 6 
@@ -514,9 +526,9 @@ DEBUG (4): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (0): Message received at time 0:4:4.982635476 
+DEBUG (0): Message received at time 0:4:4.985397301 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 4 
 	 Destination: 0 
 	 AM Type: 6 
@@ -527,11 +539,12 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 1 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (4): Packet of type 1 sent... at time 0:4:4.982803322 
-DEBUG (6): time: 0:4:5.779296885 - Adding garbage: 3, Eccess already present: 0, Garbage level: 91 -> Critical status	Next time: 27976
+DEBUG (4): Packet of type 1 sent... at time 0:4:4.985565147 
+DEBUG (6): time: 0:4:5.779296885 - Adding garbage: 3, Excess already present: 0, Garbage level: 91 -> Critical status	Next time: 27976
 DEBUG (5): time: 0:4:5.985351582 - sendAlert() - Try to send a request to TRUCK
+DEBUG (5): Serial Packet sent...
 DEBUG (5): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 5 
  	 Destination: 0 
  	 AM Type: 6 
@@ -542,9 +555,9 @@ DEBUG (5): >>>Pack
 		 coordY: 16 
 
  
-DEBUG (0): Message received at time 0:4:5.994903528 
+DEBUG (0): Message received at time 0:4:5.994003265 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 5 
 	 Destination: 0 
 	 AM Type: 6 
@@ -555,11 +568,12 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 16 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (5): Packet of type 1 sent... at time 0:4:5.995071374 
-DEBUG (1): time: 0:4:6.217773447 - Adding garbage: 7, Eccess already present: 0, Garbage level: 85 -> Critical status	Next time: 11370
+DEBUG (5): Packet of type 1 sent... at time 0:4:5.994171111 
+DEBUG (1): time: 0:4:6.217773447 - Adding garbage: 7, Excess already present: 0, Garbage level: 85 -> Critical status	Next time: 11370
 DEBUG (6): time: 0:4:6.239257832 - sendAlert() - Try to send a request to TRUCK
+DEBUG (6): Serial Packet sent...
 DEBUG (6): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
  	 Destination: 0 
  	 AM Type: 6 
@@ -570,9 +584,9 @@ DEBUG (6): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (0): Message received at time 0:4:6.245437606 
+DEBUG (0): Message received at time 0:4:6.246124247 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
 	 Destination: 0 
 	 AM Type: 6 
@@ -583,11 +597,12 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 1 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (6): Packet of type 1 sent... at time 0:4:6.245605451 
-DEBUG (7): time: 0:4:6.601562510 - Adding garbage: 6, Eccess already present: 0, Garbage level: 85 -> Critical status	Next time: 14134
+DEBUG (6): Packet of type 1 sent... at time 0:4:6.246292093 
+DEBUG (7): time: 0:4:6.601562510 - Adding garbage: 6, Excess already present: 0, Garbage level: 85 -> Critical status	Next time: 14134
 DEBUG (4): time: 0:4:9.858398457 - sendAlert() - Try to send a request to TRUCK
+DEBUG (4): Serial Packet sent...
 DEBUG (4): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 4 
  	 Destination: 0 
  	 AM Type: 6 
@@ -598,9 +613,9 @@ DEBUG (4): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (0): Message received at time 0:4:9.863739002 
+DEBUG (0): Message received at time 0:4:9.859985362 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 4 
 	 Destination: 0 
 	 AM Type: 6 
@@ -611,10 +626,11 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 1 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (4): Packet of type 1 sent... at time 0:4:9.863906848 
+DEBUG (4): Packet of type 1 sent... at time 0:4:9.860153208 
 DEBUG (5): time: 0:4:10.868164082 - sendAlert() - Try to send a request to TRUCK
+DEBUG (5): Serial Packet sent...
 DEBUG (5): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 5 
  	 Destination: 0 
  	 AM Type: 6 
@@ -625,9 +641,9 @@ DEBUG (5): >>>Pack
 		 coordY: 16 
 
  
-DEBUG (0): Message received at time 0:4:10.874877910 
+DEBUG (0): Message received at time 0:4:10.873367299 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 5 
 	 Destination: 0 
 	 AM Type: 6 
@@ -638,10 +654,11 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 16 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (5): Packet of type 1 sent... at time 0:4:10.875045756 
+DEBUG (5): Packet of type 1 sent... at time 0:4:10.873535144 
 DEBUG (1): time: 0:4:11.100585957 - sendAlert() - Try to send a request to TRUCK
+DEBUG (1): Serial Packet sent...
 DEBUG (1): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
  	 Destination: 0 
  	 AM Type: 6 
@@ -652,9 +669,9 @@ DEBUG (1): >>>Pack
 		 coordY: 16 
 
  
-DEBUG (0): Message received at time 0:4:11.105911243 
+DEBUG (0): Message received at time 0:4:11.109420744 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
 	 Destination: 0 
 	 AM Type: 6 
@@ -665,10 +682,11 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 16 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (1): Packet of type 1 sent... at time 0:4:11.106079089 
+DEBUG (1): Packet of type 1 sent... at time 0:4:11.109588590 
 DEBUG (6): time: 0:4:11.122070332 - sendAlert() - Try to send a request to TRUCK
+DEBUG (6): Serial Packet sent...
 DEBUG (6): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
  	 Destination: 0 
  	 AM Type: 6 
@@ -679,9 +697,9 @@ DEBUG (6): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (0): Message received at time 0:4:11.123672496 
+DEBUG (0): Message received at time 0:4:11.130599945 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
 	 Destination: 0 
 	 AM Type: 6 
@@ -692,10 +710,11 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 1 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (6): Packet of type 1 sent... at time 0:4:11.123840341 
+DEBUG (6): Packet of type 1 sent... at time 0:4:11.130767791 
 DEBUG (7): time: 0:4:11.484375020 - sendAlert() - Try to send a request to TRUCK
+DEBUG (7): Serial Packet sent...
 DEBUG (7): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
  	 Destination: 0 
  	 AM Type: 6 
@@ -706,9 +725,9 @@ DEBUG (7): >>>Pack
 		 coordY: 17 
 
  
-DEBUG (0): Message received at time 0:4:11.487930297 
+DEBUG (0): Message received at time 0:4:11.489501943 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
 	 Destination: 0 
 	 AM Type: 6 
@@ -719,10 +738,11 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 17 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (7): Packet of type 1 sent... at time 0:4:11.488098142 
+DEBUG (7): Packet of type 1 sent... at time 0:4:11.489669788 
 DEBUG (4): time: 0:4:14.741210957 - sendAlert() - Try to send a request to TRUCK
+DEBUG (4): Serial Packet sent...
 DEBUG (4): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 4 
  	 Destination: 0 
  	 AM Type: 6 
@@ -733,9 +753,9 @@ DEBUG (4): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (0): Message received at time 0:4:14.746749865 
+DEBUG (0): Message received at time 0:4:14.745437617 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 4 
 	 Destination: 0 
 	 AM Type: 6 
@@ -746,12 +766,13 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 1 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (4): Packet of type 1 sent... at time 0:4:14.746917711 
-DEBUG (2): time: 0:4:15.149414072 - Adding garbage: 8, Eccess already present: 0, Garbage level: 14 -> Normal status	Next time: 17560
-DEBUG (3): time: 0:4:15.648437510 - Adding garbage: 4, Eccess already present: 0, Garbage level: 4 -> Normal status	Next time: 16415
+DEBUG (4): Packet of type 1 sent... at time 0:4:14.745605463 
+DEBUG (2): time: 0:4:15.149414072 - Adding garbage: 8, Excess already present: 0, Garbage level: 14 -> Normal status	Next time: 17560
+DEBUG (3): time: 0:4:15.648437510 - Adding garbage: 4, Excess already present: 0, Garbage level: 4 -> Normal status	Next time: 16415
 DEBUG (5): time: 0:4:15.750976582 - sendAlert() - Try to send a request to TRUCK
+DEBUG (5): Serial Packet sent...
 DEBUG (5): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 5 
  	 Destination: 0 
  	 AM Type: 6 
@@ -762,9 +783,9 @@ DEBUG (5): >>>Pack
 		 coordY: 16 
 
  
-DEBUG (0): Message received at time 0:4:15.753555302 
+DEBUG (0): Message received at time 0:4:15.760330165 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 5 
 	 Destination: 0 
 	 AM Type: 6 
@@ -775,10 +796,11 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 16 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (5): Packet of type 1 sent... at time 0:4:15.753723148 
+DEBUG (5): Packet of type 1 sent... at time 0:4:15.760498011 
 DEBUG (1): time: 0:4:15.983398457 - sendAlert() - Try to send a request to TRUCK
+DEBUG (1): Serial Packet sent...
 DEBUG (1): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
  	 Destination: 0 
  	 AM Type: 6 
@@ -789,9 +811,9 @@ DEBUG (1): >>>Pack
 		 coordY: 16 
 
  
-DEBUG (0): Message received at time 0:4:15.990707374 
+DEBUG (0): Message received at time 0:4:15.988494863 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
 	 Destination: 0 
 	 AM Type: 6 
@@ -802,10 +824,11 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 16 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (1): Packet of type 1 sent... at time 0:4:15.990875220 
+DEBUG (1): Packet of type 1 sent... at time 0:4:15.988662709 
 DEBUG (6): time: 0:4:16.004882832 - sendAlert() - Try to send a request to TRUCK
+DEBUG (6): Serial Packet sent...
 DEBUG (6): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
  	 Destination: 0 
  	 AM Type: 6 
@@ -816,9 +839,9 @@ DEBUG (6): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (0): Message received at time 0:4:16.008544920 
+DEBUG (0): Message received at time 0:4:16.009231562 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
 	 Destination: 0 
 	 AM Type: 6 
@@ -829,10 +852,11 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 1 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (6): Packet of type 1 sent... at time 0:4:16.008712766 
+DEBUG (6): Packet of type 1 sent... at time 0:4:16.009399407 
 DEBUG (7): time: 0:4:16.367187520 - sendAlert() - Try to send a request to TRUCK
+DEBUG (7): Serial Packet sent...
 DEBUG (7): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
  	 Destination: 0 
  	 AM Type: 6 
@@ -843,9 +867,9 @@ DEBUG (7): >>>Pack
 		 coordY: 17 
 
  
-DEBUG (0): Message received at time 0:4:16.372070304 
+DEBUG (0): Message received at time 0:4:16.370452881 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
 	 Destination: 0 
 	 AM Type: 6 
@@ -856,12 +880,13 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 17 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (7): Packet of type 1 sent... at time 0:4:16.372238149 
-DEBUG (1): time: 0:4:17.321289072 - Adding garbage: 1, Eccess already present: 0, Garbage level: 86 -> Critical status	Next time: 8707
+DEBUG (7): Packet of type 1 sent... at time 0:4:16.370620727 
+DEBUG (1): time: 0:4:17.321289072 - Adding garbage: 1, Excess already present: 0, Garbage level: 86 -> Critical status	Next time: 8707
 DEBUG (0): TruckTravelTime fired -> Truck is arrived at coordinates: (24, 16)
-DEBUG (0): time: 0:4:18.682617207 - sendTruckMessage() - Try to send a response to BIN 5
+DEBUG (0): Serial Packet sent...
+DEBUG (0): time: 0:4:18.685546895 - sendTruckMessage() - Try to send a response to BIN 5
 DEBUG (0): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 0 
  	 Destination: 5 
  	 AM Type: 6 
@@ -869,9 +894,9 @@ DEBUG (0): >>>Pack
 		 msg_type: 2 
  
  
-DEBUG (5): Message received at time 0:4:18.690109229 
+DEBUG (5): Message received at time 0:4:18.689498898 
 DEBUG (5): TRUCK message>>>Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 0 
 	 Destination: 5 
 	 AM Type: 6 
@@ -880,10 +905,11 @@ DEBUG (5): TRUCK message>>>Pack
 
  
 DEBUG (5): Emptying bin...
-DEBUG (0): Packet of type 2 sent...and ack received at time 0:4:18.690277074 
+DEBUG (0): Packet of type 2 sent...and ack received at time 0:4:18.689666744 
 DEBUG (4): time: 0:4:19.624023457 - sendAlert() - Try to send a request to TRUCK
+DEBUG (4): Serial Packet sent...
 DEBUG (4): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 4 
  	 Destination: 0 
  	 AM Type: 6 
@@ -894,9 +920,9 @@ DEBUG (4): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (0): Message received at time 0:4:19.626129158 
+DEBUG (0): Message received at time 0:4:19.628494256 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 4 
 	 Destination: 0 
 	 AM Type: 6 
@@ -907,11 +933,12 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 1 
 
 DEBUG (0): The truck will be there in 22 s.
-DEBUG (4): Packet of type 1 sent... at time 0:4:19.626297003 
-DEBUG (4): time: 0:4:19.885742197 - Adding garbage: 9, Eccess already present: 1, Garbage level: 100-> Full status	Next time: 6754
+DEBUG (4): Packet of type 1 sent... at time 0:4:19.628662102 
+DEBUG (4): time: 0:4:19.885742197 - Adding garbage: 9, Excess already present: 1, Garbage level: 100-> Full status	Next time: 6754
 DEBUG (4): time: 0:4:19.885742207 - sendMove() - Try to send a request to all other BINS
+DEBUG (4): Serial Packet sent...
 DEBUG (4): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 4 
  	 Destination: 255 
  	 AM Type: 6 
@@ -922,9 +949,9 @@ DEBUG (4): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (1): Message received at time 0:4:19.893859835 
+DEBUG (1): Message received at time 0:4:19.894256562 
 DEBUG (1): MOVE message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 4 
 	 Destination: 255 
 	 AM Type: 6 
@@ -936,11 +963,12 @@ DEBUG (1): MOVE message >>> Pack
 
  
 DEBUG (1): Bin in critical status -> discard the message
-DEBUG (4): Packet of type 3 sent... at time 0:4:19.894027681 
-DEBUG (7): time: 0:4:20.404296885 - Adding garbage: 5, Eccess already present: 0, Garbage level: 90 -> Critical status	Next time: 7224
+DEBUG (4): Packet of type 3 sent... at time 0:4:19.894424407 
+DEBUG (7): time: 0:4:20.404296885 - Adding garbage: 5, Excess already present: 0, Garbage level: 90 -> Critical status	Next time: 7224
 DEBUG (1): time: 0:4:20.866210957 - sendAlert() - Try to send a request to TRUCK
+DEBUG (1): Serial Packet sent...
 DEBUG (1): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
  	 Destination: 0 
  	 AM Type: 6 
@@ -951,9 +979,9 @@ DEBUG (1): >>>Pack
 		 coordY: 16 
 
  
-DEBUG (0): Message received at time 0:4:20.871841417 
+DEBUG (0): Message received at time 0:4:20.873184183 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
 	 Destination: 0 
 	 AM Type: 6 
@@ -964,10 +992,11 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 16 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (1): Packet of type 1 sent... at time 0:4:20.872009263 
+DEBUG (1): Packet of type 1 sent... at time 0:4:20.873352029 
 DEBUG (6): time: 0:4:20.887695332 - sendAlert() - Try to send a request to TRUCK
+DEBUG (6): Serial Packet sent...
 DEBUG (6): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
  	 Destination: 0 
  	 AM Type: 6 
@@ -978,9 +1007,9 @@ DEBUG (6): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (0): Message received at time 0:4:20.897781333 
+DEBUG (0): Message received at time 0:4:20.897033656 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
 	 Destination: 0 
 	 AM Type: 6 
@@ -991,10 +1020,11 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 1 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (6): Packet of type 1 sent... at time 0:4:20.897949178 
+DEBUG (6): Packet of type 1 sent... at time 0:4:20.897201502 
 DEBUG (7): time: 0:4:21.250000020 - sendAlert() - Try to send a request to TRUCK
+DEBUG (7): Serial Packet sent...
 DEBUG (7): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
  	 Destination: 0 
  	 AM Type: 6 
@@ -1005,9 +1035,9 @@ DEBUG (7): >>>Pack
 		 coordY: 17 
 
  
-DEBUG (0): Message received at time 0:4:21.257019022 
+DEBUG (0): Message received at time 0:4:21.252563481 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
 	 Destination: 0 
 	 AM Type: 6 
@@ -1018,13 +1048,14 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 17 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (7): Packet of type 1 sent... at time 0:4:21.257186867 
+DEBUG (7): Packet of type 1 sent... at time 0:4:21.252731327 
 DEBUG (4): TimerToCollect is over!
 ERROR (4): It has not been found an available bin near to me
-DEBUG (5): time: 0:4:22.814453135 - Adding garbage: 9, Eccess already present: 0, Garbage level: 9 -> Normal status	Next time: 5120
+DEBUG (5): time: 0:4:22.814453135 - Adding garbage: 9, Excess already present: 0, Garbage level: 9 -> Normal status	Next time: 5120
 DEBUG (4): time: 0:4:24.506835957 - sendAlert() - Try to send a request to TRUCK
+DEBUG (4): Serial Packet sent...
 DEBUG (4): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 4 
  	 Destination: 0 
  	 AM Type: 6 
@@ -1035,9 +1066,9 @@ DEBUG (4): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (0): Message received at time 0:4:24.511337274 
+DEBUG (0): Message received at time 0:4:24.517318684 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 4 
 	 Destination: 0 
 	 AM Type: 6 
@@ -1048,10 +1079,11 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 1 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (4): Packet of type 1 sent... at time 0:4:24.511505119 
+DEBUG (4): Packet of type 1 sent... at time 0:4:24.517486530 
 DEBUG (1): time: 0:4:25.749023457 - sendAlert() - Try to send a request to TRUCK
+DEBUG (1): Serial Packet sent...
 DEBUG (1): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
  	 Destination: 0 
  	 AM Type: 6 
@@ -1062,9 +1094,9 @@ DEBUG (1): >>>Pack
 		 coordY: 16 
 
  
-DEBUG (0): Message received at time 0:4:25.755294783 
+DEBUG (0): Message received at time 0:4:25.756072976 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
 	 Destination: 0 
 	 AM Type: 6 
@@ -1075,10 +1107,11 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 16 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (1): Packet of type 1 sent... at time 0:4:25.755462628 
+DEBUG (1): Packet of type 1 sent... at time 0:4:25.756240822 
 DEBUG (6): time: 0:4:25.770507832 - sendAlert() - Try to send a request to TRUCK
+DEBUG (6): Serial Packet sent...
 DEBUG (6): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
  	 Destination: 0 
  	 AM Type: 6 
@@ -1089,9 +1122,9 @@ DEBUG (6): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (0): Message received at time 0:4:25.776809675 
+DEBUG (0): Message received at time 0:4:25.779266326 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
 	 Destination: 0 
 	 AM Type: 6 
@@ -1102,11 +1135,12 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 1 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (6): Packet of type 1 sent... at time 0:4:25.776977521 
-DEBUG (1): time: 0:4:25.824218760 - Adding garbage: 8, Eccess already present: 0, Garbage level: 94 -> Critical status	Next time: 26730
+DEBUG (6): Packet of type 1 sent... at time 0:4:25.779434172 
+DEBUG (1): time: 0:4:25.824218760 - Adding garbage: 8, Excess already present: 0, Garbage level: 94 -> Critical status	Next time: 26730
 DEBUG (7): time: 0:4:26.132812520 - sendAlert() - Try to send a request to TRUCK
+DEBUG (7): Serial Packet sent...
 DEBUG (7): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
  	 Destination: 0 
  	 AM Type: 6 
@@ -1117,9 +1151,9 @@ DEBUG (7): >>>Pack
 		 coordY: 17 
 
  
-DEBUG (0): Message received at time 0:4:26.139724711 
+DEBUG (0): Message received at time 0:4:26.141967740 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
 	 Destination: 0 
 	 AM Type: 6 
@@ -1130,11 +1164,12 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 17 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (7): Packet of type 1 sent... at time 0:4:26.139892556 
-DEBUG (4): time: 0:4:26.481445322 - Adding garbage: 1, Eccess already present: 1, Garbage level: 100-> Full status	Next time: 3548
+DEBUG (7): Packet of type 1 sent... at time 0:4:26.142135585 
+DEBUG (4): time: 0:4:26.481445322 - Adding garbage: 1, Excess already present: 1, Garbage level: 100-> Full status	Next time: 3548
 DEBUG (4): time: 0:4:26.481445332 - sendMove() - Try to send a request to all other BINS
+DEBUG (4): Serial Packet sent...
 DEBUG (4): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 4 
  	 Destination: 255 
  	 AM Type: 6 
@@ -1145,9 +1180,9 @@ DEBUG (4): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (1): Message received at time 0:4:26.487335190 
+DEBUG (1): Message received at time 0:4:26.490798915 
 DEBUG (1): MOVE message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 4 
 	 Destination: 255 
 	 AM Type: 6 
@@ -1159,14 +1194,15 @@ DEBUG (1): MOVE message >>> Pack
 
  
 DEBUG (1): Bin in critical status -> discard the message
-DEBUG (4): Packet of type 3 sent... at time 0:4:26.487503036 
-DEBUG (7): time: 0:4:27.458984385 - Adding garbage: 3, Eccess already present: 0, Garbage level: 93 -> Critical status	Next time: 13482
-DEBUG (5): time: 0:4:27.814453135 - Adding garbage: 5, Eccess already present: 0, Garbage level: 14 -> Normal status	Next time: 17165
+DEBUG (4): Packet of type 3 sent... at time 0:4:26.490966761 
+DEBUG (7): time: 0:4:27.458984385 - Adding garbage: 3, Excess already present: 0, Garbage level: 93 -> Critical status	Next time: 13482
+DEBUG (5): time: 0:4:27.814453135 - Adding garbage: 5, Excess already present: 0, Garbage level: 14 -> Normal status	Next time: 17165
 DEBUG (4): TimerToCollect is over!
 ERROR (4): It has not been found an available bin near to me
 DEBUG (4): time: 0:4:29.389648457 - sendAlert() - Try to send a request to TRUCK
+DEBUG (4): Serial Packet sent...
 DEBUG (4): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 4 
  	 Destination: 0 
  	 AM Type: 6 
@@ -1177,9 +1213,9 @@ DEBUG (4): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (0): Message received at time 0:4:29.396347026 
+DEBUG (0): Message received at time 0:4:29.394241326 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 4 
 	 Destination: 0 
 	 AM Type: 6 
@@ -1190,11 +1226,12 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 1 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (4): Packet of type 1 sent... at time 0:4:29.396514872 
-DEBUG (4): time: 0:4:29.946289072 - Adding garbage: 4, Eccess already present: 4, Garbage level: 100-> Full status	Next time: 25739
+DEBUG (4): Packet of type 1 sent... at time 0:4:29.394409171 
+DEBUG (4): time: 0:4:29.946289072 - Adding garbage: 4, Excess already present: 4, Garbage level: 100-> Full status	Next time: 25739
 DEBUG (4): time: 0:4:29.946289082 - sendMove() - Try to send a request to all other BINS
+DEBUG (4): Serial Packet sent...
 DEBUG (4): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 4 
  	 Destination: 255 
  	 AM Type: 6 
@@ -1205,9 +1242,9 @@ DEBUG (4): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (1): Message received at time 0:4:29.950378414 
+DEBUG (1): Message received at time 0:4:29.954681367 
 DEBUG (1): MOVE message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 4 
 	 Destination: 255 
 	 AM Type: 6 
@@ -1219,10 +1256,11 @@ DEBUG (1): MOVE message >>> Pack
 
  
 DEBUG (1): Bin in critical status -> discard the message
-DEBUG (4): Packet of type 3 sent... at time 0:4:29.950546259 
+DEBUG (4): Packet of type 3 sent... at time 0:4:29.954849213 
 DEBUG (1): time: 0:4:30.631835957 - sendAlert() - Try to send a request to TRUCK
+DEBUG (1): Serial Packet sent...
 DEBUG (1): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
  	 Destination: 0 
  	 AM Type: 6 
@@ -1233,9 +1271,9 @@ DEBUG (1): >>>Pack
 		 coordY: 16 
 
  
-DEBUG (0): Message received at time 0:4:30.641693077 
+DEBUG (0): Message received at time 0:4:30.639541601 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
 	 Destination: 0 
 	 AM Type: 6 
@@ -1246,10 +1284,11 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 16 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (1): Packet of type 1 sent... at time 0:4:30.641860923 
+DEBUG (1): Packet of type 1 sent... at time 0:4:30.639709446 
 DEBUG (6): time: 0:4:30.653320332 - sendAlert() - Try to send a request to TRUCK
+DEBUG (6): Serial Packet sent...
 DEBUG (6): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
  	 Destination: 0 
  	 AM Type: 6 
@@ -1260,9 +1299,9 @@ DEBUG (6): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (0): Message received at time 0:4:30.662292448 
+DEBUG (0): Message received at time 0:4:30.655899052 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
 	 Destination: 0 
 	 AM Type: 6 
@@ -1273,10 +1312,11 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 1 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (6): Packet of type 1 sent... at time 0:4:30.662460293 
+DEBUG (6): Packet of type 1 sent... at time 0:4:30.656066898 
 DEBUG (7): time: 0:4:31.015625020 - sendAlert() - Try to send a request to TRUCK
+DEBUG (7): Serial Packet sent...
 DEBUG (7): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
  	 Destination: 0 
  	 AM Type: 6 
@@ -1287,9 +1327,9 @@ DEBUG (7): >>>Pack
 		 coordY: 17 
 
  
-DEBUG (0): Message received at time 0:4:31.017425546 
+DEBUG (0): Message received at time 0:4:31.023971528 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
 	 Destination: 0 
 	 AM Type: 6 
@@ -1300,15 +1340,16 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 17 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (7): Packet of type 1 sent... at time 0:4:31.017593392 
-DEBUG (3): time: 0:4:31.678710947 - Adding garbage: 8, Eccess already present: 0, Garbage level: 12 -> Normal status	Next time: 15925
+DEBUG (7): Packet of type 1 sent... at time 0:4:31.024139374 
+DEBUG (3): time: 0:4:31.678710947 - Adding garbage: 8, Excess already present: 0, Garbage level: 12 -> Normal status	Next time: 15925
 DEBUG (4): TimerToCollect is over!
 ERROR (4): It has not been found an available bin near to me
-DEBUG (2): time: 0:4:32.297851572 - Adding garbage: 3, Eccess already present: 0, Garbage level: 17 -> Normal status	Next time: 12850
-DEBUG (6): time: 0:4:33.099609385 - Adding garbage: 9, Eccess already present: 0, Garbage level: 100-> Full status	Next time: 3485
+DEBUG (2): time: 0:4:32.297851572 - Adding garbage: 3, Excess already present: 0, Garbage level: 17 -> Normal status	Next time: 12850
+DEBUG (6): time: 0:4:33.099609385 - Adding garbage: 9, Excess already present: 0, Garbage level: 100-> Full status	Next time: 3485
 DEBUG (6): time: 0:4:33.099609395 - sendMove() - Try to send a request to all other BINS
+DEBUG (6): Serial Packet sent...
 DEBUG (6): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
  	 Destination: 255 
  	 AM Type: 6 
@@ -1319,9 +1360,9 @@ DEBUG (6): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (1): Message received at time 0:4:33.103897089 
+DEBUG (1): Message received at time 0:4:33.108489958 
 DEBUG (1): MOVE message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
 	 Destination: 255 
 	 AM Type: 6 
@@ -1333,10 +1374,11 @@ DEBUG (1): MOVE message >>> Pack
 
  
 DEBUG (1): Bin in critical status -> discard the message
-DEBUG (6): Packet of type 3 sent... at time 0:4:33.104064935 
+DEBUG (6): Packet of type 3 sent... at time 0:4:33.108657804 
 DEBUG (4): time: 0:4:34.272460957 - sendAlert() - Try to send a request to TRUCK
+DEBUG (4): Serial Packet sent...
 DEBUG (4): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 4 
  	 Destination: 0 
  	 AM Type: 6 
@@ -1347,9 +1389,9 @@ DEBUG (4): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (0): Message received at time 0:4:34.281677212 
+DEBUG (0): Message received at time 0:4:34.275512697 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 4 
 	 Destination: 0 
 	 AM Type: 6 
@@ -1360,12 +1402,13 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 1 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (4): Packet of type 1 sent... at time 0:4:34.281845058 
+DEBUG (4): Packet of type 1 sent... at time 0:4:34.275680543 
 DEBUG (6): TimerToCollect is over!
 ERROR (6): It has not been found an available bin near to me
 DEBUG (1): time: 0:4:35.514648457 - sendAlert() - Try to send a request to TRUCK
+DEBUG (1): Serial Packet sent...
 DEBUG (1): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
  	 Destination: 0 
  	 AM Type: 6 
@@ -1376,9 +1419,9 @@ DEBUG (1): >>>Pack
 		 coordY: 16 
 
  
-DEBUG (0): Message received at time 0:4:35.517501834 
+DEBUG (0): Message received at time 0:4:35.518493649 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
 	 Destination: 0 
 	 AM Type: 6 
@@ -1389,10 +1432,11 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 16 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (1): Packet of type 1 sent... at time 0:4:35.517669680 
+DEBUG (1): Packet of type 1 sent... at time 0:4:35.518661495 
 DEBUG (6): time: 0:4:35.536132832 - sendAlert() - Try to send a request to TRUCK
+DEBUG (6): Serial Packet sent...
 DEBUG (6): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
  	 Destination: 0 
  	 AM Type: 6 
@@ -1403,9 +1447,9 @@ DEBUG (6): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (0): Message received at time 0:4:35.540313716 
+DEBUG (0): Message received at time 0:4:35.545379604 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
 	 Destination: 0 
 	 AM Type: 6 
@@ -1416,10 +1460,11 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 1 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (6): Packet of type 1 sent... at time 0:4:35.540481562 
+DEBUG (6): Packet of type 1 sent... at time 0:4:35.545547450 
 DEBUG (7): time: 0:4:35.898437520 - sendAlert() - Try to send a request to TRUCK
+DEBUG (7): Serial Packet sent...
 DEBUG (7): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
  	 Destination: 0 
  	 AM Type: 6 
@@ -1430,9 +1475,9 @@ DEBUG (7): >>>Pack
 		 coordY: 17 
 
  
-DEBUG (0): Message received at time 0:4:35.901046757 
+DEBUG (0): Message received at time 0:4:35.907516446 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
 	 Destination: 0 
 	 AM Type: 6 
@@ -1443,11 +1488,12 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 17 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (7): Packet of type 1 sent... at time 0:4:35.901214603 
-DEBUG (6): time: 0:4:36.502929697 - Adding garbage: 9, Eccess already present: 9, Garbage level: 100-> Full status	Next time: 1782
+DEBUG (7): Packet of type 1 sent... at time 0:4:35.907684292 
+DEBUG (6): time: 0:4:36.502929697 - Adding garbage: 9, Excess already present: 9, Garbage level: 100-> Full status	Next time: 1782
 DEBUG (6): time: 0:4:36.502929707 - sendMove() - Try to send a request to all other BINS
+DEBUG (6): Serial Packet sent...
 DEBUG (6): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
  	 Destination: 255 
  	 AM Type: 6 
@@ -1458,9 +1504,9 @@ DEBUG (6): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (1): Message received at time 0:4:36.509963968 
+DEBUG (1): Message received at time 0:4:36.512817345 
 DEBUG (1): MOVE message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
 	 Destination: 255 
 	 AM Type: 6 
@@ -1472,11 +1518,12 @@ DEBUG (1): MOVE message >>> Pack
 
  
 DEBUG (1): Bin in critical status -> discard the message
-DEBUG (6): Packet of type 3 sent... at time 0:4:36.510131813 
-DEBUG (6): time: 0:4:38.243164072 - Adding garbage: 4, Eccess already present: 13, Garbage level: 100-> Full status	Next time: 21021
+DEBUG (6): Packet of type 3 sent... at time 0:4:36.512985190 
+DEBUG (6): time: 0:4:38.243164072 - Adding garbage: 4, Excess already present: 13, Garbage level: 100-> Full status	Next time: 21021
 DEBUG (6): time: 0:4:38.243164082 - sendMove() - Try to send a request to all other BINS
+DEBUG (6): Serial Packet sent...
 DEBUG (6): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
  	 Destination: 255 
  	 AM Type: 6 
@@ -1487,9 +1534,9 @@ DEBUG (6): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (1): Message received at time 0:4:38.247573846 
+DEBUG (1): Message received at time 0:4:38.252441372 
 DEBUG (1): MOVE message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
 	 Destination: 255 
 	 AM Type: 6 
@@ -1501,10 +1548,11 @@ DEBUG (1): MOVE message >>> Pack
 
  
 DEBUG (1): Bin in critical status -> discard the message
-DEBUG (6): Packet of type 3 sent... at time 0:4:38.247741692 
+DEBUG (6): Packet of type 3 sent... at time 0:4:38.252609217 
 DEBUG (4): time: 0:4:39.155273457 - sendAlert() - Try to send a request to TRUCK
+DEBUG (4): Serial Packet sent...
 DEBUG (4): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 4 
  	 Destination: 0 
  	 AM Type: 6 
@@ -1515,9 +1563,9 @@ DEBUG (4): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (0): Message received at time 0:4:39.157318123 
+DEBUG (0): Message received at time 0:4:39.165878254 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 4 
 	 Destination: 0 
 	 AM Type: 6 
@@ -1528,12 +1576,13 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 1 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (4): Packet of type 1 sent... at time 0:4:39.157485969 
+DEBUG (4): Packet of type 1 sent... at time 0:4:39.166046099 
 DEBUG (6): TimerToCollect is over!
 ERROR (6): It has not been found an available bin near to me
 DEBUG (1): time: 0:4:40.397460957 - sendAlert() - Try to send a request to TRUCK
+DEBUG (1): Serial Packet sent...
 DEBUG (1): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
  	 Destination: 0 
  	 AM Type: 6 
@@ -1544,9 +1593,9 @@ DEBUG (1): >>>Pack
 		 coordY: 16 
 
  
-DEBUG (0): Message received at time 0:4:40.408050495 
+DEBUG (0): Message received at time 0:4:40.405883759 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
 	 Destination: 0 
 	 AM Type: 6 
@@ -1557,10 +1606,11 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 16 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (1): Packet of type 1 sent... at time 0:4:40.408218341 
+DEBUG (1): Packet of type 1 sent... at time 0:4:40.406051605 
 DEBUG (6): time: 0:4:40.418945332 - sendAlert() - Try to send a request to TRUCK
+DEBUG (6): Serial Packet sent...
 DEBUG (6): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
  	 Destination: 0 
  	 AM Type: 6 
@@ -1571,9 +1621,9 @@ DEBUG (6): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (0): Message received at time 0:4:40.428573572 
+DEBUG (0): Message received at time 0:4:40.421569828 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
 	 Destination: 0 
 	 AM Type: 6 
@@ -1584,11 +1634,12 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 1 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (6): Packet of type 1 sent... at time 0:4:40.428741417 
-DEBUG (7): time: 0:4:40.625000010 - Adding garbage: 8, Eccess already present: 1, Garbage level: 100-> Full status	Next time: 2830
+DEBUG (6): Packet of type 1 sent... at time 0:4:40.421737674 
+DEBUG (7): time: 0:4:40.625000010 - Adding garbage: 8, Excess already present: 1, Garbage level: 100-> Full status	Next time: 2830
 DEBUG (7): time: 0:4:40.625000020 - sendMove() - Try to send a request to all other BINS
+DEBUG (7): Serial Packet sent...
 DEBUG (7): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
  	 Destination: 255 
  	 AM Type: 6 
@@ -1599,9 +1650,9 @@ DEBUG (7): >>>Pack
 		 coordY: 17 
 
  
-DEBUG (1): Message received at time 0:4:40.629592888 
+DEBUG (1): Message received at time 0:4:40.629974356 
 DEBUG (1): MOVE message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
 	 Destination: 255 
 	 AM Type: 6 
@@ -1613,10 +1664,11 @@ DEBUG (1): MOVE message >>> Pack
 
  
 DEBUG (1): Bin in critical status -> discard the message
-DEBUG (7): Packet of type 3 sent... at time 0:4:40.629760734 
+DEBUG (7): Packet of type 3 sent... at time 0:4:40.630142201 
 DEBUG (7): time: 0:4:40.781250020 - sendAlert() - Try to send a request to TRUCK
+DEBUG (7): Serial Packet sent...
 DEBUG (7): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
  	 Destination: 0 
  	 AM Type: 6 
@@ -1627,9 +1679,9 @@ DEBUG (7): >>>Pack
 		 coordY: 17 
 
  
-DEBUG (0): Message received at time 0:4:40.787628156 
+DEBUG (0): Message received at time 0:4:40.790161100 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
 	 Destination: 0 
 	 AM Type: 6 
@@ -1640,11 +1692,12 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 17 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (7): Packet of type 1 sent... at time 0:4:40.787796002 
+DEBUG (7): Packet of type 1 sent... at time 0:4:40.790328946 
 DEBUG (0): TruckTravelTime fired -> Truck is arrived at coordinates: (7, 1)
-DEBUG (0): time: 0:4:41.110351582 - sendTruckMessage() - Try to send a response to BIN 4
+DEBUG (0): Serial Packet sent...
+DEBUG (0): time: 0:4:41.112304707 - sendTruckMessage() - Try to send a response to BIN 4
 DEBUG (0): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 0 
  	 Destination: 4 
  	 AM Type: 6 
@@ -1652,9 +1705,9 @@ DEBUG (0): >>>Pack
 		 msg_type: 2 
  
  
-DEBUG (4): Message received at time 0:4:41.114608759 
+DEBUG (4): Message received at time 0:4:41.115234377 
 DEBUG (4): TRUCK message>>>Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 0 
 	 Destination: 4 
 	 AM Type: 6 
@@ -1663,13 +1716,14 @@ DEBUG (4): TRUCK message>>>Pack
 
  
 DEBUG (4): Emptying bin...
-DEBUG (0): Packet of type 2 sent...and ack received at time 0:4:41.114776605 
+DEBUG (0): Packet of type 2 sent...and ack received at time 0:4:41.115402223 
 DEBUG (7): TimerToCollect is over!
 ERROR (7): It has not been found an available bin near to me
-DEBUG (7): time: 0:4:43.388671885 - Adding garbage: 9, Eccess already present: 9, Garbage level: 100-> Full status	Next time: 23314
+DEBUG (7): time: 0:4:43.388671885 - Adding garbage: 9, Excess already present: 9, Garbage level: 100-> Full status	Next time: 23314
 DEBUG (7): time: 0:4:43.388671895 - sendMove() - Try to send a request to all other BINS
+DEBUG (7): Serial Packet sent...
 DEBUG (7): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
  	 Destination: 255 
  	 AM Type: 6 
@@ -1680,9 +1734,9 @@ DEBUG (7): >>>Pack
 		 coordY: 17 
 
  
-DEBUG (1): Message received at time 0:4:43.397674528 
+DEBUG (1): Message received at time 0:4:43.390289317 
 DEBUG (1): MOVE message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
 	 Destination: 255 
 	 AM Type: 6 
@@ -1694,12 +1748,13 @@ DEBUG (1): MOVE message >>> Pack
 
  
 DEBUG (1): Bin in critical status -> discard the message
-DEBUG (7): Packet of type 3 sent... at time 0:4:43.397842373 
-DEBUG (5): time: 0:4:44.577148447 - Adding garbage: 8, Eccess already present: 0, Garbage level: 22 -> Normal status	Next time: 23380
-DEBUG (2): time: 0:4:44.846679697 - Adding garbage: 3, Eccess already present: 0, Garbage level: 20 -> Normal status	Next time: 1458
+DEBUG (7): Packet of type 3 sent... at time 0:4:43.390457162 
+DEBUG (5): time: 0:4:44.577148447 - Adding garbage: 8, Excess already present: 0, Garbage level: 22 -> Normal status	Next time: 23380
+DEBUG (2): time: 0:4:44.846679697 - Adding garbage: 3, Excess already present: 0, Garbage level: 20 -> Normal status	Next time: 1458
 DEBUG (1): time: 0:4:45.280273457 - sendAlert() - Try to send a request to TRUCK
+DEBUG (1): Serial Packet sent...
 DEBUG (1): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
  	 Destination: 0 
  	 AM Type: 6 
@@ -1710,9 +1765,9 @@ DEBUG (1): >>>Pack
 		 coordY: 16 
 
  
-DEBUG (0): Message received at time 0:4:45.289352384 
+DEBUG (0): Message received at time 0:4:45.283554078 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
 	 Destination: 0 
 	 AM Type: 6 
@@ -1723,10 +1778,11 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 16 
 
 DEBUG (0): The truck will be there in 18 s.
-DEBUG (1): Packet of type 1 sent... at time 0:4:45.289520229 
+DEBUG (1): Packet of type 1 sent... at time 0:4:45.283721923 
 DEBUG (6): time: 0:4:45.301757832 - sendAlert() - Try to send a request to TRUCK
+DEBUG (6): Serial Packet sent...
 DEBUG (6): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
  	 Destination: 0 
  	 AM Type: 6 
@@ -1737,9 +1793,9 @@ DEBUG (6): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (0): Message received at time 0:4:45.309127784 
+DEBUG (0): Message received at time 0:4:45.311218226 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
 	 Destination: 0 
 	 AM Type: 6 
@@ -1750,12 +1806,13 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 1 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (6): Packet of type 1 sent... at time 0:4:45.309295630 
+DEBUG (6): Packet of type 1 sent... at time 0:4:45.311386072 
 DEBUG (7): TimerToCollect is over!
 ERROR (7): It has not been found an available bin near to me
 DEBUG (7): time: 0:4:45.664062520 - sendAlert() - Try to send a request to TRUCK
+DEBUG (7): Serial Packet sent...
 DEBUG (7): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
  	 Destination: 0 
  	 AM Type: 6 
@@ -1766,9 +1823,9 @@ DEBUG (7): >>>Pack
 		 coordY: 17 
 
  
-DEBUG (0): Message received at time 0:4:45.672668426 
+DEBUG (0): Message received at time 0:4:45.671295143 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
 	 Destination: 0 
 	 AM Type: 6 
@@ -1779,12 +1836,13 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 17 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (7): Packet of type 1 sent... at time 0:4:45.672836272 
-DEBUG (2): time: 0:4:46.270507822 - Adding garbage: 1, Eccess already present: 0, Garbage level: 21 -> Normal status	Next time: 21515
-DEBUG (3): time: 0:4:47.230468760 - Adding garbage: 6, Eccess already present: 0, Garbage level: 18 -> Normal status	Next time: 26467
+DEBUG (7): Packet of type 1 sent... at time 0:4:45.671462989 
+DEBUG (2): time: 0:4:46.270507822 - Adding garbage: 1, Excess already present: 0, Garbage level: 21 -> Normal status	Next time: 21515
+DEBUG (3): time: 0:4:47.230468760 - Adding garbage: 6, Excess already present: 0, Garbage level: 18 -> Normal status	Next time: 26467
 DEBUG (1): time: 0:4:50.163085957 - sendAlert() - Try to send a request to TRUCK
+DEBUG (1): Serial Packet sent...
 DEBUG (1): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
  	 Destination: 0 
  	 AM Type: 6 
@@ -1795,9 +1853,9 @@ DEBUG (1): >>>Pack
 		 coordY: 16 
 
  
-DEBUG (0): Message received at time 0:4:50.164688121 
+DEBUG (0): Message received at time 0:4:50.165100105 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
 	 Destination: 0 
 	 AM Type: 6 
@@ -1808,10 +1866,11 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 16 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (1): Packet of type 1 sent... at time 0:4:50.164855966 
+DEBUG (1): Packet of type 1 sent... at time 0:4:50.165267951 
 DEBUG (6): time: 0:4:50.184570332 - sendAlert() - Try to send a request to TRUCK
+DEBUG (6): Serial Packet sent...
 DEBUG (6): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
  	 Destination: 0 
  	 AM Type: 6 
@@ -1822,9 +1881,9 @@ DEBUG (6): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (0): Message received at time 0:4:50.187530520 
+DEBUG (0): Message received at time 0:4:50.188766475 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
 	 Destination: 0 
 	 AM Type: 6 
@@ -1835,10 +1894,11 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 1 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (6): Packet of type 1 sent... at time 0:4:50.187698366 
+DEBUG (6): Packet of type 1 sent... at time 0:4:50.188934320 
 DEBUG (7): time: 0:4:50.546875020 - sendAlert() - Try to send a request to TRUCK
+DEBUG (7): Serial Packet sent...
 DEBUG (7): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
  	 Destination: 0 
  	 AM Type: 6 
@@ -1849,9 +1909,9 @@ DEBUG (7): >>>Pack
 		 coordY: 17 
 
  
-DEBUG (0): Message received at time 0:4:50.548797616 
+DEBUG (0): Message received at time 0:4:50.556350672 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
 	 Destination: 0 
 	 AM Type: 6 
@@ -1862,11 +1922,12 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 17 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (7): Packet of type 1 sent... at time 0:4:50.548965461 
-DEBUG (1): time: 0:4:51.927734385 - Adding garbage: 8, Eccess already present: 2, Garbage level: 100-> Full status	Next time: 28233
+DEBUG (7): Packet of type 1 sent... at time 0:4:50.556518518 
+DEBUG (1): time: 0:4:51.927734385 - Adding garbage: 8, Excess already present: 2, Garbage level: 100-> Full status	Next time: 28233
 DEBUG (1): time: 0:4:51.927734395 - sendMove() - Try to send a request to all other BINS
+DEBUG (1): Serial Packet sent...
 DEBUG (1): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
  	 Destination: 255 
  	 AM Type: 6 
@@ -1877,9 +1938,9 @@ DEBUG (1): >>>Pack
 		 coordY: 16 
 
  
-DEBUG (7): Message received at time 0:4:51.932220452 
+DEBUG (7): Message received at time 0:4:51.929107678 
 DEBUG (7): MOVE message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
 	 Destination: 255 
 	 AM Type: 6 
@@ -1891,9 +1952,9 @@ DEBUG (7): MOVE message >>> Pack
 
  
 DEBUG (7): Bin in critical status -> discard the message
-DEBUG (3): Message received at time 0:4:51.932220452 
+DEBUG (3): Message received at time 0:4:51.929107678 
 DEBUG (3): MOVE message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
 	 Destination: 255 
 	 AM Type: 6 
@@ -1905,9 +1966,9 @@ DEBUG (3): MOVE message >>> Pack
 
  
 DEBUG (3): Bin response will be there in 0.600000 s.
-DEBUG (2): Message received at time 0:4:51.932220452 
+DEBUG (2): Message received at time 0:4:51.929107678 
 DEBUG (2): MOVE message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
 	 Destination: 255 
 	 AM Type: 6 
@@ -1919,9 +1980,9 @@ DEBUG (2): MOVE message >>> Pack
 
  
 DEBUG (2): Bin response will be there in 0.950000 s.
-DEBUG (6): Message received at time 0:4:51.932220452 
+DEBUG (6): Message received at time 0:4:51.929107678 
 DEBUG (6): MOVE message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
 	 Destination: 255 
 	 AM Type: 6 
@@ -1933,9 +1994,9 @@ DEBUG (6): MOVE message >>> Pack
 
  
 DEBUG (6): Bin in critical status -> discard the message
-DEBUG (5): Message received at time 0:4:51.932220452 
+DEBUG (5): Message received at time 0:4:51.929107678 
 DEBUG (5): MOVE message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
 	 Destination: 255 
 	 AM Type: 6 
@@ -1947,9 +2008,9 @@ DEBUG (5): MOVE message >>> Pack
 
  
 DEBUG (5): Bin response will be there in 0.300000 s.
-DEBUG (4): Message received at time 0:4:51.932220452 
+DEBUG (4): Message received at time 0:4:51.929107678 
 DEBUG (4): MOVE message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
 	 Destination: 255 
 	 AM Type: 6 
@@ -1961,11 +2022,12 @@ DEBUG (4): MOVE message >>> Pack
 
  
 DEBUG (4): Bin response will be there in 0.900000 s.
-DEBUG (1): Packet of type 3 sent... at time 0:4:51.932388298 
+DEBUG (1): Packet of type 3 sent... at time 0:4:51.929275523 
 DEBUG (5): BinTravelTime fired
-DEBUG (5): time: 0:4:52.224609395 - sendMoveResponse() - Try to send a response to BIN 1
+DEBUG (5): time: 0:4:52.221679707 - sendMoveResponse() - Try to send a response to BIN 1
+DEBUG (5): Serial Packet sent...
 DEBUG (5): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 5 
  	 Destination: 1 
  	 AM Type: 6 
@@ -1976,9 +2038,9 @@ DEBUG (5): >>>Pack
 		 coordY: 16 
 
  
-DEBUG (1): Message received at time 0:4:52.225891125 
+DEBUG (1): Message received at time 0:4:52.229217505 
 DEBUG (1): RESP_MOVE message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 5 
 	 Destination: 1 
 	 AM Type: 6 
@@ -1990,11 +2052,12 @@ DEBUG (1): RESP_MOVE message >>> Pack
 
  
 DEBUG (1): Arrived first response. New closestBin: 5, new smallerDistance: 6
-DEBUG (5): Packet of type 4 sent... at time 0:4:52.226058971 
+DEBUG (5): Packet of type 4 sent... at time 0:4:52.229385351 
 DEBUG (3): BinTravelTime fired
-DEBUG (3): time: 0:4:52.517578145 - sendMoveResponse() - Try to send a response to BIN 1
+DEBUG (3): time: 0:4:52.514648457 - sendMoveResponse() - Try to send a response to BIN 1
+DEBUG (3): Serial Packet sent...
 DEBUG (3): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 3 
  	 Destination: 1 
  	 AM Type: 6 
@@ -2005,9 +2068,9 @@ DEBUG (3): >>>Pack
 		 coordY: 16 
 
  
-DEBUG (1): Message received at time 0:4:52.527954061 
+DEBUG (1): Message received at time 0:4:52.515884412 
 DEBUG (1): RESP_MOVE message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 3 
 	 Destination: 1 
 	 AM Type: 6 
@@ -2019,11 +2082,12 @@ DEBUG (1): RESP_MOVE message >>> Pack
 
  
 DEBUG (1): Arrived response. closestBin: 5, smallerDistance: 6 and nothing changed
-DEBUG (3): Packet of type 4 sent... at time 0:4:52.528121906 
+DEBUG (3): Packet of type 4 sent... at time 0:4:52.516052257 
 DEBUG (4): BinTravelTime fired
-DEBUG (4): time: 0:4:52.810546895 - sendMoveResponse() - Try to send a response to BIN 1
+DEBUG (4): time: 0:4:52.807617207 - sendMoveResponse() - Try to send a response to BIN 1
+DEBUG (4): Serial Packet sent...
 DEBUG (4): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 4 
  	 Destination: 1 
  	 AM Type: 6 
@@ -2034,9 +2098,9 @@ DEBUG (4): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (1): Message received at time 0:4:52.816238390 
+DEBUG (1): Message received at time 0:4:52.810592654 
 DEBUG (1): RESP_MOVE message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 4 
 	 Destination: 1 
 	 AM Type: 6 
@@ -2048,11 +2112,12 @@ DEBUG (1): RESP_MOVE message >>> Pack
 
  
 DEBUG (1): Arrived response. closestBin: 5, smallerDistance: 6 and nothing changed
-DEBUG (4): Packet of type 4 sent... at time 0:4:52.816406235 
+DEBUG (4): Packet of type 4 sent... at time 0:4:52.810760499 
 DEBUG (2): BinTravelTime fired
-DEBUG (2): time: 0:4:52.859375020 - sendMoveResponse() - Try to send a response to BIN 1
+DEBUG (2): time: 0:4:52.856445332 - sendMoveResponse() - Try to send a response to BIN 1
+DEBUG (2): Serial Packet sent...
 DEBUG (2): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 2 
  	 Destination: 1 
  	 AM Type: 6 
@@ -2063,9 +2128,9 @@ DEBUG (2): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (1): Message received at time 0:4:52.868026702 
+DEBUG (1): Message received at time 0:4:52.866332970 
 DEBUG (1): RESP_MOVE message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 2 
 	 Destination: 1 
 	 AM Type: 6 
@@ -2077,35 +2142,37 @@ DEBUG (1): RESP_MOVE message >>> Pack
 
  
 DEBUG (1): Arrived response. closestBin: 5, smallerDistance: 6 and nothing changed
-DEBUG (2): Packet of type 4 sent... at time 0:4:52.868194548 
+DEBUG (2): Packet of type 4 sent... at time 0:4:52.866500815 
 DEBUG (1): TimerToCollect is over!
-DEBUG (1): time: 0:4:53.884765645 - sendTrashMove() - Move trash of 2 to 5 
+DEBUG (1): time: 0:4:53.881835957 - sendTrashMove() - Move trash of 2 to 5 
+DEBUG (1): Serial Packet sent...
 DEBUG (1): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
  	 Destination: 5 
  	 AM Type: 6 
  		 Payload 
 		 msg_type: 5 
- 		 trashInEccess: 2 
+ 		 trashInExcess: 2 
 
  
-DEBUG (5): Message received at time 0:4:53.890014637 
+DEBUG (5): Message received at time 0:4:53.892730669 
 DEBUG (5): TRASH_MOVE message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
 	 Destination: 5 
 	 AM Type: 6 
 		 Payload 
 		 msg_type: 5 
-		 trashInEccess: 2 
+		 trashInExcess: 2 
 
  
 DEBUG (5): Arrived trash - Uploaded garbage in bin: 24
-DEBUG (1): Packet of type 5 sent...and ack received at time 0:4:53.890182483 
+DEBUG (1): Packet of type 5 sent...and ack received at time 0:4:53.892898515 
 DEBUG (1): time: 0:4:55.045898457 - sendAlert() - Try to send a request to TRUCK
+DEBUG (1): Serial Packet sent...
 DEBUG (1): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
  	 Destination: 0 
  	 AM Type: 6 
@@ -2116,9 +2183,9 @@ DEBUG (1): >>>Pack
 		 coordY: 16 
 
  
-DEBUG (0): Message received at time 0:4:55.055831871 
+DEBUG (0): Message received at time 0:4:55.047866829 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
 	 Destination: 0 
 	 AM Type: 6 
@@ -2129,10 +2196,11 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 16 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (1): Packet of type 1 sent... at time 0:4:55.055999716 
+DEBUG (1): Packet of type 1 sent... at time 0:4:55.048034675 
 DEBUG (6): time: 0:4:55.067382832 - sendAlert() - Try to send a request to TRUCK
+DEBUG (6): Serial Packet sent...
 DEBUG (6): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
  	 Destination: 0 
  	 AM Type: 6 
@@ -2143,9 +2211,9 @@ DEBUG (6): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (0): Message received at time 0:4:55.077621420 
+DEBUG (0): Message received at time 0:4:55.074691749 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
 	 Destination: 0 
 	 AM Type: 6 
@@ -2156,11 +2224,12 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 1 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (6): Packet of type 1 sent... at time 0:4:55.077789265 
-DEBUG (4): time: 0:4:55.082031260 - Adding garbage: 6, Eccess already present: 0, Garbage level: 6 -> Normal status	Next time: 28037
+DEBUG (6): Packet of type 1 sent... at time 0:4:55.074859595 
+DEBUG (4): time: 0:4:55.082031260 - Adding garbage: 6, Excess already present: 0, Garbage level: 6 -> Normal status	Next time: 28037
 DEBUG (7): time: 0:4:55.429687520 - sendAlert() - Try to send a request to TRUCK
+DEBUG (7): Serial Packet sent...
 DEBUG (7): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
  	 Destination: 0 
  	 AM Type: 6 
@@ -2171,9 +2240,9 @@ DEBUG (7): >>>Pack
 		 coordY: 17 
 
  
-DEBUG (0): Message received at time 0:4:55.433242797 
+DEBUG (0): Message received at time 0:4:55.436431865 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
 	 Destination: 0 
 	 AM Type: 6 
@@ -2184,11 +2253,12 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 17 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (7): Packet of type 1 sent... at time 0:4:55.433410642 
-DEBUG (6): time: 0:4:58.771484385 - Adding garbage: 8, Eccess already present: 8, Garbage level: 100-> Full status	Next time: 27023
+DEBUG (7): Packet of type 1 sent... at time 0:4:55.436599711 
+DEBUG (6): time: 0:4:58.771484385 - Adding garbage: 8, Excess already present: 8, Garbage level: 100-> Full status	Next time: 27023
 DEBUG (6): time: 0:4:58.771484395 - sendMove() - Try to send a request to all other BINS
+DEBUG (6): Serial Packet sent...
 DEBUG (6): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
  	 Destination: 255 
  	 AM Type: 6 
@@ -2199,9 +2269,9 @@ DEBUG (6): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (1): Message received at time 0:4:58.780593838 
+DEBUG (1): Message received at time 0:4:58.777801496 
 DEBUG (1): MOVE message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
 	 Destination: 255 
 	 AM Type: 6 
@@ -2213,10 +2283,11 @@ DEBUG (1): MOVE message >>> Pack
 
  
 DEBUG (1): Bin in critical status -> discard the message
-DEBUG (6): Packet of type 3 sent... at time 0:4:58.780761684 
+DEBUG (6): Packet of type 3 sent... at time 0:4:58.777969342 
 DEBUG (1): time: 0:4:59.928710957 - sendAlert() - Try to send a request to TRUCK
+DEBUG (1): Serial Packet sent...
 DEBUG (1): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
  	 Destination: 0 
  	 AM Type: 6 
@@ -2227,9 +2298,9 @@ DEBUG (1): >>>Pack
 		 coordY: 16 
 
  
-DEBUG (0): Message received at time 0:4:59.939605669 
+DEBUG (0): Message received at time 0:4:59.934753402 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
 	 Destination: 0 
 	 AM Type: 6 
@@ -2240,10 +2311,11 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 16 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (1): Packet of type 1 sent... at time 0:4:59.939773515 
+DEBUG (1): Packet of type 1 sent... at time 0:4:59.934921248 
 DEBUG (6): time: 0:4:59.950195332 - sendAlert() - Try to send a request to TRUCK
+DEBUG (6): Serial Packet sent...
 DEBUG (6): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
  	 Destination: 0 
  	 AM Type: 6 
@@ -2254,9 +2326,9 @@ DEBUG (6): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (0): Message received at time 0:4:59.953567505 
+DEBUG (0): Message received at time 0:4:59.956771832 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
 	 Destination: 0 
 	 AM Type: 6 
@@ -2267,10 +2339,11 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 1 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (6): Packet of type 1 sent... at time 0:4:59.953735350 
+DEBUG (6): Packet of type 1 sent... at time 0:4:59.956939677 
 DEBUG (7): time: 0:5:0.312500020 - sendAlert() - Try to send a request to TRUCK
+DEBUG (7): Serial Packet sent...
 DEBUG (7): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
  	 Destination: 0 
  	 AM Type: 6 
@@ -2281,9 +2354,9 @@ DEBUG (7): >>>Pack
 		 coordY: 17 
 
  
-DEBUG (0): Message received at time 0:5:0.317428580 
+DEBUG (0): Message received at time 0:5:0.314941412 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
 	 Destination: 0 
 	 AM Type: 6 
@@ -2294,13 +2367,14 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 17 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (7): Packet of type 1 sent... at time 0:5:0.317596425 
+DEBUG (7): Packet of type 1 sent... at time 0:5:0.315109257 
 DEBUG (6): TimerToCollect is over!
 ERROR (6): It has not been found an available bin near to me
 DEBUG (0): TruckTravelTime fired -> Truck is arrived at coordinates: (18, 16)
-DEBUG (0): time: 0:5:2.867187520 - sendTruckMessage() - Try to send a response to BIN 1
+DEBUG (0): Serial Packet sent...
+DEBUG (0): time: 0:5:2.861328145 - sendTruckMessage() - Try to send a response to BIN 1
 DEBUG (0): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 0 
  	 Destination: 1 
  	 AM Type: 6 
@@ -2308,9 +2382,9 @@ DEBUG (0): >>>Pack
 		 msg_type: 2 
  
  
-DEBUG (1): Message received at time 0:5:2.869903568 
+DEBUG (1): Message received at time 0:5:2.867904644 
 DEBUG (1): TRUCK message>>>Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 0 
 	 Destination: 1 
 	 AM Type: 6 
@@ -2319,10 +2393,11 @@ DEBUG (1): TRUCK message>>>Pack
 
  
 DEBUG (1): Emptying bin...
-DEBUG (0): Packet of type 2 sent...and ack received at time 0:5:2.870071414 
+DEBUG (0): Packet of type 2 sent...and ack received at time 0:5:2.868072490 
 DEBUG (6): time: 0:5:4.833007832 - sendAlert() - Try to send a request to TRUCK
+DEBUG (6): Serial Packet sent...
 DEBUG (6): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
  	 Destination: 0 
  	 AM Type: 6 
@@ -2333,9 +2408,9 @@ DEBUG (6): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (0): Message received at time 0:5:4.843536335 
+DEBUG (0): Message received at time 0:5:4.839340193 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
 	 Destination: 0 
 	 AM Type: 6 
@@ -2346,10 +2421,11 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 1 
 
 DEBUG (0): The truck will be there in 16 s.
-DEBUG (6): Packet of type 1 sent... at time 0:5:4.843704181 
+DEBUG (6): Packet of type 1 sent... at time 0:5:4.839508038 
 DEBUG (7): time: 0:5:5.195312520 - sendAlert() - Try to send a request to TRUCK
+DEBUG (7): Serial Packet sent...
 DEBUG (7): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
  	 Destination: 0 
  	 AM Type: 6 
@@ -2360,9 +2436,9 @@ DEBUG (7): >>>Pack
 		 coordY: 17 
 
  
-DEBUG (0): Message received at time 0:5:5.203109715 
+DEBUG (0): Message received at time 0:5:5.197494514 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
 	 Destination: 0 
 	 AM Type: 6 
@@ -2373,11 +2449,12 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 17 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (7): Packet of type 1 sent... at time 0:5:5.203277561 
-DEBUG (7): time: 0:5:6.156250010 - Adding garbage: 5, Eccess already present: 5, Garbage level: 100-> Full status	Next time: 15399
+DEBUG (7): Packet of type 1 sent... at time 0:5:5.197662359 
+DEBUG (7): time: 0:5:6.156250010 - Adding garbage: 5, Excess already present: 5, Garbage level: 100-> Full status	Next time: 15399
 DEBUG (7): time: 0:5:6.156250020 - sendMove() - Try to send a request to all other BINS
+DEBUG (7): Serial Packet sent...
 DEBUG (7): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
  	 Destination: 255 
  	 AM Type: 6 
@@ -2388,9 +2465,9 @@ DEBUG (7): >>>Pack
 		 coordY: 17 
 
  
-DEBUG (1): Message received at time 0:5:6.163803076 
+DEBUG (1): Message received at time 0:5:6.166824299 
 DEBUG (1): MOVE message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
 	 Destination: 255 
 	 AM Type: 6 
@@ -2402,11 +2479,12 @@ DEBUG (1): MOVE message >>> Pack
 
  
 DEBUG (1): Bin response will be there in 0.400000 s.
-DEBUG (7): Packet of type 3 sent... at time 0:5:6.163970922 
+DEBUG (7): Packet of type 3 sent... at time 0:5:6.166992144 
 DEBUG (1): BinTravelTime fired
-DEBUG (1): time: 0:5:6.553710957 - sendMoveResponse() - Try to send a response to BIN 7
+DEBUG (1): time: 0:5:6.556640645 - sendMoveResponse() - Try to send a response to BIN 7
+DEBUG (1): Serial Packet sent...
 DEBUG (1): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
  	 Destination: 7 
  	 AM Type: 6 
@@ -2417,9 +2495,9 @@ DEBUG (1): >>>Pack
 		 coordY: 16 
 
  
-DEBUG (7): Message received at time 0:5:6.560119611 
+DEBUG (7): Message received at time 0:5:6.564956636 
 DEBUG (7): RESP_MOVE message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
 	 Destination: 7 
 	 AM Type: 6 
@@ -2431,37 +2509,39 @@ DEBUG (7): RESP_MOVE message >>> Pack
 
  
 DEBUG (7): Arrived first response. New closestBin: 1, new smallerDistance: 8
-DEBUG (1): Packet of type 4 sent... at time 0:5:6.560287457 
-DEBUG (2): time: 0:5:7.281250010 - Adding garbage: 4, Eccess already present: 0, Garbage level: 25 -> Normal status	Next time: 17355
-DEBUG (5): time: 0:5:7.409179697 - Adding garbage: 2, Eccess already present: 0, Garbage level: 26 -> Normal status	Next time: 13030
+DEBUG (1): Packet of type 4 sent... at time 0:5:6.565124482 
+DEBUG (2): time: 0:5:7.281250010 - Adding garbage: 4, Excess already present: 0, Garbage level: 25 -> Normal status	Next time: 17355
+DEBUG (5): time: 0:5:7.409179697 - Adding garbage: 2, Excess already present: 0, Garbage level: 26 -> Normal status	Next time: 13030
 DEBUG (7): TimerToCollect is over!
-DEBUG (7): time: 0:5:8.116210957 - sendTrashMove() - Move trash of 5 to 1 
+DEBUG (7): time: 0:5:8.119140645 - sendTrashMove() - Move trash of 5 to 1 
+DEBUG (7): Serial Packet sent...
 DEBUG (7): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
  	 Destination: 1 
  	 AM Type: 6 
  		 Payload 
 		 msg_type: 5 
- 		 trashInEccess: 5 
+ 		 trashInExcess: 5 
 
  
-DEBUG (1): Message received at time 0:5:8.120193478 
+DEBUG (1): Message received at time 0:5:8.126083353 
 DEBUG (1): TRASH_MOVE message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
 	 Destination: 1 
 	 AM Type: 6 
 		 Payload 
 		 msg_type: 5 
-		 trashInEccess: 5 
+		 trashInExcess: 5 
 
  
 DEBUG (1): Arrived trash - Uploaded garbage in bin: 5
-DEBUG (7): Packet of type 5 sent...and ack received at time 0:5:8.120361323 
+DEBUG (7): Packet of type 5 sent...and ack received at time 0:5:8.126251199 
 DEBUG (6): time: 0:5:9.715820332 - sendAlert() - Try to send a request to TRUCK
+DEBUG (6): Serial Packet sent...
 DEBUG (6): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
  	 Destination: 0 
  	 AM Type: 6 
@@ -2472,9 +2552,9 @@ DEBUG (6): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (0): Message received at time 0:5:9.724014254 
+DEBUG (0): Message received at time 0:5:9.722869851 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
 	 Destination: 0 
 	 AM Type: 6 
@@ -2485,10 +2565,11 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 1 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (6): Packet of type 1 sent... at time 0:5:9.724182100 
+DEBUG (6): Packet of type 1 sent... at time 0:5:9.723037697 
 DEBUG (7): time: 0:5:10.078125020 - sendAlert() - Try to send a request to TRUCK
+DEBUG (7): Serial Packet sent...
 DEBUG (7): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
  	 Destination: 0 
  	 AM Type: 6 
@@ -2499,9 +2580,9 @@ DEBUG (7): >>>Pack
 		 coordY: 17 
 
  
-DEBUG (0): Message received at time 0:5:10.087646448 
+DEBUG (0): Message received at time 0:5:10.085342385 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
 	 Destination: 0 
 	 AM Type: 6 
@@ -2512,11 +2593,12 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 17 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (7): Packet of type 1 sent... at time 0:5:10.087814294 
-DEBUG (3): time: 0:5:13.077148447 - Adding garbage: 8, Eccess already present: 0, Garbage level: 26 -> Normal status	Next time: 28099
+DEBUG (7): Packet of type 1 sent... at time 0:5:10.085510230 
+DEBUG (3): time: 0:5:13.077148447 - Adding garbage: 8, Excess already present: 0, Garbage level: 26 -> Normal status	Next time: 28099
 DEBUG (6): time: 0:5:14.598632832 - sendAlert() - Try to send a request to TRUCK
+DEBUG (6): Serial Packet sent...
 DEBUG (6): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
  	 Destination: 0 
  	 AM Type: 6 
@@ -2527,9 +2609,9 @@ DEBUG (6): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (0): Message received at time 0:5:14.608764609 
+DEBUG (0): Message received at time 0:5:14.605804421 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
 	 Destination: 0 
 	 AM Type: 6 
@@ -2540,10 +2622,11 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 1 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (6): Packet of type 1 sent... at time 0:5:14.608932455 
+DEBUG (6): Packet of type 1 sent... at time 0:5:14.605972267 
 DEBUG (7): time: 0:5:14.960937520 - sendAlert() - Try to send a request to TRUCK
+DEBUG (7): Serial Packet sent...
 DEBUG (7): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
  	 Destination: 0 
  	 AM Type: 6 
@@ -2554,9 +2637,9 @@ DEBUG (7): >>>Pack
 		 coordY: 17 
 
  
-DEBUG (0): Message received at time 0:5:14.965805045 
+DEBUG (0): Message received at time 0:5:14.962905892 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
 	 Destination: 0 
 	 AM Type: 6 
@@ -2567,10 +2650,11 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 17 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (7): Packet of type 1 sent... at time 0:5:14.965972891 
+DEBUG (7): Packet of type 1 sent... at time 0:5:14.963073738 
 DEBUG (6): time: 0:5:19.481445332 - sendAlert() - Try to send a request to TRUCK
+DEBUG (6): Serial Packet sent...
 DEBUG (6): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
  	 Destination: 0 
  	 AM Type: 6 
@@ -2581,9 +2665,9 @@ DEBUG (6): >>>Pack
 		 coordY: 1 
 
  
-DEBUG (0): Message received at time 0:5:19.483169565 
+DEBUG (0): Message received at time 0:5:19.482772839 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 6 
 	 Destination: 0 
 	 AM Type: 6 
@@ -2594,11 +2678,12 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 1 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (6): Packet of type 1 sent... at time 0:5:19.483337411 
-DEBUG (1): time: 0:5:19.499023447 - Adding garbage: 8, Eccess already present: 0, Garbage level: 13 -> Normal status	Next time: 3817
+DEBUG (6): Packet of type 1 sent... at time 0:5:19.482940685 
+DEBUG (1): time: 0:5:19.499023447 - Adding garbage: 8, Excess already present: 0, Garbage level: 13 -> Normal status	Next time: 3817
 DEBUG (7): time: 0:5:19.843750020 - sendAlert() - Try to send a request to TRUCK
+DEBUG (7): Serial Packet sent...
 DEBUG (7): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
  	 Destination: 0 
  	 AM Type: 6 
@@ -2609,9 +2694,9 @@ DEBUG (7): >>>Pack
 		 coordY: 17 
 
  
-DEBUG (0): Message received at time 0:5:19.849441515 
+DEBUG (0): Message received at time 0:5:19.851272559 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
 	 Destination: 0 
 	 AM Type: 6 
@@ -2622,12 +2707,13 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 17 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (7): Packet of type 1 sent... at time 0:5:19.849609360 
-DEBUG (5): time: 0:5:20.133789072 - Adding garbage: 8, Eccess already present: 0, Garbage level: 34 -> Normal status	Next time: 4711
+DEBUG (7): Packet of type 1 sent... at time 0:5:19.851440404 
+DEBUG (5): time: 0:5:20.133789072 - Adding garbage: 8, Excess already present: 0, Garbage level: 34 -> Normal status	Next time: 4711
 DEBUG (0): TruckTravelTime fired -> Truck is arrived at coordinates: (25, 1)
-DEBUG (0): time: 0:5:20.467773457 - sendTruckMessage() - Try to send a response to BIN 6
+DEBUG (0): Serial Packet sent...
+DEBUG (0): time: 0:5:20.463867207 - sendTruckMessage() - Try to send a response to BIN 6
 DEBUG (0): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 0 
  	 Destination: 6 
  	 AM Type: 6 
@@ -2635,9 +2721,9 @@ DEBUG (0): >>>Pack
 		 msg_type: 2 
  
  
-DEBUG (6): Message received at time 0:5:20.471633908 
+DEBUG (6): Message received at time 0:5:20.474349934 
 DEBUG (6): TRUCK message>>>Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 0 
 	 Destination: 6 
 	 AM Type: 6 
@@ -2646,11 +2732,12 @@ DEBUG (6): TRUCK message>>>Pack
 
  
 DEBUG (6): Emptying bin...
-DEBUG (0): Packet of type 2 sent...and ack received at time 0:5:20.471801754 
-DEBUG (7): time: 0:5:21.194335947 - Adding garbage: 9, Eccess already present: 9, Garbage level: 100-> Full status	Next time: 18662
+DEBUG (0): Packet of type 2 sent...and ack received at time 0:5:20.474517780 
+DEBUG (7): time: 0:5:21.194335947 - Adding garbage: 9, Excess already present: 9, Garbage level: 100-> Full status	Next time: 18662
 DEBUG (7): time: 0:5:21.194335957 - sendMove() - Try to send a request to all other BINS
+DEBUG (7): Serial Packet sent...
 DEBUG (7): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
  	 Destination: 255 
  	 AM Type: 6 
@@ -2661,9 +2748,9 @@ DEBUG (7): >>>Pack
 		 coordY: 17 
 
  
-DEBUG (1): Message received at time 0:5:21.199035637 
+DEBUG (1): Message received at time 0:5:21.197418214 
 DEBUG (1): MOVE message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
 	 Destination: 255 
 	 AM Type: 6 
@@ -2675,11 +2762,12 @@ DEBUG (1): MOVE message >>> Pack
 
  
 DEBUG (1): Bin response will be there in 0.400000 s.
-DEBUG (7): Packet of type 3 sent... at time 0:5:21.199203482 
+DEBUG (7): Packet of type 3 sent... at time 0:5:21.197586060 
 DEBUG (1): BinTravelTime fired
-DEBUG (1): time: 0:5:21.588867207 - sendMoveResponse() - Try to send a response to BIN 7
+DEBUG (1): time: 0:5:21.587890645 - sendMoveResponse() - Try to send a response to BIN 7
+DEBUG (1): Serial Packet sent...
 DEBUG (1): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
  	 Destination: 7 
  	 AM Type: 6 
@@ -2690,9 +2778,9 @@ DEBUG (1): >>>Pack
 		 coordY: 16 
 
  
-DEBUG (7): Message received at time 0:5:21.590927132 
+DEBUG (7): Message received at time 0:5:21.592559807 
 DEBUG (7): RESP_MOVE message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
 	 Destination: 7 
 	 AM Type: 6 
@@ -2704,38 +2792,40 @@ DEBUG (7): RESP_MOVE message >>> Pack
 
  
 DEBUG (7): Arrived first response. New closestBin: 1, new smallerDistance: 8
-DEBUG (1): Packet of type 4 sent... at time 0:5:21.591094977 
-DEBUG (4): time: 0:5:22.461914072 - Adding garbage: 4, Eccess already present: 0, Garbage level: 10 -> Normal status	Next time: 28259
+DEBUG (1): Packet of type 4 sent... at time 0:5:21.592727652 
+DEBUG (4): time: 0:5:22.461914072 - Adding garbage: 4, Excess already present: 0, Garbage level: 10 -> Normal status	Next time: 28259
 DEBUG (7): TimerToCollect is over!
-DEBUG (7): time: 0:5:23.151367207 - sendTrashMove() - Move trash of 9 to 1 
+DEBUG (7): time: 0:5:23.150390645 - sendTrashMove() - Move trash of 9 to 1 
+DEBUG (7): Serial Packet sent...
 DEBUG (7): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
  	 Destination: 1 
  	 AM Type: 6 
  		 Payload 
 		 msg_type: 5 
- 		 trashInEccess: 9 
+ 		 trashInExcess: 9 
 
  
-DEBUG (1): Message received at time 0:5:23.161361656 
+DEBUG (1): Message received at time 0:5:23.158035253 
 DEBUG (1): TRASH_MOVE message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
 	 Destination: 1 
 	 AM Type: 6 
 		 Payload 
 		 msg_type: 5 
-		 trashInEccess: 9 
+		 trashInExcess: 9 
 
  
 DEBUG (1): Arrived trash - Uploaded garbage in bin: 22
-DEBUG (7): Packet of type 5 sent...and ack received at time 0:5:23.161529501 
-DEBUG (1): time: 0:5:23.226562510 - Adding garbage: 3, Eccess already present: 0, Garbage level: 25 -> Normal status	Next time: 7522
-DEBUG (2): time: 0:5:24.229492197 - Adding garbage: 2, Eccess already present: 0, Garbage level: 27 -> Normal status	Next time: 7672
+DEBUG (7): Packet of type 5 sent...and ack received at time 0:5:23.158203099 
+DEBUG (1): time: 0:5:23.226562510 - Adding garbage: 3, Excess already present: 0, Garbage level: 25 -> Normal status	Next time: 7522
+DEBUG (2): time: 0:5:24.229492197 - Adding garbage: 2, Excess already present: 0, Garbage level: 27 -> Normal status	Next time: 7672
 DEBUG (7): time: 0:5:24.726562520 - sendAlert() - Try to send a request to TRUCK
+DEBUG (7): Serial Packet sent...
 DEBUG (7): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
  	 Destination: 0 
  	 AM Type: 6 
@@ -2746,9 +2836,10 @@ DEBUG (7): >>>Pack
 		 coordY: 17 
 
  
-DEBUG (0): Message received at time 0:5:24.730499264 
+DEBUG (5): time: 0:5:24.734375010 - Adding garbage: 5, Excess already present: 0, Garbage level: 39 -> Normal status	Next time: 6808
+DEBUG (0): Message received at time 0:5:24.736877401 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
 	 Destination: 0 
 	 AM Type: 6 
@@ -2759,12 +2850,12 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 17 
 
 DEBUG (0): The truck will be there in 16 s.
-DEBUG (7): Packet of type 1 sent... at time 0:5:24.730667110 
-DEBUG (5): time: 0:5:24.734375010 - Adding garbage: 5, Eccess already present: 0, Garbage level: 39 -> Normal status	Next time: 6808
-DEBUG (6): time: 0:5:25.161132822 - Adding garbage: 5, Eccess already present: 0, Garbage level: 5 -> Normal status	Next time: 10163
+DEBUG (7): Packet of type 1 sent... at time 0:5:24.737045246 
+DEBUG (6): time: 0:5:25.161132822 - Adding garbage: 5, Excess already present: 0, Garbage level: 5 -> Normal status	Next time: 10163
 DEBUG (7): time: 0:5:29.609375020 - sendAlert() - Try to send a request to TRUCK
+DEBUG (7): Serial Packet sent...
 DEBUG (7): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
  	 Destination: 0 
  	 AM Type: 6 
@@ -2775,9 +2866,9 @@ DEBUG (7): >>>Pack
 		 coordY: 17 
 
  
-DEBUG (0): Message received at time 0:5:29.615447982 
+DEBUG (0): Message received at time 0:5:29.617752046 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
 	 Destination: 0 
 	 AM Type: 6 
@@ -2788,14 +2879,15 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 17 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (7): Packet of type 1 sent... at time 0:5:29.615615828 
-DEBUG (1): time: 0:5:30.572265635 - Adding garbage: 9, Eccess already present: 0, Garbage level: 34 -> Normal status	Next time: 11903
-DEBUG (5): time: 0:5:31.382812510 - Adding garbage: 3, Eccess already present: 0, Garbage level: 42 -> Normal status	Next time: 1120
-DEBUG (2): time: 0:5:31.721679697 - Adding garbage: 6, Eccess already present: 0, Garbage level: 33 -> Normal status	Next time: 4828
-DEBUG (5): time: 0:5:32.476562510 - Adding garbage: 4, Eccess already present: 0, Garbage level: 46 -> Normal status	Next time: 29937
+DEBUG (7): Packet of type 1 sent... at time 0:5:29.617919892 
+DEBUG (1): time: 0:5:30.572265635 - Adding garbage: 9, Excess already present: 0, Garbage level: 34 -> Normal status	Next time: 11903
+DEBUG (5): time: 0:5:31.382812510 - Adding garbage: 3, Excess already present: 0, Garbage level: 42 -> Normal status	Next time: 1120
+DEBUG (2): time: 0:5:31.721679697 - Adding garbage: 6, Excess already present: 0, Garbage level: 33 -> Normal status	Next time: 4828
+DEBUG (5): time: 0:5:32.476562510 - Adding garbage: 4, Excess already present: 0, Garbage level: 46 -> Normal status	Next time: 29937
 DEBUG (7): time: 0:5:34.492187520 - sendAlert() - Try to send a request to TRUCK
+DEBUG (7): Serial Packet sent...
 DEBUG (7): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
  	 Destination: 0 
  	 AM Type: 6 
@@ -2806,9 +2898,9 @@ DEBUG (7): >>>Pack
 		 coordY: 17 
 
  
-DEBUG (0): Message received at time 0:5:34.499801611 
+DEBUG (0): Message received at time 0:5:34.503372147 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
 	 Destination: 0 
 	 AM Type: 6 
@@ -2819,12 +2911,13 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 17 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (7): Packet of type 1 sent... at time 0:5:34.499969457 
-DEBUG (6): time: 0:5:35.085937510 - Adding garbage: 8, Eccess already present: 0, Garbage level: 13 -> Normal status	Next time: 20830
-DEBUG (2): time: 0:5:36.436523447 - Adding garbage: 7, Eccess already present: 0, Garbage level: 40 -> Normal status	Next time: 29968
+DEBUG (7): Packet of type 1 sent... at time 0:5:34.503539992 
+DEBUG (6): time: 0:5:35.085937510 - Adding garbage: 8, Excess already present: 0, Garbage level: 13 -> Normal status	Next time: 20830
+DEBUG (2): time: 0:5:36.436523447 - Adding garbage: 7, Excess already present: 0, Garbage level: 40 -> Normal status	Next time: 29968
 DEBUG (7): time: 0:5:39.375000020 - sendAlert() - Try to send a request to TRUCK
+DEBUG (7): Serial Packet sent...
 DEBUG (7): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
  	 Destination: 0 
  	 AM Type: 6 
@@ -2835,9 +2928,9 @@ DEBUG (7): >>>Pack
 		 coordY: 17 
 
  
-DEBUG (0): Message received at time 0:5:39.377395635 
+DEBUG (0): Message received at time 0:5:39.383621185 
 DEBUG (0): ALERT message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
 	 Destination: 0 
 	 AM Type: 6 
@@ -2848,11 +2941,12 @@ DEBUG (0): ALERT message >>> Pack
 		 coordY: 17 
 
 DEBUG (0): The truck is busy -> discard the message!
-DEBUG (7): Packet of type 1 sent... at time 0:5:39.377563481 
-DEBUG (7): time: 0:5:39.418945322 - Adding garbage: 7, Eccess already present: 7, Garbage level: 100-> Full status	Next time: 12016
+DEBUG (7): Packet of type 1 sent... at time 0:5:39.383789031 
+DEBUG (7): time: 0:5:39.418945322 - Adding garbage: 7, Excess already present: 7, Garbage level: 100-> Full status	Next time: 12016
 DEBUG (7): time: 0:5:39.418945332 - sendMove() - Try to send a request to all other BINS
+DEBUG (7): Serial Packet sent...
 DEBUG (7): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
  	 Destination: 255 
  	 AM Type: 6 
@@ -2863,9 +2957,9 @@ DEBUG (7): >>>Pack
 		 coordY: 17 
 
  
-DEBUG (1): Message received at time 0:5:39.424636827 
+DEBUG (1): Message received at time 0:5:39.422546385 
 DEBUG (1): MOVE message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
 	 Destination: 255 
 	 AM Type: 6 
@@ -2877,11 +2971,12 @@ DEBUG (1): MOVE message >>> Pack
 
  
 DEBUG (1): Bin response will be there in 0.400000 s.
-DEBUG (7): Packet of type 3 sent... at time 0:5:39.424804673 
+DEBUG (7): Packet of type 3 sent... at time 0:5:39.422714231 
 DEBUG (1): BinTravelTime fired
-DEBUG (1): time: 0:5:39.814453145 - sendMoveResponse() - Try to send a response to BIN 7
+DEBUG (1): time: 0:5:39.812500020 - sendMoveResponse() - Try to send a response to BIN 7
+DEBUG (1): Serial Packet sent...
 DEBUG (1): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
  	 Destination: 7 
  	 AM Type: 6 
@@ -2892,9 +2987,9 @@ DEBUG (1): >>>Pack
 		 coordY: 16 
 
  
-DEBUG (7): Message received at time 0:5:39.821899390 
+DEBUG (7): Message received at time 0:5:39.814529427 
 DEBUG (7): RESP_MOVE message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 1 
 	 Destination: 7 
 	 AM Type: 6 
@@ -2906,11 +3001,12 @@ DEBUG (7): RESP_MOVE message >>> Pack
 
  
 DEBUG (7): Arrived first response. New closestBin: 1, new smallerDistance: 8
-DEBUG (1): Packet of type 4 sent... at time 0:5:39.822067236 
+DEBUG (1): Packet of type 4 sent... at time 0:5:39.814697272 
 DEBUG (0): TruckTravelTime fired -> Truck is arrived at coordinates: (26, 17)
-DEBUG (0): time: 0:5:40.355468770 - sendTruckMessage() - Try to send a response to BIN 7
+DEBUG (0): Serial Packet sent...
+DEBUG (0): time: 0:5:40.361328145 - sendTruckMessage() - Try to send a response to BIN 7
 DEBUG (0): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 0 
  	 Destination: 7 
  	 AM Type: 6 
@@ -2918,9 +3014,9 @@ DEBUG (0): >>>Pack
 		 msg_type: 2 
  
  
-DEBUG (7): Message received at time 0:5:40.358749390 
+DEBUG (7): Message received at time 0:5:40.364105228 
 DEBUG (7): TRUCK message>>>Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 0 
 	 Destination: 7 
 	 AM Type: 6 
@@ -2929,51 +3025,51 @@ DEBUG (7): TRUCK message>>>Pack
 
  
 DEBUG (7): Emptying bin...
-DEBUG (0): Packet of type 2 sent...and ack received at time 0:5:40.358917236 
-DEBUG (3): time: 0:5:40.517578135 - Adding garbage: 7, Eccess already present: 0, Garbage level: 33 -> Normal status	Next time: 6508
+DEBUG (0): Packet of type 2 sent...and ack received at time 0:5:40.364273074 
+DEBUG (3): time: 0:5:40.517578135 - Adding garbage: 7, Excess already present: 0, Garbage level: 33 -> Normal status	Next time: 6508
 DEBUG (7): TimerToCollect is over!
-DEBUG (7): time: 0:5:41.376953145 - sendTrashMove() - Move trash of 7 to 1 
+DEBUG (7): time: 0:5:41.375000020 - sendTrashMove() - Move trash of 7 to 1 
+DEBUG (7): Serial Packet sent...
 DEBUG (7): >>>Pack
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
  	 Destination: 1 
  	 AM Type: 6 
  		 Payload 
 		 msg_type: 5 
- 		 trashInEccess: 7 
+ 		 trashInExcess: 7 
 
  
-DEBUG (1): Message received at time 0:5:41.381912222 
+DEBUG (1): Message received at time 0:5:41.376770029 
 DEBUG (1): TRASH_MOVE message >>> Pack 
- 	 Payload length 9 
+ 	 Payload length 10 
 	 Source: 7 
 	 Destination: 1 
 	 AM Type: 6 
 		 Payload 
 		 msg_type: 5 
-		 trashInEccess: 7 
+		 trashInExcess: 7 
 
  
 DEBUG (1): Arrived trash - Uploaded garbage in bin: 41
-DEBUG (7): Packet of type 5 sent...and ack received at time 0:5:41.382080068 
-DEBUG (1): time: 0:5:42.196289072 - Adding garbage: 8, Eccess already present: 0, Garbage level: 49 -> Normal status	Next time: 15114
-DEBUG (3): time: 0:5:46.873046885 - Adding garbage: 9, Eccess already present: 0, Garbage level: 42 -> Normal status	Next time: 22807
-DEBUG (4): time: 0:5:50.058593760 - Adding garbage: 9, Eccess already present: 0, Garbage level: 19 -> Normal status	Next time: 14251
-DEBUG (7): time: 0:5:51.153320322 - Adding garbage: 1, Eccess already present: 0, Garbage level: 1 -> Normal status	Next time: 15615
-DEBUG (6): time: 0:5:55.427734385 - Adding garbage: 4, Eccess already present: 0, Garbage level: 17 -> Normal status	Next time: 14194
-DEBUG (1): time: 0:5:56.956054697 - Adding garbage: 3, Eccess already present: 0, Garbage level: 52 -> Normal status	Next time: 13218
-DEBUG (5): time: 0:6:1.711914072 - Adding garbage: 5, Eccess already present: 0, Garbage level: 51 -> Normal status	Next time: 14444
-DEBUG (4): time: 0:6:3.975585947 - Adding garbage: 9, Eccess already present: 0, Garbage level: 28 -> Normal status	Next time: 9511
-DEBUG (2): time: 0:6:5.702148447 - Adding garbage: 2, Eccess already present: 0, Garbage level: 42 -> Normal status	Next time: 22222
-DEBUG (7): time: 0:6:6.402343760 - Adding garbage: 4, Eccess already present: 0, Garbage level: 5 -> Normal status	Next time: 13387
-DEBUG (3): time: 0:6:9.145507822 - Adding garbage: 7, Eccess already present: 0, Garbage level: 49 -> Normal status	Next time: 21693
-DEBUG (6): time: 0:6:9.289062510 - Adding garbage: 5, Eccess already present: 0, Garbage level: 22 -> Normal status	Next time: 3057
-DEBUG (1): time: 0:6:9.864257822 - Adding garbage: 3, Eccess already present: 0, Garbage level: 55 -> Normal status	Next time: 20312
-DEBUG (6): time: 0:6:12.274414072 - Adding garbage: 6, Eccess already present: 0, Garbage level: 28 -> Normal status	Next time: 21519
-DEBUG (4): time: 0:6:13.263671885 - Adding garbage: 9, Eccess already present: 0, Garbage level: 37 -> Normal status	Next time: 20281
-DEBUG (5): time: 0:6:15.817382822 - Adding garbage: 4, Eccess already present: 0, Garbage level: 55 -> Normal status	Next time: 27685
-DEBUG (7): time: 0:6:19.475585947 - Adding garbage: 7, Eccess already present: 0, Garbage level: 12 -> Normal status	Next time: 5803
-DEBUG (7): time: 0:6:25.142578135 - Adding garbage: 8, Eccess already present: 0, Garbage level: 20 -> Normal status	Next time: 12714
+DEBUG (7): Packet of type 5 sent...and ack received at time 0:5:41.376937874 
+DEBUG (1): time: 0:5:42.196289072 - Adding garbage: 8, Excess already present: 0, Garbage level: 49 -> Normal status	Next time: 15114
+DEBUG (3): time: 0:5:46.873046885 - Adding garbage: 9, Excess already present: 0, Garbage level: 42 -> Normal status	Next time: 22807
+DEBUG (4): time: 0:5:50.058593760 - Adding garbage: 9, Excess already present: 0, Garbage level: 19 -> Normal status	Next time: 14251
+DEBUG (7): time: 0:5:51.153320322 - Adding garbage: 1, Excess already present: 0, Garbage level: 1 -> Normal status	Next time: 15615
+DEBUG (6): time: 0:5:55.427734385 - Adding garbage: 4, Excess already present: 0, Garbage level: 17 -> Normal status	Next time: 14194
+DEBUG (1): time: 0:5:56.956054697 - Adding garbage: 3, Excess already present: 0, Garbage level: 52 -> Normal status	Next time: 13218
+DEBUG (5): time: 0:6:1.711914072 - Adding garbage: 5, Excess already present: 0, Garbage level: 51 -> Normal status	Next time: 14444
+DEBUG (4): time: 0:6:3.975585947 - Adding garbage: 9, Excess already present: 0, Garbage level: 28 -> Normal status	Next time: 9511
+DEBUG (2): time: 0:6:5.702148447 - Adding garbage: 2, Excess already present: 0, Garbage level: 42 -> Normal status	Next time: 22222
+DEBUG (7): time: 0:6:6.402343760 - Adding garbage: 4, Excess already present: 0, Garbage level: 5 -> Normal status	Next time: 13387
+DEBUG (3): time: 0:6:9.145507822 - Adding garbage: 7, Excess already present: 0, Garbage level: 49 -> Normal status	Next time: 21693
+DEBUG (6): time: 0:6:9.289062510 - Adding garbage: 5, Excess already present: 0, Garbage level: 22 -> Normal status	Next time: 3057
+DEBUG (1): time: 0:6:9.864257822 - Adding garbage: 3, Excess already present: 0, Garbage level: 55 -> Normal status	Next time: 20312
+DEBUG (6): time: 0:6:12.274414072 - Adding garbage: 6, Excess already present: 0, Garbage level: 28 -> Normal status	Next time: 21519
+DEBUG (4): time: 0:6:13.263671885 - Adding garbage: 9, Excess already present: 0, Garbage level: 37 -> Normal status	Next time: 20281
+DEBUG (5): time: 0:6:15.817382822 - Adding garbage: 4, Excess already present: 0, Garbage level: 55 -> Normal status	Next time: 27685
+DEBUG (7): time: 0:6:19.475585947 - Adding garbage: 7, Excess already present: 0, Garbage level: 12 -> Normal status	Next time: 5803
 
 
 

@@ -898,7 +898,7 @@ extern void *malloc(size_t __size) __attribute((__leaf__)) __attribute((__nothro
 #line 483
 extern void free(void *__ptr) __attribute((__leaf__)) __attribute((__nothrow__)) ;
 #line 741
-typedef int (*__compar_fn_t)(const void *arg_0xb7b9f458, const void *arg_0xb7b9f5f0);
+typedef int (*__compar_fn_t)(const void *arg_0xb7b7a458, const void *arg_0xb7b7a5f0);
 #line 779
 __extension__ 
 #line 796
@@ -917,7 +917,7 @@ extern double sqrt(double __x) __attribute((__leaf__)) __attribute((__nothrow__)
 #line 184
 extern double floor(double __x) __attribute((__leaf__)) __attribute((__nothrow__)) __attribute((const)) ;
 #line 260
-extern double erfc(double arg_0xb7b508c8) __attribute((__leaf__)) __attribute((__nothrow__)) ;
+extern double erfc(double arg_0xb7b2b8c8) __attribute((__leaf__)) __attribute((__nothrow__)) ;
 #line 336
 __extension__ 
 
@@ -1304,8 +1304,8 @@ typedef struct hashtable hashtable_t;
 #line 78
 struct hashtable *
 create_hashtable(unsigned int minsize, 
-unsigned int (*hashfunction)(void *arg_0xb79fa840), 
-int (*key_eq_fn)(void *arg_0xb79fac88, void *arg_0xb79fae00));
+unsigned int (*hashfunction)(void *arg_0xb79d5840), 
+int (*key_eq_fn)(void *arg_0xb79d5c88, void *arg_0xb79d5e00));
 #line 103
 #line 102
 int 
@@ -1918,7 +1918,7 @@ struct tm;
 
 struct tm;
 # 46 "/opt/tinyos-main-2.1.2/tos/lib/tossim/randomlib.h"
-static inline void RandomInitialise(int arg_0xb78c99b8, int arg_0xb78c9b10);
+static inline void RandomInitialise(int arg_0xb78a49b8, int arg_0xb78a4b10);
 static double RandomUniform(void );
 # 51 "/opt/tinyos-main-2.1.2/tos/lib/tossim/sim_noise.c"
 int numCase1 = 0;
@@ -2370,7 +2370,7 @@ typedef nx_struct my_msg {
   nx_uint16_t bin_id;
   nx_uint16_t coordX;
   nx_uint16_t coordY;
-  nx_uint16_t trashInEccess;
+  nx_uint16_t trashInExcess;
 } __attribute__((packed)) my_msg_t;
 
 
@@ -3858,11 +3858,11 @@ static error_t MeasureClockC$Init$init(void );
 # 67 "/opt/tinyos-main-2.1.2/tos/interfaces/TaskBasic.nc"
 static error_t SimSchedulerBasicP$TaskBasic$postTask(
 # 49 "/opt/tinyos-main-2.1.2/tos/lib/tossim/SimSchedulerBasicP.nc"
-uint8_t arg_0xb7bd7b28);
+uint8_t arg_0xb7bb2b28);
 # 75 "/opt/tinyos-main-2.1.2/tos/interfaces/TaskBasic.nc"
 static void SimSchedulerBasicP$TaskBasic$default$runTask(
 # 49 "/opt/tinyos-main-2.1.2/tos/lib/tossim/SimSchedulerBasicP.nc"
-uint8_t arg_0xb7bd7b28);
+uint8_t arg_0xb7bb2b28);
 # 57 "/opt/tinyos-main-2.1.2/tos/interfaces/Scheduler.nc"
 static void SimSchedulerBasicP$Scheduler$init(void );
 
@@ -3892,7 +3892,7 @@ static long long int SimMoteP$SimMote$getStartTime(void );
 # 80 "/opt/tinyos-main-2.1.2/tos/interfaces/AMSend.nc"
 static error_t TossimActiveMessageC$AMSend$send(
 # 47 "/opt/tinyos-main-2.1.2/tos/lib/tossim/TossimActiveMessageC.nc"
-am_id_t arg_0xb7649108, 
+am_id_t arg_0xb7624108, 
 # 80 "/opt/tinyos-main-2.1.2/tos/interfaces/AMSend.nc"
 am_addr_t addr, 
 #line 71
@@ -3915,7 +3915,7 @@ message_t *
 
 TossimActiveMessageC$Snoop$default$receive(
 # 49 "/opt/tinyos-main-2.1.2/tos/lib/tossim/TossimActiveMessageC.nc"
-am_id_t arg_0xb7646178, 
+am_id_t arg_0xb7621178, 
 # 71 "/opt/tinyos-main-2.1.2/tos/interfaces/Receive.nc"
 message_t * msg, 
 void * payload, 
@@ -3962,7 +3962,7 @@ message_t *
 
 TossimActiveMessageC$Receive$default$receive(
 # 48 "/opt/tinyos-main-2.1.2/tos/lib/tossim/TossimActiveMessageC.nc"
-am_id_t arg_0xb7649ac8, 
+am_id_t arg_0xb7624ac8, 
 # 71 "/opt/tinyos-main-2.1.2/tos/interfaces/Receive.nc"
 message_t * msg, 
 void * payload, 
@@ -4075,7 +4075,7 @@ static error_t SerialActiveMessageC$SplitControl$start(void );
 # 80 "/opt/tinyos-main-2.1.2/tos/interfaces/AMSend.nc"
 static error_t SerialActiveMessageC$AMSend$send(
 # 50 "/opt/tinyos-main-2.1.2/tos/lib/tossim/sf/sim/SerialActiveMessageC.nc"
-am_id_t arg_0xb752eae8, 
+am_id_t arg_0xb7509ae8, 
 # 80 "/opt/tinyos-main-2.1.2/tos/interfaces/AMSend.nc"
 am_addr_t addr, 
 #line 71
@@ -4092,7 +4092,7 @@ uint8_t len);
 #line 110
 static void SerialActiveMessageC$AMSend$default$sendDone(
 # 50 "/opt/tinyos-main-2.1.2/tos/lib/tossim/sf/sim/SerialActiveMessageC.nc"
-am_id_t arg_0xb752eae8, 
+am_id_t arg_0xb7509ae8, 
 # 103 "/opt/tinyos-main-2.1.2/tos/interfaces/AMSend.nc"
 message_t * msg, 
 
@@ -4133,7 +4133,7 @@ message_t *
 
 SerialActiveMessageC$Receive$default$receive(
 # 51 "/opt/tinyos-main-2.1.2/tos/lib/tossim/sf/sim/SerialActiveMessageC.nc"
-am_id_t arg_0xb752d548, 
+am_id_t arg_0xb7508548, 
 # 71 "/opt/tinyos-main-2.1.2/tos/interfaces/Receive.nc"
 message_t * msg, 
 void * payload, 
@@ -4298,15 +4298,15 @@ static void /*HilTimerMilliC.VirtualizeTimerC*/VirtualizeTimerC$0$TimerFrom$fire
 #line 83
 static void /*HilTimerMilliC.VirtualizeTimerC*/VirtualizeTimerC$0$Timer$default$fired(
 # 48 "/opt/tinyos-main-2.1.2/tos/lib/timer/VirtualizeTimerC.nc"
-uint8_t arg_0xb72a8c70);
+uint8_t arg_0xb7283c70);
 # 92 "/opt/tinyos-main-2.1.2/tos/lib/timer/Timer.nc"
 static bool /*HilTimerMilliC.VirtualizeTimerC*/VirtualizeTimerC$0$Timer$isRunning(
 # 48 "/opt/tinyos-main-2.1.2/tos/lib/timer/VirtualizeTimerC.nc"
-uint8_t arg_0xb72a8c70);
+uint8_t arg_0xb7283c70);
 # 64 "/opt/tinyos-main-2.1.2/tos/lib/timer/Timer.nc"
 static void /*HilTimerMilliC.VirtualizeTimerC*/VirtualizeTimerC$0$Timer$startPeriodic(
 # 48 "/opt/tinyos-main-2.1.2/tos/lib/timer/VirtualizeTimerC.nc"
-uint8_t arg_0xb72a8c70, 
+uint8_t arg_0xb7283c70, 
 # 64 "/opt/tinyos-main-2.1.2/tos/lib/timer/Timer.nc"
 uint32_t dt);
 
@@ -4319,7 +4319,7 @@ uint32_t dt);
 
 static void /*HilTimerMilliC.VirtualizeTimerC*/VirtualizeTimerC$0$Timer$startOneShot(
 # 48 "/opt/tinyos-main-2.1.2/tos/lib/timer/VirtualizeTimerC.nc"
-uint8_t arg_0xb72a8c70, 
+uint8_t arg_0xb7283c70, 
 # 73 "/opt/tinyos-main-2.1.2/tos/lib/timer/Timer.nc"
 uint32_t dt);
 
@@ -4328,7 +4328,7 @@ uint32_t dt);
 
 static void /*HilTimerMilliC.VirtualizeTimerC*/VirtualizeTimerC$0$Timer$stop(
 # 48 "/opt/tinyos-main-2.1.2/tos/lib/timer/VirtualizeTimerC.nc"
-uint8_t arg_0xb72a8c70);
+uint8_t arg_0xb7283c70);
 # 82 "/opt/tinyos-main-2.1.2/tos/lib/timer/Counter.nc"
 static void /*HilTimerMilliC.CounterToLocalTimeC*/CounterToLocalTimeC$0$Counter$overflow(void );
 # 80 "/opt/tinyos-main-2.1.2/tos/interfaces/AMSend.nc"
@@ -4355,7 +4355,7 @@ error_t error);
 # 110 "/opt/tinyos-main-2.1.2/tos/interfaces/AMSend.nc"
 static void /*AMQueueP.AMQueueImplP*/AMQueueImplP$0$AMSend$sendDone(
 # 48 "/opt/tinyos-main-2.1.2/tos/system/AMQueueImplP.nc"
-am_id_t arg_0xb7243730, 
+am_id_t arg_0xb721e730, 
 # 103 "/opt/tinyos-main-2.1.2/tos/interfaces/AMSend.nc"
 message_t * msg, 
 
@@ -4368,7 +4368,7 @@ error_t error);
 # 75 "/opt/tinyos-main-2.1.2/tos/interfaces/Send.nc"
 static error_t /*AMQueueP.AMQueueImplP*/AMQueueImplP$0$Send$send(
 # 46 "/opt/tinyos-main-2.1.2/tos/system/AMQueueImplP.nc"
-uint8_t arg_0xb7246ca8, 
+uint8_t arg_0xb7221ca8, 
 # 67 "/opt/tinyos-main-2.1.2/tos/interfaces/Send.nc"
 message_t * msg, 
 
@@ -4382,7 +4382,7 @@ uint8_t len);
 #line 100
 static void /*AMQueueP.AMQueueImplP*/AMQueueImplP$0$Send$default$sendDone(
 # 46 "/opt/tinyos-main-2.1.2/tos/system/AMQueueImplP.nc"
-uint8_t arg_0xb7246ca8, 
+uint8_t arg_0xb7221ca8, 
 # 96 "/opt/tinyos-main-2.1.2/tos/interfaces/Send.nc"
 message_t * msg, 
 
@@ -4437,7 +4437,7 @@ int sim_main_start_mote(void )   ;
 # 75 "/opt/tinyos-main-2.1.2/tos/interfaces/TaskBasic.nc"
 static void SimSchedulerBasicP$TaskBasic$runTask(
 # 49 "/opt/tinyos-main-2.1.2/tos/lib/tossim/SimSchedulerBasicP.nc"
-uint8_t arg_0xb7bd7b28);
+uint8_t arg_0xb7bb2b28);
 
 
 
@@ -4605,7 +4605,7 @@ static am_addr_t TossimActiveMessageC$amAddress(void );
 # 110 "/opt/tinyos-main-2.1.2/tos/interfaces/AMSend.nc"
 static void TossimActiveMessageC$AMSend$sendDone(
 # 47 "/opt/tinyos-main-2.1.2/tos/lib/tossim/TossimActiveMessageC.nc"
-am_id_t arg_0xb7649108, 
+am_id_t arg_0xb7624108, 
 # 103 "/opt/tinyos-main-2.1.2/tos/interfaces/AMSend.nc"
 message_t * msg, 
 
@@ -4624,7 +4624,7 @@ message_t *
 
 TossimActiveMessageC$Snoop$receive(
 # 49 "/opt/tinyos-main-2.1.2/tos/lib/tossim/TossimActiveMessageC.nc"
-am_id_t arg_0xb7646178, 
+am_id_t arg_0xb7621178, 
 # 71 "/opt/tinyos-main-2.1.2/tos/interfaces/Receive.nc"
 message_t * msg, 
 void * payload, 
@@ -4643,7 +4643,7 @@ message_t *
 
 TossimActiveMessageC$Receive$receive(
 # 48 "/opt/tinyos-main-2.1.2/tos/lib/tossim/TossimActiveMessageC.nc"
-am_id_t arg_0xb7649ac8, 
+am_id_t arg_0xb7624ac8, 
 # 71 "/opt/tinyos-main-2.1.2/tos/interfaces/Receive.nc"
 message_t * msg, 
 void * payload, 
@@ -5030,7 +5030,7 @@ static void SerialActiveMessageC$SplitControl$stopDone(error_t error);
 # 110 "/opt/tinyos-main-2.1.2/tos/interfaces/AMSend.nc"
 static void SerialActiveMessageC$AMSend$sendDone(
 # 50 "/opt/tinyos-main-2.1.2/tos/lib/tossim/sf/sim/SerialActiveMessageC.nc"
-am_id_t arg_0xb752eae8, 
+am_id_t arg_0xb7509ae8, 
 # 103 "/opt/tinyos-main-2.1.2/tos/interfaces/AMSend.nc"
 message_t * msg, 
 
@@ -5051,7 +5051,7 @@ message_t *
 
 SerialActiveMessageC$Receive$receive(
 # 51 "/opt/tinyos-main-2.1.2/tos/lib/tossim/sf/sim/SerialActiveMessageC.nc"
-am_id_t arg_0xb752d548, 
+am_id_t arg_0xb7508548, 
 # 71 "/opt/tinyos-main-2.1.2/tos/interfaces/Receive.nc"
 message_t * msg, 
 void * payload, 
@@ -5315,7 +5315,7 @@ uint16_t SmartBinC$targetID[1000];
 
 uint16_t SmartBinC$closestBin[1000];
 uint16_t SmartBinC$smallerDistance[1000];
-uint16_t SmartBinC$trashInEccess[1000];
+uint16_t SmartBinC$trashInExcess[1000];
 
 static inline void SmartBinC$Boot$booted(void );
 #line 66
@@ -5331,10 +5331,10 @@ static inline void SmartBinC$SplitControl$stopDone(error_t err);
 
 
 
-static void SmartBinC$sendSerialPacket(uint8_t _packetType, uint16_t _bin_id, uint16_t _coordX, uint16_t _coordY, uint16_t _trashInEccess);
+static void SmartBinC$sendSerialPacket(uint8_t _packetType, uint16_t _bin_id, uint16_t _coordX, uint16_t _coordY, uint16_t _trashInExcess);
 
 
-static void SmartBinC$sendSerialPacket(uint8_t _packetType, uint16_t _bin_id, uint16_t _coordX, uint16_t _coordY, uint16_t _trashInEccess);
+static void SmartBinC$sendSerialPacket(uint8_t _packetType, uint16_t _bin_id, uint16_t _coordX, uint16_t _coordY, uint16_t _trashInExcess);
 #line 113
 static inline void SmartBinC$sendAlert$runTask(void );
 #line 144
@@ -5708,7 +5708,7 @@ static void /*HilTimerMilliC.VirtualizeTimerC*/VirtualizeTimerC$0$TimerFrom$stop
 
 static void /*HilTimerMilliC.VirtualizeTimerC*/VirtualizeTimerC$0$Timer$fired(
 # 48 "/opt/tinyos-main-2.1.2/tos/lib/timer/VirtualizeTimerC.nc"
-uint8_t arg_0xb72a8c70);
+uint8_t arg_0xb7283c70);
 #line 71
 enum /*HilTimerMilliC.VirtualizeTimerC*/VirtualizeTimerC$0$__nesc_unnamed4344 {
 #line 71
@@ -5840,7 +5840,7 @@ static inline void /*SmartBinAppC.AMSenderC.SenderC.AMQueueEntryP*/AMQueueEntryP
 # 80 "/opt/tinyos-main-2.1.2/tos/interfaces/AMSend.nc"
 static error_t /*AMQueueP.AMQueueImplP*/AMQueueImplP$0$AMSend$send(
 # 48 "/opt/tinyos-main-2.1.2/tos/system/AMQueueImplP.nc"
-am_id_t arg_0xb7243730, 
+am_id_t arg_0xb721e730, 
 # 80 "/opt/tinyos-main-2.1.2/tos/interfaces/AMSend.nc"
 am_addr_t addr, 
 #line 71
@@ -5857,7 +5857,7 @@ uint8_t len);
 # 100 "/opt/tinyos-main-2.1.2/tos/interfaces/Send.nc"
 static void /*AMQueueP.AMQueueImplP*/AMQueueImplP$0$Send$sendDone(
 # 46 "/opt/tinyos-main-2.1.2/tos/system/AMQueueImplP.nc"
-uint8_t arg_0xb7246ca8, 
+uint8_t arg_0xb7221ca8, 
 # 96 "/opt/tinyos-main-2.1.2/tos/interfaces/Send.nc"
 message_t * msg, 
 
@@ -6593,19 +6593,19 @@ static inline message_t *SmartBinC$Receive$receive(message_t *buf, void *payload
       sim_log_debug_clear(279U, "radio_pack", "\t AM Type: %hhu \n", SmartBinC$AMPacket$type(buf));
       sim_log_debug_clear(280U, "radio_pack", "\t\t Payload \n");
       sim_log_debug_clear(281U, "radio_pack", "\t\t msg_type: %hhu \n", __nesc_ntoh_uint16(mess->msg_type.nxdata));
-      sim_log_debug_clear(282U, "radio_pack", "\t\t trashInEccess: %hhu \n", __nesc_ntoh_uint16(mess->trashInEccess.nxdata));
+      sim_log_debug_clear(282U, "radio_pack", "\t\t trashInExcess: %hhu \n", __nesc_ntoh_uint16(mess->trashInExcess.nxdata));
       sim_log_debug_clear(283U, "radio_rec", "\n ");
       sim_log_debug_clear(284U, "radio_pack", "\n");
 
-      if (SmartBinC$garbageInBin[sim_node()] + __nesc_ntoh_uint16(mess->trashInEccess.nxdata) >= 100) {
+      if (SmartBinC$garbageInBin[sim_node()] + __nesc_ntoh_uint16(mess->trashInExcess.nxdata) >= 100) {
           SmartBinC$garbageInBin[sim_node()] = 100;
-          SmartBinC$trashInEccess[sim_node()] = SmartBinC$trashInEccess[sim_node()] + SmartBinC$garbageInBin[sim_node()] + __nesc_ntoh_uint16(mess->trashInEccess.nxdata) - 100;
-          sim_log_debug(285U, "radio_rec", "Arrived trash - Uploaded garbage in bin: %d, trash in eccess: %d \n", SmartBinC$garbageInBin[sim_node()], SmartBinC$trashInEccess[sim_node()]);
+          SmartBinC$trashInExcess[sim_node()] = SmartBinC$trashInExcess[sim_node()] + SmartBinC$garbageInBin[sim_node()] + __nesc_ntoh_uint16(mess->trashInExcess.nxdata) - 100;
+          sim_log_debug(285U, "radio_rec", "Arrived trash - Uploaded garbage in bin: %d, trash in excess: %d \n", SmartBinC$garbageInBin[sim_node()], SmartBinC$trashInExcess[sim_node()]);
         }
       else 
 #line 423
         {
-          SmartBinC$garbageInBin[sim_node()] = SmartBinC$garbageInBin[sim_node()] + __nesc_ntoh_uint16(mess->trashInEccess.nxdata);
+          SmartBinC$garbageInBin[sim_node()] = SmartBinC$garbageInBin[sim_node()] + __nesc_ntoh_uint16(mess->trashInExcess.nxdata);
           sim_log_debug(286U, "radio_rec", "Arrived trash - Uploaded garbage in bin: %d\n", SmartBinC$garbageInBin[sim_node()]);
         }
     }
@@ -6621,13 +6621,13 @@ static inline message_t *TossimActiveMessageC$Receive$default$receive(am_id_t id
 }
 
 # 78 "/opt/tinyos-main-2.1.2/tos/interfaces/Receive.nc"
-inline static message_t * TossimActiveMessageC$Receive$receive(am_id_t arg_0xb7649ac8, message_t * msg, void * payload, uint8_t len){
+inline static message_t * TossimActiveMessageC$Receive$receive(am_id_t arg_0xb7624ac8, message_t * msg, void * payload, uint8_t len){
 #line 78
   nx_struct message_t *__nesc_result;
 #line 78
 
 #line 78
-  switch (arg_0xb7649ac8) {
+  switch (arg_0xb7624ac8) {
 #line 78
     case 6:
 #line 78
@@ -6637,7 +6637,7 @@ inline static message_t * TossimActiveMessageC$Receive$receive(am_id_t arg_0xb76
 #line 78
     default:
 #line 78
-      __nesc_result = TossimActiveMessageC$Receive$default$receive(arg_0xb7649ac8, msg, payload, len);
+      __nesc_result = TossimActiveMessageC$Receive$default$receive(arg_0xb7624ac8, msg, payload, len);
 #line 78
       break;
 #line 78
@@ -6746,13 +6746,13 @@ static inline message_t *TossimActiveMessageC$Snoop$default$receive(am_id_t id, 
 }
 
 # 78 "/opt/tinyos-main-2.1.2/tos/interfaces/Receive.nc"
-inline static message_t * TossimActiveMessageC$Snoop$receive(am_id_t arg_0xb7646178, message_t * msg, void * payload, uint8_t len){
+inline static message_t * TossimActiveMessageC$Snoop$receive(am_id_t arg_0xb7621178, message_t * msg, void * payload, uint8_t len){
 #line 78
   nx_struct message_t *__nesc_result;
 #line 78
 
 #line 78
-    __nesc_result = TossimActiveMessageC$Snoop$default$receive(arg_0xb7646178, msg, payload, len);
+    __nesc_result = TossimActiveMessageC$Snoop$default$receive(arg_0xb7621178, msg, payload, len);
 #line 78
 
 #line 78
@@ -6785,13 +6785,13 @@ static inline message_t *SerialActiveMessageC$Receive$default$receive(am_id_t id
 }
 
 # 78 "/opt/tinyos-main-2.1.2/tos/interfaces/Receive.nc"
-inline static message_t * SerialActiveMessageC$Receive$receive(am_id_t arg_0xb752d548, message_t * msg, void * payload, uint8_t len){
+inline static message_t * SerialActiveMessageC$Receive$receive(am_id_t arg_0xb7508548, message_t * msg, void * payload, uint8_t len){
 #line 78
   nx_struct message_t *__nesc_result;
 #line 78
 
 #line 78
-    __nesc_result = SerialActiveMessageC$Receive$default$receive(arg_0xb752d548, msg, payload, len);
+    __nesc_result = SerialActiveMessageC$Receive$default$receive(arg_0xb7508548, msg, payload, len);
 #line 78
 
 #line 78
@@ -7035,7 +7035,7 @@ static inline void SmartBinC$SplitControl$startDone(error_t err)
 #line 69
 {
   SmartBinC$time[sim_node()] = SmartBinC$Random$rand16();
-  SmartBinC$time[sim_node()] = SmartBinC$time[sim_node()] % 2900;
+  SmartBinC$time[sim_node()] = SmartBinC$time[sim_node()] % 29000;
   if (err == SUCCESS) {
       sim_log_debug(155U, "radio", "Radio on!\n");
 
@@ -7122,9 +7122,9 @@ static __inline  int8_t __nesc_hton_int8(void * target, int8_t value)
 }
 
 # 110 "/opt/tinyos-main-2.1.2/tos/interfaces/AMSend.nc"
-inline static void TossimActiveMessageC$AMSend$sendDone(am_id_t arg_0xb7649108, message_t * msg, error_t error){
+inline static void TossimActiveMessageC$AMSend$sendDone(am_id_t arg_0xb7624108, message_t * msg, error_t error){
 #line 110
-  /*AMQueueP.AMQueueImplP*/AMQueueImplP$0$AMSend$sendDone(arg_0xb7649108, msg, error);
+  /*AMQueueP.AMQueueImplP*/AMQueueImplP$0$AMSend$sendDone(arg_0xb7624108, msg, error);
 #line 110
 }
 #line 110
@@ -7220,9 +7220,9 @@ static inline void SerialActiveMessageC$AMSend$default$sendDone(uint8_t id, mess
 }
 
 # 110 "/opt/tinyos-main-2.1.2/tos/interfaces/AMSend.nc"
-inline static void SerialActiveMessageC$AMSend$sendDone(am_id_t arg_0xb752eae8, message_t * msg, error_t error){
+inline static void SerialActiveMessageC$AMSend$sendDone(am_id_t arg_0xb7509ae8, message_t * msg, error_t error){
 #line 110
-  switch (arg_0xb752eae8) {
+  switch (arg_0xb7509ae8) {
 #line 110
     case AM_SERIAL_MSG:
 #line 110
@@ -7232,7 +7232,7 @@ inline static void SerialActiveMessageC$AMSend$sendDone(am_id_t arg_0xb752eae8, 
 #line 110
     default:
 #line 110
-      SerialActiveMessageC$AMSend$default$sendDone(arg_0xb752eae8, msg, error);
+      SerialActiveMessageC$AMSend$default$sendDone(arg_0xb7509ae8, msg, error);
 #line 110
       break;
 #line 110
@@ -7309,7 +7309,7 @@ static inline void SmartBinC$sendAlert$runTask(void )
 
   sim_log_debug(157U, "radio_send", "time: %s - sendAlert() - Try to send a request to TRUCK\n", sim_time_string());
 
-  SmartBinC$sendSerialPacket(1, TOS_NODE_ID, SmartBinC$coordinateX[sim_node()], SmartBinC$coordinateY[sim_node()], SmartBinC$trashInEccess[sim_node()]);
+  SmartBinC$sendSerialPacket(1, TOS_NODE_ID, SmartBinC$coordinateX[sim_node()], SmartBinC$coordinateY[sim_node()], SmartBinC$trashInExcess[sim_node()]);
 
 
   if (!SmartBinC$busy[sim_node()] && SmartBinC$AMSend$send(0, &SmartBinC$packet[sim_node()], sizeof(my_msg_t )) == SUCCESS) {
@@ -7347,7 +7347,7 @@ static inline void SmartBinC$sendMove$runTask(void )
 
   sim_log_debug(170U, "radio_send", "time: %s - sendMove() - Try to send a request to all other BINS\n", sim_time_string());
 
-  SmartBinC$sendSerialPacket(3, TOS_NODE_ID, SmartBinC$coordinateX[sim_node()], SmartBinC$coordinateY[sim_node()], SmartBinC$trashInEccess[sim_node()]);
+  SmartBinC$sendSerialPacket(3, TOS_NODE_ID, SmartBinC$coordinateX[sim_node()], SmartBinC$coordinateY[sim_node()], SmartBinC$trashInExcess[sim_node()]);
 
   if (!SmartBinC$busy[sim_node()] && SmartBinC$AMSend$send(AM_BROADCAST_ADDR, &SmartBinC$packet[sim_node()], sizeof(my_msg_t )) == SUCCESS) {
       sim_log_debug(171U, "radio_pack", ">>>Pack\n \t Payload length %hhu \n", SmartBinC$Packet$payloadLength(&SmartBinC$packet[sim_node()]));
@@ -7395,7 +7395,7 @@ static inline void SmartBinC$sendTruckMessage$runTask(void )
 #line 177
   __nesc_hton_uint16(mess->msg_type.nxdata, 2);
 
-  SmartBinC$sendSerialPacket(2, TOS_NODE_ID, SmartBinC$coordinateX[sim_node()], SmartBinC$coordinateY[sim_node()], SmartBinC$trashInEccess[sim_node()]);
+  SmartBinC$sendSerialPacket(2, TOS_NODE_ID, SmartBinC$coordinateX[sim_node()], SmartBinC$coordinateY[sim_node()], SmartBinC$trashInExcess[sim_node()]);
 
   sim_log_debug(183U, "radio_send", "time: %s - sendTruckMessage() - Try to send a response to BIN %d\n", sim_time_string(), SmartBinC$targetID[sim_node()]);
   SmartBinC$PacketAcknowledgements$requestAck(&SmartBinC$packet[sim_node()]);
@@ -7420,14 +7420,14 @@ static inline void SmartBinC$sendTrashMove$runTask(void )
 
 #line 230
   __nesc_hton_uint16(mess->msg_type.nxdata, 5);
-  __nesc_hton_uint16(mess->trashInEccess.nxdata, SmartBinC$trashInEccess[sim_node()]);
+  __nesc_hton_uint16(mess->trashInExcess.nxdata, SmartBinC$trashInExcess[sim_node()]);
 
-  sim_log_debug(205U, "radio_send", "time: %s - sendTrashMove() - Move trash of %d to %d \n", sim_time_string(), SmartBinC$trashInEccess[sim_node()], SmartBinC$closestBin[sim_node()]);
+  sim_log_debug(205U, "radio_send", "time: %s - sendTrashMove() - Move trash of %d to %d \n", sim_time_string(), SmartBinC$trashInExcess[sim_node()], SmartBinC$closestBin[sim_node()]);
 
 
   SmartBinC$PacketAcknowledgements$requestAck(&SmartBinC$packet[sim_node()]);
 
-  SmartBinC$sendSerialPacket(5, TOS_NODE_ID, SmartBinC$coordinateX[sim_node()], SmartBinC$coordinateY[sim_node()], SmartBinC$trashInEccess[sim_node()]);
+  SmartBinC$sendSerialPacket(5, TOS_NODE_ID, SmartBinC$coordinateX[sim_node()], SmartBinC$coordinateY[sim_node()], SmartBinC$trashInExcess[sim_node()]);
 
   if (!SmartBinC$busy[sim_node()] && SmartBinC$AMSend$send(SmartBinC$closestBin[sim_node()], &SmartBinC$packet[sim_node()], sizeof(my_msg_t )) == SUCCESS) {
       sim_log_debug(206U, "radio_pack", ">>>Pack\n \t Payload length %hhu \n", SmartBinC$Packet$payloadLength(&SmartBinC$packet[sim_node()]));
@@ -7436,7 +7436,7 @@ static inline void SmartBinC$sendTrashMove$runTask(void )
       sim_log_debug_clear(209U, "radio_pack", "\t AM Type: %hhu \n ", SmartBinC$AMPacket$type(&SmartBinC$packet[sim_node()]));
       sim_log_debug_clear(210U, "radio_pack", "\t\t Payload \n");
       sim_log_debug_clear(211U, "radio_pack", "\t\t msg_type: %hhu \n ", __nesc_ntoh_uint16(mess->msg_type.nxdata));
-      sim_log_debug_clear(212U, "radio_pack", "\t\t trashInEccess: %hhu \n", __nesc_ntoh_uint16(mess->trashInEccess.nxdata));
+      sim_log_debug_clear(212U, "radio_pack", "\t\t trashInExcess: %hhu \n", __nesc_ntoh_uint16(mess->trashInExcess.nxdata));
       sim_log_debug_clear(213U, "radio_send", "\n ");
       sim_log_debug_clear(214U, "radio_pack", "\n");
 
@@ -7464,7 +7464,7 @@ static inline void SmartBinC$sendMoveResponse$runTask(void )
 
   sim_log_debug(192U, "radio_send", "time: %s - sendMoveResponse() - Try to send a response to BIN %d\n", sim_time_string(), SmartBinC$targetID[sim_node()]);
 
-  SmartBinC$sendSerialPacket(4, TOS_NODE_ID, SmartBinC$coordinateX[sim_node()], SmartBinC$coordinateY[sim_node()], SmartBinC$trashInEccess[sim_node()]);
+  SmartBinC$sendSerialPacket(4, TOS_NODE_ID, SmartBinC$coordinateX[sim_node()], SmartBinC$coordinateY[sim_node()], SmartBinC$trashInExcess[sim_node()]);
 
 
   if (!SmartBinC$busy[sim_node()] && SmartBinC$AMSend$send(SmartBinC$targetID[sim_node()], &SmartBinC$packet[sim_node()], sizeof(my_msg_t )) == SUCCESS) {
@@ -7689,9 +7689,9 @@ static inline void /*AMQueueP.AMQueueImplP*/AMQueueImplP$0$Send$default$sendDone
 }
 
 # 100 "/opt/tinyos-main-2.1.2/tos/interfaces/Send.nc"
-inline static void /*AMQueueP.AMQueueImplP*/AMQueueImplP$0$Send$sendDone(uint8_t arg_0xb7246ca8, message_t * msg, error_t error){
+inline static void /*AMQueueP.AMQueueImplP*/AMQueueImplP$0$Send$sendDone(uint8_t arg_0xb7221ca8, message_t * msg, error_t error){
 #line 100
-  switch (arg_0xb7246ca8) {
+  switch (arg_0xb7221ca8) {
 #line 100
     case 0U:
 #line 100
@@ -7701,7 +7701,7 @@ inline static void /*AMQueueP.AMQueueImplP*/AMQueueImplP$0$Send$sendDone(uint8_t
 #line 100
     default:
 #line 100
-      /*AMQueueP.AMQueueImplP*/AMQueueImplP$0$Send$default$sendDone(arg_0xb7246ca8, msg, error);
+      /*AMQueueP.AMQueueImplP*/AMQueueImplP$0$Send$default$sendDone(arg_0xb7221ca8, msg, error);
 #line 100
       break;
 #line 100
@@ -7745,9 +7745,9 @@ static inline void SimSchedulerBasicP$TaskBasic$default$runTask(uint8_t id)
 }
 
 # 75 "/opt/tinyos-main-2.1.2/tos/interfaces/TaskBasic.nc"
-inline static void SimSchedulerBasicP$TaskBasic$runTask(uint8_t arg_0xb7bd7b28){
+inline static void SimSchedulerBasicP$TaskBasic$runTask(uint8_t arg_0xb7bb2b28){
 #line 75
-  switch (arg_0xb7bd7b28) {
+  switch (arg_0xb7bb2b28) {
 #line 75
     case TossimPacketModelC$startDoneTask:
 #line 75
@@ -7841,7 +7841,7 @@ inline static void SimSchedulerBasicP$TaskBasic$runTask(uint8_t arg_0xb7bd7b28){
 #line 75
     default:
 #line 75
-      SimSchedulerBasicP$TaskBasic$default$runTask(arg_0xb7bd7b28);
+      SimSchedulerBasicP$TaskBasic$default$runTask(arg_0xb7bb2b28);
 #line 75
       break;
 #line 75
@@ -7897,13 +7897,13 @@ inline static error_t /*AMQueueP.AMQueueImplP*/AMQueueImplP$0$errorTask$postTask
 }
 #line 67
 # 80 "/opt/tinyos-main-2.1.2/tos/interfaces/AMSend.nc"
-inline static error_t /*AMQueueP.AMQueueImplP*/AMQueueImplP$0$AMSend$send(am_id_t arg_0xb7243730, am_addr_t addr, message_t * msg, uint8_t len){
+inline static error_t /*AMQueueP.AMQueueImplP*/AMQueueImplP$0$AMSend$send(am_id_t arg_0xb721e730, am_addr_t addr, message_t * msg, uint8_t len){
 #line 80
   unsigned char __nesc_result;
 #line 80
 
 #line 80
-  __nesc_result = TossimActiveMessageC$AMSend$send(arg_0xb7243730, addr, msg, len);
+  __nesc_result = TossimActiveMessageC$AMSend$send(arg_0xb721e730, addr, msg, len);
 #line 80
 
 #line 80
@@ -8744,7 +8744,7 @@ static inline void SmartBinC$Timer$fired(void )
   SmartBinC$time[sim_node()] = SmartBinC$Random$rand16();
   SmartBinC$garbageToAdd[sim_node()] = SmartBinC$Random$rand16();
 
-  SmartBinC$time[sim_node()] = SmartBinC$time[sim_node()] % 2900;
+  SmartBinC$time[sim_node()] = SmartBinC$time[sim_node()] % 29000;
   SmartBinC$garbageToAdd[sim_node()] = SmartBinC$garbageToAdd[sim_node()] % 9;
   SmartBinC$time[sim_node()] = SmartBinC$time[sim_node()] + 1000;
   SmartBinC$garbageToAdd[sim_node()] = SmartBinC$garbageToAdd[sim_node()] + 1;
@@ -8752,13 +8752,13 @@ static inline void SmartBinC$Timer$fired(void )
   if (SmartBinC$garbageInBin[sim_node()] + SmartBinC$garbageToAdd[sim_node()] < 85) {
 
       SmartBinC$garbageInBin[sim_node()] = SmartBinC$garbageInBin[sim_node()] + SmartBinC$garbageToAdd[sim_node()];
-      sim_log_debug(289U, "SmartBinC", "time: %s - Adding garbage: %d, Eccess already present: %d, Garbage level: %d -> Normal status\tNext time: %d\n", sim_time_string(), SmartBinC$garbageToAdd[sim_node()], SmartBinC$trashInEccess[sim_node()], SmartBinC$garbageInBin[sim_node()], SmartBinC$time[sim_node()]);
+      sim_log_debug(289U, "SmartBinC", "time: %s - Adding garbage: %d, Excess already present: %d, Garbage level: %d -> Normal status\tNext time: %d\n", sim_time_string(), SmartBinC$garbageToAdd[sim_node()], SmartBinC$trashInExcess[sim_node()], SmartBinC$garbageInBin[sim_node()], SmartBinC$time[sim_node()]);
     }
   else {
     if (SmartBinC$garbageInBin[sim_node()] + SmartBinC$garbageToAdd[sim_node()] >= 85 && SmartBinC$garbageInBin[sim_node()] + SmartBinC$garbageToAdd[sim_node()] < 100) {
 
         SmartBinC$garbageInBin[sim_node()] = SmartBinC$garbageInBin[sim_node()] + SmartBinC$garbageToAdd[sim_node()];
-        sim_log_debug(290U, "SmartBinC", "time: %s - Adding garbage: %d, Eccess already present: %d, Garbage level: %d -> Critical status\tNext time: %d\n", sim_time_string(), SmartBinC$garbageToAdd[sim_node()], SmartBinC$trashInEccess[sim_node()], SmartBinC$garbageInBin[sim_node()], SmartBinC$time[sim_node()]);
+        sim_log_debug(290U, "SmartBinC", "time: %s - Adding garbage: %d, Excess already present: %d, Garbage level: %d -> Critical status\tNext time: %d\n", sim_time_string(), SmartBinC$garbageToAdd[sim_node()], SmartBinC$trashInExcess[sim_node()], SmartBinC$garbageInBin[sim_node()], SmartBinC$time[sim_node()]);
 
         if (!SmartBinC$AlertTimer$isRunning()) {
 #line 466
@@ -8768,9 +8768,9 @@ static inline void SmartBinC$Timer$fired(void )
     else {
 #line 469
       if (SmartBinC$garbageInBin[sim_node()] + SmartBinC$garbageToAdd[sim_node()] >= 100) {
-          SmartBinC$trashInEccess[sim_node()] = SmartBinC$trashInEccess[sim_node()] + SmartBinC$garbageInBin[sim_node()] + SmartBinC$garbageToAdd[sim_node()] - 100;
+          SmartBinC$trashInExcess[sim_node()] = SmartBinC$trashInExcess[sim_node()] + SmartBinC$garbageInBin[sim_node()] + SmartBinC$garbageToAdd[sim_node()] - 100;
           SmartBinC$garbageInBin[sim_node()] = 100;
-          sim_log_debug(291U, "SmartBinC", "time: %s - Adding garbage: %d, Eccess already present: %d, Garbage level: %d-> Full status\tNext time: %d\n", sim_time_string(), SmartBinC$garbageToAdd[sim_node()], SmartBinC$trashInEccess[sim_node()], SmartBinC$garbageInBin[sim_node()], SmartBinC$time[sim_node()]);
+          sim_log_debug(291U, "SmartBinC", "time: %s - Adding garbage: %d, Excess already present: %d, Garbage level: %d-> Full status\tNext time: %d\n", sim_time_string(), SmartBinC$garbageToAdd[sim_node()], SmartBinC$trashInExcess[sim_node()], SmartBinC$garbageInBin[sim_node()], SmartBinC$time[sim_node()]);
 
           SmartBinC$sendMove$postTask();
         }
@@ -8849,7 +8849,7 @@ static inline void SmartBinC$TimerToCollect$fired(void )
   sim_log_debug(292U, "SmartBinC", "TimerToCollect is over!\n");
   if (SmartBinC$closestBin[sim_node()] == 0 && SmartBinC$smallerDistance[sim_node()] == 0) {
       sim_log_error(293U, "SmartBinC", "It has not been found an available bin near to me\n");
-      SmartBinC$trashInEccess[sim_node()] = 0;
+      SmartBinC$trashInExcess[sim_node()] = 0;
     }
   else 
 #line 486
@@ -8886,9 +8886,9 @@ static inline void /*HilTimerMilliC.VirtualizeTimerC*/VirtualizeTimerC$0$Timer$d
 }
 
 # 83 "/opt/tinyos-main-2.1.2/tos/lib/timer/Timer.nc"
-inline static void /*HilTimerMilliC.VirtualizeTimerC*/VirtualizeTimerC$0$Timer$fired(uint8_t arg_0xb72a8c70){
+inline static void /*HilTimerMilliC.VirtualizeTimerC*/VirtualizeTimerC$0$Timer$fired(uint8_t arg_0xb7283c70){
 #line 83
-  switch (arg_0xb72a8c70) {
+  switch (arg_0xb7283c70) {
 #line 83
     case 0U:
 #line 83
@@ -8922,7 +8922,7 @@ inline static void /*HilTimerMilliC.VirtualizeTimerC*/VirtualizeTimerC$0$Timer$f
 #line 83
     default:
 #line 83
-      /*HilTimerMilliC.VirtualizeTimerC*/VirtualizeTimerC$0$Timer$default$fired(arg_0xb72a8c70);
+      /*HilTimerMilliC.VirtualizeTimerC*/VirtualizeTimerC$0$Timer$default$fired(arg_0xb7283c70);
 #line 83
       break;
 #line 83
@@ -11815,7 +11815,7 @@ static void SmartBinC$AMSend$sendDone(message_t *buf, error_t err)
           if (__nesc_ntoh_uint16(mess->msg_type.nxdata) == 5) {
               sim_log_debug_clear(218U, "radio_ack", "and ack received");
 
-              SmartBinC$trashInEccess[sim_node()] = 0;
+              SmartBinC$trashInExcess[sim_node()] = 0;
               SmartBinC$closestBin[sim_node()] = 0;
               SmartBinC$smallerDistance[sim_node()] = 0;
             }
@@ -12282,7 +12282,7 @@ static void HplAtm128Timer0AsyncP$configure_compare(sim_event_t *evt)
 }
 
 # 95 "SmartBinC.nc"
-static void SmartBinC$sendSerialPacket(uint8_t _packetType, uint16_t _bin_id, uint16_t _coordX, uint16_t _coordY, uint16_t _trashInEccess)
+static void SmartBinC$sendSerialPacket(uint8_t _packetType, uint16_t _bin_id, uint16_t _coordX, uint16_t _coordY, uint16_t _trashInExcess)
 #line 95
 {
 
@@ -12302,7 +12302,7 @@ static void SmartBinC$sendSerialPacket(uint8_t _packetType, uint16_t _bin_id, ui
   __nesc_hton_uint16(cm->bin_id.nxdata, _bin_id);
   __nesc_hton_uint16(cm->coordX.nxdata, _coordX);
   __nesc_hton_uint16(cm->coordY.nxdata, _coordY);
-  __nesc_hton_uint16(cm->trashInEccess.nxdata, _trashInEccess);
+  __nesc_hton_uint16(cm->trashInExcess.nxdata, _trashInExcess);
   if (SmartBinC$AMSerialSend$send(AM_BROADCAST_ADDR, &SmartBinC$packet[sim_node()], sizeof(my_msg_t )) == SUCCESS) {
       sim_log_debug(156U, "role", "Serial Packet sent...\n");
     }
@@ -12919,10 +12919,10 @@ static int __nesc_nido_resolve(int __nesc_mote,
     *size = sizeof(SmartBinC$smallerDistance[__nesc_mote]);
     return 0;
   }
-  if (!strcmp(varname, "SmartBinC$trashInEccess"))
+  if (!strcmp(varname, "SmartBinC$trashInExcess"))
   {
-    *addr = (uintptr_t)&SmartBinC$trashInEccess[__nesc_mote];
-    *size = sizeof(SmartBinC$trashInEccess[__nesc_mote]);
+    *addr = (uintptr_t)&SmartBinC$trashInExcess[__nesc_mote];
+    *size = sizeof(SmartBinC$trashInExcess[__nesc_mote]);
     return 0;
   }
 
@@ -13235,7 +13235,7 @@ static void __nesc_nido_initialise(int __nesc_mote)
   memset((void *)&SmartBinC$targetID[__nesc_mote], 0, sizeof SmartBinC$targetID[__nesc_mote]);
   memset((void *)&SmartBinC$closestBin[__nesc_mote], 0, sizeof SmartBinC$closestBin[__nesc_mote]);
   memset((void *)&SmartBinC$smallerDistance[__nesc_mote], 0, sizeof SmartBinC$smallerDistance[__nesc_mote]);
-  memset((void *)&SmartBinC$trashInEccess[__nesc_mote], 0, sizeof SmartBinC$trashInEccess[__nesc_mote]);
+  memset((void *)&SmartBinC$trashInExcess[__nesc_mote], 0, sizeof SmartBinC$trashInExcess[__nesc_mote]);
 
   /* Module RandomMlcgC */
   memset((void *)&RandomMlcgC$seed[__nesc_mote], 0, sizeof RandomMlcgC$seed[__nesc_mote]);
